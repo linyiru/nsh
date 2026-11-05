@@ -1,0 +1,147 @@
+   Compiling nsh-macros v0.4.0 (/Volumes/DevSSD/nsh-canvas-perf/crates/nsh-macros)
+    Checking nsh-updater v0.4.0 (/Volumes/DevSSD/nsh-canvas-perf/crates/nsh-updater)
+    Checking nsh-dev v0.4.0 (/Volumes/DevSSD/nsh-canvas-perf/crates/nsh-dev)
+   Compiling nsh-cli v0.4.0 (/Volumes/DevSSD/nsh-canvas-perf/crates/nsh-cli)
+   Compiling nsh-platform-web v0.4.0 (/Volumes/DevSSD/nsh-canvas-perf/crates/nsh-platform-web)
+   Compiling nsh-platform-android v0.4.0 (/Volumes/DevSSD/nsh-canvas-perf/crates/nsh-platform-android)
+    Checking nsh-windows-app v0.4.0 (/Volumes/DevSSD/nsh-canvas-perf/crates/nsh-windows-app)
+    Checking nsh-linux-host v0.4.0 (/Volumes/DevSSD/nsh-canvas-perf/crates/nsh-linux-host)
+    Checking nsh-ios-app v0.4.0 (/Volumes/DevSSD/nsh-canvas-perf/crates/nsh-ios-app)
+    Checking nsh-linux-app v0.4.0 (/Volumes/DevSSD/nsh-canvas-perf/crates/nsh-linux-app)
+    Checking nsh-windows-host v0.4.0 (/Volumes/DevSSD/nsh-canvas-perf/crates/nsh-windows-host)
+    Checking nsh-platform-windows v0.4.0 (/Volumes/DevSSD/nsh-canvas-perf/crates/nsh-platform-windows)
+    Checking xtask v0.4.0 (/Volumes/DevSSD/nsh-canvas-perf/crates/xtask)
+    Checking nsh-platform-linux v0.4.0 (/Volumes/DevSSD/nsh-canvas-perf/crates/nsh-platform-linux)
+    Checking example-embed-gpui v0.4.0 (/Volumes/DevSSD/nsh-canvas-perf/examples/embed-gpui/run)
+    Checking nsh-core v0.4.0 (/Volumes/DevSSD/nsh-canvas-perf/crates/nsh-core)
+    Checking nsh-base v0.4.0 (/Volumes/DevSSD/nsh-canvas-perf/crates/nsh-base)
+    Checking nsh-js v0.4.0 (/Volumes/DevSSD/nsh-canvas-perf/crates/nsh-js)
+    Checking nsh-package v0.4.0 (/Volumes/DevSSD/nsh-canvas-perf/crates/nsh-package)
+warning: field assignment outside of initializer for an instance created with Default::default()
+  --> crates/nsh-platform-web/tests/text/../../src/encode/input.rs:57:9
+   |
+57 |         c.caret_hidden = true;
+   |         ^^^^^^^^^^^^^^^^^^^^^^
+   |
+note: consider initializing the variable with `nsh_core::InputConfig { caret_hidden: true, ..Default::default() }` and removing relevant reassignments
+  --> crates/nsh-platform-web/tests/text/../../src/encode/input.rs:56:9
+   |
+56 |         let mut c = InputConfig::default();
+   |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#field_reassign_with_default
+   = note: `#[warn(clippy::field_reassign_with_default)]` on by default
+
+warning: `nsh-platform-web` (test "text") generated 1 warning
+    Checking nsh-engine v0.4.0 (/Volumes/DevSSD/nsh-canvas-perf/crates/nsh-engine)
+    Checking nsh-bundler v0.4.0 (/Volumes/DevSSD/nsh-canvas-perf/crates/nsh-bundler)
+    Checking nsh-testing v0.4.0 (/Volumes/DevSSD/nsh-canvas-perf/crates/nsh-testing)
+    Checking nsh-platform-macos v0.4.0 (/Volumes/DevSSD/nsh-canvas-perf/crates/nsh-platform-macos)
+    Checking nsh-platform-tui v0.4.0 (/Volumes/DevSSD/nsh-canvas-perf/crates/nsh-platform-tui)
+    Checking nsh-platform-ios v0.4.0 (/Volumes/DevSSD/nsh-canvas-perf/crates/nsh-platform-ios)
+    Checking nsh-ios-host v0.4.0 (/Volumes/DevSSD/nsh-canvas-perf/crates/nsh-ios-host)
+    Checking nsh-tui-host v0.4.0 (/Volumes/DevSSD/nsh-canvas-perf/crates/nsh-tui-host)
+    Checking tasks-rs v0.4.0 (/Volumes/DevSSD/nsh-canvas-perf/examples/tasks-rs)
+    Checking gallery-native v0.4.0 (/Volumes/DevSSD/nsh-canvas-perf/examples/gallery-rs/native)
+    Checking nsh-macos-host v0.4.0 (/Volumes/DevSSD/nsh-canvas-perf/crates/nsh-macos-host)
+    Checking nsh-macos-app v0.4.0 (/Volumes/DevSSD/nsh-canvas-perf/crates/nsh-macos-app)
+    Checking rust-exports-native v0.4.0 (/Volumes/DevSSD/nsh-canvas-perf/examples/rust-exports/native)
+warning: unused dependency `log`
+  --> crates/nsh-ios-app/Cargo.toml:36:1
+   |
+36 | log.workspace = true
+   | ^^^
+   |
+   = note: `cargo::unused_dependencies` is set to `warn` by default
+help: consider removing the dependency on `log`
+warning: `nsh-ios-app` (manifest) generated 1 warning
+warning: unused dependency `nsh-platform-ios`
+  --> crates/nsh-ios-host/Cargo.toml:15:1
+   |
+15 | nsh-platform-ios = { workspace = true, features = ["dev"] }
+   | ^^^^^^^^^^^^^^^^
+   |
+   = note: `cargo::unused_dependencies` is set to `warn` by default
+help: consider removing the dependency on `nsh-platform-ios`
+warning: `nsh-ios-host` (manifest) generated 1 warning
+warning: unused dependency `log`
+  --> crates/nsh-linux-app/Cargo.toml:36:1
+   |
+36 | log.workspace = true
+   | ^^^
+   |
+   = note: `cargo::unused_dependencies` is set to `warn` by default
+help: consider removing the dependency on `log`
+warning: `nsh-linux-app` (manifest) generated 1 warning
+warning: unused dependency `log`
+  --> crates/nsh-linux-host/Cargo.toml:21:1
+   |
+21 | log.workspace = true
+   | ^^^
+   |
+   = note: `cargo::unused_dependencies` is set to `warn` by default
+help: consider removing the dependency on `log`
+warning: `nsh-linux-host` (manifest) generated 1 warning
+warning: unused dependency `nsh-core`
+  --> crates/nsh-package/Cargo.toml:15:1
+   |
+15 | nsh-core.workspace = true
+   | ^^^^^^^^
+   |
+   = note: `cargo::unused_dependencies` is set to `warn` by default
+help: consider removing the dependency on `nsh-core`
+warning: `nsh-package` (manifest) generated 1 warning
+warning: unused dependency `log`
+  --> crates/nsh-platform-android/Cargo.toml:47:1
+   |
+47 | log.workspace = true
+   | ^^^
+   |
+   = note: `cargo::unused_dependencies` is set to `warn` by default
+help: consider removing the dependency on `log`
+warning: `nsh-platform-android` (manifest) generated 1 warning
+warning: unused dependency `nsh-testing`
+  --> crates/nsh-platform-ios/Cargo.toml:53:1
+   |
+53 | nsh-testing = { workspace = true, features = ["agent"], optional = true }
+   | ^^^^^^^^^^^
+   |
+   = note: `cargo::unused_dependencies` is set to `warn` by default
+help: consider removing the dependency on `nsh-testing`
+warning: `nsh-platform-ios` (manifest) generated 1 warning
+warning: unused dependency `log`
+  --> crates/nsh-platform-linux/Cargo.toml:46:1
+   |
+46 | log.workspace = true
+   | ^^^
+   |
+   = note: `cargo::unused_dependencies` is set to `warn` by default
+help: consider removing the dependency on `log`
+warning: `nsh-platform-linux` (manifest) generated 1 warning
+warning: unused dependency `log`
+  --> crates/nsh-platform-windows/Cargo.toml:43:1
+   |
+43 | log.workspace = true
+   | ^^^
+   |
+   = note: `cargo::unused_dependencies` is set to `warn` by default
+help: consider removing the dependency on `log`
+warning: `nsh-platform-windows` (manifest) generated 1 warning
+warning: unused dependency `log`
+  --> crates/nsh-windows-app/Cargo.toml:32:1
+   |
+32 | log.workspace = true
+   | ^^^
+   |
+   = note: `cargo::unused_dependencies` is set to `warn` by default
+help: consider removing the dependency on `log`
+warning: `nsh-windows-app` (manifest) generated 1 warning
+warning: unused dependency `log`
+  --> crates/nsh-windows-host/Cargo.toml:15:1
+   |
+15 | log.workspace = true
+   | ^^^
+   |
+   = note: `cargo::unused_dependencies` is set to `warn` by default
+help: consider removing the dependency on `log`
+warning: `nsh-windows-host` (manifest) generated 1 warning
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 37.34s

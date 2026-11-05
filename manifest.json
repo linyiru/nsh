@@ -1,0 +1,35 @@
+{
+  "base": "f7afd23f5128fb9b598af47ac1ec966a3e35e386",
+  "head": "fd428bfdc312a64be269ad0c914e0981bcf561c4",
+  "machine": "Apple M2 Max, 32 GiB, macOS 26.6.2 (25G83)",
+  "display_hz": 120,
+  "window_points": "1200x800",
+  "warmup_seconds": 5,
+  "stocks_seconds": 20,
+  "control_seconds": 12,
+  "stocks_order": [
+    "before",
+    "after",
+    "after",
+    "before",
+    "before",
+    "after",
+    "after",
+    "before"
+  ],
+  "control_order": [
+    "before",
+    "after",
+    "after",
+    "before"
+  ],
+  "sha256": {
+    "host-before": "ffb319e80db49c9cea0617008f76915172bdd2364f37463b9e6f71b04b7ba50f",
+    "host-after": "2abeacde1a9c77815dc01e2fac8d91be4fd93622953867a214505e01f06c9541",
+    "nsh-before": "235756f36bac9989316cba25b4e3269c071799b65780fe2ccd8dadfb426d619f",
+    "nsh-after": "4b856e60876c51914d638c625d7ba24846c3138af40cbadce5c942d802aacd76",
+    "gallery.nshc": "56e8eb42c91f61b6eae895c4d023df711d80005204c35e4a0ce08391eccda347",
+    "heavy.nshc": "a8d2cdd9a803c7a5fe171706e5ec6958accfe71db0b12d74dd095cc98e27f877",
+    "measure.rs": "6fafd21465ec9e814f7a08f07d9b898f01f03b8c4160cb34a34bde256cab7db0"
+  }
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "image": "candles.png",
+    "rmse": "2.41383 (3.68327e-05)",
+    "max_byte_difference": 2.0
+  },
+  {
+    "image": "dark.png",
+    "rmse": "2.41383 (3.68327e-05)",
+    "max_byte_difference": 2.0
+  },
+  {
+    "image": "fixture-Grow.png",
+    "rmse": "26.057 (0.000397605)",
+    "max_byte_difference": 3.0
+  },
+  {
+    "image": "fixture-Large.png",
+    "rmse": "2.41574 (3.68618e-05)",
+    "max_byte_difference": 2.0
+  },
+  {
+    "image": "fixture-Reset.png",
+    "rmse": "9.87612 (0.0001507)",
+    "max_byte_difference": 3.0
+  },
+  {
+    "image": "fixture-initial.png",
+    "rmse": "9.68709 (0.000147816)",
+    "max_byte_difference": 3.0
+  },
+  {
+    "image": "light.png",
+    "rmse": "1.83258 (2.79634e-05)",
+    "max_byte_difference": 3.0
+  },
+  {
+    "image": "narrow.png",
+    "rmse": "2.59512 (3.9599e-05)",
+    "max_byte_difference": 2.0
+  }
+]

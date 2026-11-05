@@ -1,0 +1,4 @@
+    Checking nsh-platform-macos v0.4.0 (/Volumes/DevSSD/nsh-canvas-perf/crates/nsh-platform-macos)
+    Checking nsh-macos-app v0.4.0 (/Volumes/DevSSD/nsh-canvas-perf/crates/nsh-macos-app)
+    Checking nsh-macos-host v0.4.0 (/Volumes/DevSSD/nsh-canvas-perf/crates/nsh-macos-host)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 2.05s

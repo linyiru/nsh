@@ -1,0 +1,112 @@
+Diff in /Volumes/DevSSD/nsh-canvas-perf/crates/nsh-base/src/lib.rs:232:
+     tooltip::{Tooltip, TooltipElement, TooltipEvent, TooltipProps, tooltip},
+     tree::{Tree, TreeApi, TreeElement, TreeEntry, TreeEvent, TreeItem, TreeProps, tree},
+ };
+-
+ #[cfg(feature = "editor")]
+ pub use crate::{
+     diff::{
+Diff in /Volumes/DevSSD/nsh-canvas-perf/crates/nsh-base/src/text_view/mod.rs:5:
+ mod common;
+ pub mod document;
+ mod extension;
++mod formula;
+ mod highlight;
+ mod html;
+ mod markdown;
+Diff in /Volumes/DevSSD/nsh-canvas-perf/crates/nsh-base/src/text_view/mod.rs:11:
+-mod formula;
+ #[cfg(feature = "math")]
+ mod math;
+ mod parts;
+Diff in /Volumes/DevSSD/nsh-canvas-perf/crates/nsh-base/src/text_view/mod.rs:15:
+ mod tex_text;
+ mod view;
+ 
++/// Makes formulas typeset in a web runtime: the gate of its side module
++/// (`nsh_feature_math`), which holds what this reaches and nothing else does.
++#[cfg(all(feature = "math", target_arch = "wasm32"))]
++#[doc(hidden)]
++pub use self::formula::install as install_math;
+ pub use self::{
+     document::{
+         Alert, Block, CodeBlock, ColumnAlign, CustomNode, Document, Footnote, Image, ImageLength,
+Diff in /Volumes/DevSSD/nsh-canvas-perf/crates/nsh-base/src/text_view/mod.rs:31:
+         text_view,
+     },
+ };
+-
+-/// Makes formulas typeset in a web runtime: the gate of its side module
+-/// (`nsh_feature_math`), which holds what this reaches and nothing else does.
+-#[cfg(all(feature = "math", target_arch = "wasm32"))]
+-#[doc(hidden)]
+-pub use self::formula::install as install_math;
+ 
+Diff in /Volumes/DevSSD/nsh-canvas-perf/crates/nsh-core/src/tailwind/tests.rs:769:
+ #[test]
+ fn corner_shapes() {
+     assert!(styled("rounded-xl corner-squircle").view.continuous_corners);
+-    assert!(!styled("corner-squircle corner-round").view.continuous_corners);
++    assert!(
++        !styled("corner-squircle corner-round")
++            .view
++            .continuous_corners
++    );
+ }
+ 
+ #[test]
+Diff in /Volumes/DevSSD/nsh-canvas-perf/crates/nsh-platform-macos/src/animation.rs:130:
+ 
+ #[cfg(test)]
+ mod tests {
+-    use super::*;
+     use nsh_core::Color;
++
++    use super::*;
+ 
+     /// `AnimValues` is non-exhaustive: built from the default here.
+     fn values(f: impl FnOnce(&mut AnimValues)) -> AnimValues {
+Diff in /Volumes/DevSSD/nsh-canvas-perf/crates/nsh-platform-macos/src/visual.rs:23:
+     GradientSize, ViewStyle,
+     geometry::{Points, px},
+ };
+-
+ use objc2::{
+     DefinedClass as _, MainThreadMarker, MainThreadOnly, define_class, msg_send,
+     rc::{Allocated, Retained},
+Diff in /Volumes/DevSSD/nsh-canvas-perf/crates/nsh-platform-windows/src/decor.rs:348:
+         return 0.0;
+     }
+     let widths = b.widths.to_array().map(|w| w.0);
+-    widths.iter().copied().fold(f32::INFINITY, f32::min).max(0.0) / 2.0
++    widths
++        .iter()
++        .copied()
++        .fold(f32::INFINITY, f32::min)
++        .max(0.0)
++        / 2.0
+ }
+ 
+ /// The view's rounded box, filled the cheapest way its corners allow.
+Diff in /Volumes/DevSSD/nsh-canvas-perf/crates/nsh-platform-windows/src/surface.rs:1136:
+         let saved = cursor_info();
+         let surface = Surface::new(Environment::default());
+         let hwnd =
+-            crate::window::create(&surface, "NSH cursor regression", (320, 240), None, false).unwrap();
++            crate::window::create(&surface, "NSH cursor regression", (320, 240), None, false)
++                .unwrap();
+         let mut desktop = Desktop {
+             hwnd,
+             saved,
+Diff in /Volumes/DevSSD/nsh-canvas-perf/crates/xtask/src/dist.rs:88:
+                 args.push("--no-default-features");
+                 // Without web views only: the release runner keeps the rest.
+                 if package == "nsh-linux-app" {
+-                    args.extend(["--features", "js,shader,editor,highlight,math,plot,rich-editor,zlib,crypto"]);
++                    args.extend([
++                        "--features",
++                        "js,shader,editor,highlight,math,plot,rich-editor,zlib,crypto",
++                    ]);
+                 }
+             }
+             cargo(&args, what)?;

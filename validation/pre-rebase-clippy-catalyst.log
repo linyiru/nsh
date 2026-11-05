@@ -1,0 +1,35 @@
+   Compiling zeroize v1.9.1
+   Compiling cfg-if v1.0.5
+   Compiling typenum v1.20.1
+   Compiling subtle v2.6.1
+   Compiling rand_core v0.10.1
+   Compiling cmov v0.5.4
+   Compiling libc v0.2.190
+   Compiling const-oid v0.10.2
+   Compiling libm v0.2.16
+   Compiling smallvec v1.16.3
+   Compiling bitflags v2.13.2
+   Compiling serde_core v1.0.229
+error[E0463]: can't find crate for `core`
+  |
+  = note: the `aarch64-apple-ios-macabi` target may not be installed
+  = help: consider downloading the target with `rustup target add aarch64-apple-ios-macabi`
+
+For more information about this error, try `rustc --explain E0463`.
+error: could not compile `cfg-if` (lib) due to 1 previous error
+warning: build failed, waiting for other jobs to finish...
+error: could not compile `zeroize` (lib) due to 1 previous error
+error: could not compile `cmov` (lib) due to 1 previous error
+error: could not compile `rand_core` (lib) due to 1 previous error
+error: could not compile `subtle` (lib) due to 1 previous error
+error: could not compile `libc` (lib) due to 1 previous error
+error[E0463]: can't find crate for `std`
+  |
+  = note: the `aarch64-apple-ios-macabi` target may not be installed
+  = help: consider downloading the target with `rustup target add aarch64-apple-ios-macabi`
+
+error: could not compile `const-oid` (lib) due to 1 previous error
+error: could not compile `bitflags` (lib) due to 1 previous error
+error: could not compile `smallvec` (lib) due to 1 previous error
+error: could not compile `typenum` (lib) due to 1 previous error
+error: could not compile `libm` (lib) due to 1 previous error

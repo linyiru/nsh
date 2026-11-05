@@ -1,0 +1,7 @@
+ info platform_macos::dev loading build 1
+debug dev::server dev client disconnected: WebSocket protocol error: Connection reset without closing handshake
+✓ /Volumes/DevSSD/nsh-perf-results/canvas/pr/pictures-before/fixture.test.tsx › canvas compositing (3.0s)
+ info platform_macos::dev loading build 1
+debug dev::server dev client disconnected: WebSocket protocol error: Connection reset without closing handshake
+✓ /Volumes/DevSSD/nsh-perf-results/canvas/pr/pictures-before/pictures.test.tsx › before pictures (6.4s)
+✓ 2 tests: 2 passed, 0 failed (9.4s)

@@ -1,0 +1,104 @@
+   Compiling nsh-platform-macos v0.4.0 (/Volumes/DevSSD/nsh-canvas-perf/crates/nsh-platform-macos)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 3.93s
+     Running unittests src/lib.rs (/Volumes/DevSSD/caches/cargo/targets/nsh-61209fd2/debug/build/nsh-platform-macos/7ca8671bcc04ca9f/out/nsh_platform_macos-42e6491ff4fd71c2)
+
+running 85 tests
+test access::tests::a_checkbox_value_compared_by_kind_not_contents ... ok
+test app::tests::the_secondary_display_skips_the_primary_and_its_mirrors ... ok
+test access::tests::a_hidden_change_reaches_appkit_without_a_role_change ... ok
+test animation::tests::a_text_color_draws_again ... ok
+test access::tests::roles ... ok
+test access::tests::structural_roles_and_toggle_buttons ... ok
+test access::tests::a_hidden_style_hides_the_subtree ... ok
+test access::tests::controls_fold_their_content ... ok
+test animation::tests::a_fade_restyles_without_drawing_again ... ok
+test blur::tests::spreads_a_point_and_keeps_flat_areas ... ok
+test access::tests::labels_and_values ... ok
+test chrome::tests::screen_ys_flip_at_the_primary_screens_height ... ok
+test chrome::tests::incomplete_toolbar_geometry_falls_back_to_the_native_title_bar ... ok
+test chrome::tests::frames_are_placed_by_their_top_left_corner ... ok
+test canvas::tests::a_canvas_painting_often_draws_asynchronously ... ok
+test canvas::tests::layer_split_rejects_unsafe_suffixes ... ok
+test chrome::tests::toolbar_area_uses_native_geometry_including_its_origin ... ok
+test chrome::tests::shortcuts_are_key_equivalents ... ok
+test dev::tests::asset_base_from_ws_url ... ok
+test image::tests::reads_densities ... ok
+test file_drop::tests::registration_lasts_until_the_final_destination_is_removed ... ok
+test input::tests::batches_do_not_push_the_repick_on ... ok
+test input::tests::candidates_take_their_axis ... ok
+test input::tests::cursors ... ok
+test input::tests::typing_keys_follow_the_us_layout ... ok
+test input::tests::unprojects_transforms ... ok
+test fps::tests::readings_of_an_empty_snapshot ... ok
+test file_drop::tests::file_urls_are_local_and_absolute ... ok
+test keymap::tests::function_keys ... ok
+test native::tests::quotes_js_strings ... ok
+test native::tests::downloads_get_safe_file_names ... ok
+test native::tests::registers_components ... ok
+test native::tests::locates_sources ... ok
+test scroll::tests::a_long_scroll_commits_only_when_it_ends ... ok
+test scroll::tests::a_running_animation_holds_a_commit_only_briefly ... ok
+test scroll::tests::only_the_indicators_fade_is_cosmetic ... ok
+test scroll::tests::resampling_moves_evenly_between_events ... ok
+test scroll::tests::scroll_keys ... ok
+test shader::tests::a_page_overlay_pictures_its_live_side_only_while_it_settles_or_changes ... ok
+test decor::tests::clipping_leaves_the_mask_that_hides_the_children ... ok
+test input::tests::shortcut_keys_on_any_layout ... ok
+test shader::tests::pictures_of_one_size_draw_into_the_same_canvas ... ok
+test image::tests::svg_info_reports_points ... ok
+test canvas::tests::a_shadow_falls_by_its_offset_in_the_views_points_in_any_context ... ok
+test image::tests::svg_tints_through_alpha ... ok
+test sight::tests::a_row_shows_through_the_scroll_offset ... ok
+test sight::tests::a_text_in_a_mirrored_cell_shows ... ok
+test sight::tests::a_text_in_a_pinned_sticky_header_shows ... ok
+test sight::tests::a_text_overflowing_an_ancestor_that_does_not_clip_shows ... ok
+test image::tests::svg_decodes_at_the_size_shown ... ok
+test sight::tests::hidden_views_hide_what_is_under_them ... ok
+test sight::tests::moves_count ... ok
+test sight::tests::the_top_alone_shows_when_in_a_window ... ok
+test speech::tests::errors ... ok
+test sight::tests::nested_clips_and_offsets_agree_with_the_reference ... ok
+test canvas::tests::the_static_part_is_drawn_from_its_layer ... ok
+test image::tests::svg_is_no_canvas_image ... ok
+test sight::tests::a_pass_resolves_each_ancestor_once ... ok
+test system::tests::no_formatted_content ... ok
+test system::tests::html_as_browsers_copy_it ... ok
+test system::tests::web_archive_main_resource ... ok
+test text::hit_regressions::selected_lines_touch_across_the_line_height ... ok
+test text::hit_regressions::head_ellipsis_does_not_highlight_omitted_characters ... ok
+test text::hit_regressions::truncated_lines_keep_visible_suffix_offsets ... ok
+test text::tests::attachments_sit_by_vertical_align ... ok
+test text::tests::attachments_taller_than_the_line_height_grow_their_line ... ok
+test shader::tests::without_a_device_nothing_hides_its_children ... ok
+test text::tests::middle_attachments_center_on_the_text_and_keep_the_line_pitch ... ok
+test text_input::tests::a_line_height_above_the_fonts_goes_around_the_text ... ok
+test text_input::tests::a_line_height_below_the_fonts_clips_the_lines ... ok
+test text_input::tests::keys ... ok
+test canvas::tests::split_surfaces_preserve_sparkline_pixels ... ok
+test text_input::tests::max_length_clipping ... ok
+test text_input::tests::no_line_height_leaves_the_fonts_lines ... ok
+test text_input::tests::single_line_placeholder_matches_native_editor_metrics ... ok
+test text::tests::a_family_list_sets_text_in_its_first_installed_family ... ok
+test text::hit_regressions::bidi_ranges_follow_visual_runs ... ok
+test text::hit_regressions::a_left_to_right_range_is_one_rectangle_per_line ... ok
+test shader::tests::only_a_shader_that_reads_its_children_pictures_them_again ... ok
+test view::tests::scripted_wheels_are_the_event_handled ... ok
+test shader::tests::an_effect_hides_its_children_and_a_transition_while_it_runs ... ok
+test text::hit_regressions::widths_that_hold_the_widest_line_measure_the_same ... ok
+test system::tests::rtf_as_html_with_inline_styles ... ok
+test picker::tests::a_large_png_stays_a_png ... ok
+test picker::tests::heic_becomes_a_scaled_jpeg ... ok
+
+test result: ok. 85 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.86s
+
+     Running tests/accessibility.rs (/Volumes/DevSSD/caches/cargo/targets/nsh-61209fd2/debug/build/nsh-platform-macos/5416f7018f932821/out/accessibility-c109bc9ff727fee5)
+accessibility: ok
+   Doc-tests nsh_platform_macos
+
+running 2 tests
+test crates/nsh-platform-macos/src/app.rs - app::AppView (line 236) - compile ... ok
+test crates/nsh-platform-macos/src/native.rs - native::NativeComponent (line 78) - compile ... ok
+
+test result: ok. 2 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+all doctests ran in 0.88s; merged doctests compilation took 0.68s

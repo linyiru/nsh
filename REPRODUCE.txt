@@ -1,0 +1,80 @@
+macOS small Canvas animation surfaces — measurement evidence
+
+Base: f7afd23f5128fb9b598af47ac1ec966a3e35e386
+Change: fd428bfdc312a64be269ad0c914e0981bcf561c4
+Machine: Apple M2 Max, 32 GiB, macOS 26.6.2 (25G83)
+All final samples report 120 Hz (min and max). Window: 1200x800 points.
+
+This branch contains experiment artifacts, not changes to NSH's build or tests.
+The production PR contains Rust implementation and regression tests, plus docs.
+No gallery drawing source is changed by the PR.
+
+Build the base and change separately with:
+  cargo build --release -p nsh-cli -p nsh-macos-host
+Copy each resulting nsh and nsh-macos-host before building the other revision.
+The custom Cargo can share build outputs across worktrees. Do not rely on a
+worktree's target directory retaining its own binary after another build.
+The published manifest hashes identify the exact binaries measured here.
+
+Compile the std-only Rust/macOS sampler:
+  rustc --edition 2024 -O measure.rs -o measure
+Run with absolute host paths; OUT must not exist:
+  ./measure OUT gallery.nshc Stocks 20 BEFORE AFTER AFTER BEFORE BEFORE AFTER AFTER BEFORE
+  ./measure HEAVY_OUT heavy.nshc Heavy 12 BEFORE AFTER AFTER BEFORE
+  ./measure CANVAS_OUT gallery.nshc Canvas 12 BEFORE AFTER AFTER BEFORE
+
+Each run launches a fresh process and data directory, warms for 5 s, then
+samples process CPU and physical footprint for the requested duration.
+CPU 100% means one core. libproc user+system Mach ticks are converted using
+mach_timebase_info. Memory is physical footprint in decimal MB, sampled once
+per second and reduced to a per-run median. No builds or tests run concurrently.
+The harness selects display 1; choose the same display/refresh rate for both
+versions on your machine. Keep the window visible and foreground.
+
+Frame p50/p95 are medians of the HUD's rolling 120-frame percentiles after
+warmup, then medians across runs. They describe main-thread work, not pooled
+frame percentiles, GPU time, startup time, or compilation speed. FPS is the
+HUD's displayed frame rate. Raw logs and per-run JSON are retained.
+Live Stocks quote sequences depend on wall-clock time and vary across runs.
+
+The exact gallery bytecode is included for identical-input comparisons. It
+was built from the unmodified gallery at 2fd62283; Stocks drawing sources are
+unchanged through the measured base f7afd23f. Heavy uses fixtures/Heavy.tsx.
+All 8 Stocks runs show 20 engine commits/s. Two runs per version of each
+control are a small sample: their CPU medians are higher after the change
+(Heavy 7.91 -> 8.69%, Canvas 3.25 -> 3.45%). They do not establish a control
+speedup or rule out overhead. See summary.json for every range and median.
+
+Native screenshot tests are included as executed, with local absolute paths.
+To rerun, substitute your checkout path, fixture path and output directory.
+Both versions opened the same current gallery source at a fixed clock time,
+paused the market, then captured light/dark, candles and a narrower viewport.
+The compositing fixture exercises opacity, clipping, erased prefix, save/
+restore fallback, copy fallback, growing bounds and a return from large-
+suffix fallback. Eight PNG pairs differ by at most 2-3 / 255 per channel;
+see pixels.json for normalized RMSE. Tests passed via actual native input.
+NSH_RUNTIME pointed at a directory containing macos/nsh-macos-host for each
+version; with NSH_GALLERY_DEMO=Stocks, run:
+  nsh test <pictures-directory> --target macos --display 1
+
+fixtures/trace.test.tsx ran headless via nsh test <file> --trace, using the
+same gallery source and three fixed-clock one-second intervals. Replace its
+absolute checkout path before rerunning. Set NSH_GALLERY_DEMO=Stocks.
+Initial counts are 4412 ops /
+3708 mount items / 1249 nodes, and update medians 124 / 85 / 1249, unchanged.
+There are 180 update commits per version. Update medians 220 -> 230.5 us
+establish unchanged engine work; the claimed gain is platform painting.
+
+Validation logs distinguish passing checks from remaining failures:
+- core: 1164 passed, 10 ignored; macOS: 85 passed; doc tests passed.
+- cargo xtask compat: passes every recorded release.
+- workspace clippy and macOS dev clippy: pass.
+- changed Rust files: nightly rustfmt --check passes.
+- full workspace tests stop at terminal::a_terminal_reads_a_formula_as_text_not_its_tex;
+  the same assertion fails on clean base with nsh-base --features math.
+- full-tree fmt --check reports unmodified files; no unrelated reformatting.
+- mobile clippy logs are from the pre-rebase attempt: selected Homebrew Rust
+  1.99.1 lacks the target std/core libraries. Mobile targets are not validated.
+
+Images and NSH-derived fixtures/bundles are distributed under the accompanying
+Apache-2.0 license. Binaries, fresh-run app data and build outputs are excluded.

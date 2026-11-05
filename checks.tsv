@@ -1,0 +1,17 @@
+compat	0
+workspace	101
+clippy-workspace	0
+clippy-macos	0
+fmt	1
+build-after	0
+build-before	0
+macos-final	0
+baseline-terminal	101
+clippy-final	0
+rebuild-after	0
+compile-measure	0
+pictures-before	0
+pictures-after	0
+trace-before	0
+trace-after	0
+measurements	0

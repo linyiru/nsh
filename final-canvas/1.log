@@ -1,0 +1,26 @@
+ INFO nsh::perf commit: 2626 ops, 10526µs (list js 2510µs), 2174 mount items, 592 nodes
+ INFO nsh::perf first frame: eval 11900µs, total 23258µs
+ INFO nsh::perf event Insets on view 624
+ INFO nsh::perf event js: 17µs
+ INFO nsh::perf commit: 1 ops, 171µs (list js 19µs), 24 mount items, 592 nodes
+ INFO nsh::perf turn: 223µs (timers and tasks 1µs)
+ INFO nsh::perf commit: 0 ops, 194µs (list js 20µs), 24 mount items, 592 nodes
+ INFO nsh::perf turn: 234µs (timers and tasks 1µs)
+ INFO nsh::perf commit: 1 ops, 80µs (list js 1µs), 0 mount items, 592 nodes
+ INFO nsh::perf fps 93/120 frame 8.15/7.08/14.54/27.91 gap 10.58/8.81/18.13/32.40 over 32% tick 7.37/6.57/14.54/27.91 drain 29.33/29.33/29.33/29.33 canvas 3.34/1.64/12.44/13.42 commits 0 js 0.00/0.00/0.00/0.00 core 0.00/0.00/0.00/0.00 items 0 engine 0% cpu 92% gpu 13% mem 165.7 MB
+ INFO nsh::perf gc: 1318µs
+ INFO nsh::perf fps 80/120 frame 10.59/9.85/16.88/27.91 gap 12.04/11.29/18.13/32.40 over 79% tick 11.50/10.94/16.88/20.84 drain 0.00/0.00/0.00/0.00 canvas 10.08/9.40/12.25/24.62 commits 0 js 0.00/0.00/0.00/0.00 core 0.00/0.00/0.00/0.00 items 0 engine 0% cpu 101% gpu 4% mem 165.5 MB
+ INFO nsh::perf fps 80/120 frame 11.58/9.97/17.24/20.84 gap 12.40/11.78/17.86/20.86 over 98% tick 11.41/9.43/17.24/19.72 drain 0.00/0.00/0.00/0.00 canvas 9.18/8.97/9.15/18.46 commits 0 js 0.00/0.00/0.00/0.00 core 0.00/0.00/0.00/0.00 items 0 engine 0% cpu 93% gpu 0% mem 166.4 MB
+ INFO nsh::perf fps 115/120 frame 2.21/0.16/9.73/17.04 gap 8.82/8.40/12.38/19.34 over 12% tick 2.16/0.16/11.04/17.04 drain 0.00/0.00/0.00/0.00 canvas 1.21/0.05/9.00/17.80 commits 0 js 0.00/0.00/0.00/0.00 core 0.00/0.00/0.00/0.00 items 0 engine 0% cpu 3% gpu 0% mem 160.3 MB
+ INFO nsh::perf fps 120/120 frame 0.40/0.15/2.11/2.56 gap 8.33/8.33/10.39/10.74 over 0% tick 0.43/0.15/2.16/2.81 drain 0.00/0.00/0.00/0.00 canvas 0.06/0.05/0.08/0.13 commits 0 js 0.00/0.00/0.00/0.00 core 0.00/0.00/0.00/0.00 items 0 engine 0% cpu 3% gpu 0% mem 159.0 MB
+ INFO nsh::perf fps 119/120 frame 0.43/0.14/2.34/4.40 gap 8.33/8.34/10.67/12.63 over 0% tick 0.42/0.15/2.34/4.40 drain 0.00/0.00/0.00/0.00 canvas 0.06/0.05/0.12/0.19 commits 0 js 0.00/0.00/0.00/0.00 core 0.00/0.00/0.00/0.00 items 0 engine 0% cpu 3% gpu 0% mem 159.0 MB
+ INFO nsh::perf fps 119/120 frame 0.41/0.14/2.10/2.89 gap 8.33/8.33/10.50/11.09 over 0% tick 0.39/0.15/2.10/2.89 drain 0.00/0.00/0.00/0.00 canvas 0.05/0.05/0.11/0.16 commits 0 js 0.00/0.00/0.00/0.00 core 0.00/0.00/0.00/0.00 items 0 engine 0% cpu 3% gpu 0% mem 158.8 MB
+ INFO nsh::perf fps 119/120 frame 0.46/0.16/1.65/2.97 gap 8.34/8.34/10.35/11.09 over 0% tick 0.45/0.16/1.65/2.97 drain 0.00/0.00/0.00/0.00 canvas 0.06/0.05/0.09/0.13 commits 0 js 0.00/0.00/0.00/0.00 core 0.00/0.00/0.00/0.00 items 0 engine 0% cpu 4% gpu 0% mem 159.5 MB
+ INFO nsh::perf fps 119/120 frame 0.30/0.21/0.94/2.80 gap 8.33/8.34/9.19/10.94 over 0% tick 0.32/0.22/1.03/2.80 drain 0.00/0.00/0.00/0.00 canvas 0.08/0.08/0.10/0.19 commits 0 js 0.00/0.00/0.00/0.00 core 0.00/0.00/0.00/0.00 items 0 engine 0% cpu 3% gpu 0% mem 129.4 MB
+ INFO nsh::perf fps 119/120 frame 0.38/0.15/1.58/2.73 gap 8.33/8.34/10.04/10.94 over 0% tick 0.41/0.15/1.88/2.73 drain 0.00/0.00/0.00/0.00 canvas 0.06/0.05/0.10/0.16 commits 0 js 0.00/0.00/0.00/0.00 core 0.00/0.00/0.00/0.00 items 0 engine 0% cpu 3% gpu 0% mem 128.1 MB
+ INFO nsh::perf fps 119/120 frame 0.27/0.15/1.08/3.02 gap 8.33/8.33/9.34/11.24 over 0% tick 0.27/0.15/1.08/3.02 drain 0.00/0.00/0.00/0.00 canvas 0.06/0.06/0.07/0.13 commits 0 js 0.00/0.00/0.00/0.00 core 0.00/0.00/0.00/0.00 items 0 engine 0% cpu 3% gpu 0% mem 128.1 MB
+ INFO nsh::perf fps 119/120 frame 0.40/0.14/1.73/3.17 gap 8.33/8.32/10.08/11.38 over 0% tick 0.38/0.14/1.73/3.17 drain 0.00/0.00/0.00/0.00 canvas 0.05/0.05/0.07/0.32 commits 0 js 0.00/0.00/0.00/0.00 core 0.00/0.00/0.00/0.00 items 0 engine 0% cpu 3% gpu 0% mem 119.9 MB
+ INFO nsh::perf fps 119/120 frame 0.39/0.16/1.27/1.91 gap 8.33/8.33/9.45/10.06 over 0% tick 0.38/0.16/1.27/1.91 drain 0.00/0.00/0.00/0.00 canvas 0.07/0.05/0.17/0.25 commits 0 js 0.00/0.00/0.00/0.00 core 0.00/0.00/0.00/0.00 items 0 engine 0% cpu 4% gpu 0% mem 117.3 MB
+ INFO nsh::perf fps 119/120 frame 0.56/0.17/2.21/3.38 gap 8.33/8.34/10.58/11.58 over 0% tick 0.57/0.17/2.45/3.55 drain 0.00/0.00/0.00/0.00 canvas 0.06/0.05/0.08/0.12 commits 0 js 0.00/0.00/0.00/0.00 core 0.00/0.00/0.00/0.00 items 0 engine 0% cpu 3% gpu 0% mem 117.2 MB
+ INFO nsh::perf fps 119/120 frame 0.48/0.20/1.70/3.41 gap 8.33/8.33/9.84/11.58 over 0% tick 0.47/0.20/1.70/3.41 drain 0.00/0.00/0.00/0.00 canvas 0.08/0.07/0.09/0.17 commits 0 js 0.00/0.00/0.00/0.00 core 0.00/0.00/0.00/0.00 items 0 engine 0% cpu 4% gpu 0% mem 117.2 MB
+ INFO nsh::perf fps 119/120 frame 0.35/0.21/0.96/4.85 gap 8.33/8.33/9.15/12.99 over 0% tick 0.34/0.21/0.96/4.85 drain 0.00/0.00/0.00/0.00 canvas 0.09/0.08/0.09/1.80 commits 0 js 0.00/0.00/0.00/0.00 core 0.00/0.00/0.00/0.00 items 0 engine 0% cpu 4% gpu 0% mem 118.6 MB

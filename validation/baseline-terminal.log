@@ -1,0 +1,42 @@
+   Compiling phf_macros v0.11.3
+   Compiling rustls v0.23.45
+   Compiling thiserror-impl v1.0.69
+   Compiling nsh-macros v0.4.0 (/Volumes/DevSSD/nsh-canvas-pr-base/crates/nsh-macros)
+   Compiling phf v0.11.3
+   Compiling thiserror v1.0.69
+   Compiling markup5ever v0.12.1
+   Compiling ratex-font v0.1.15
+   Compiling ratex-lexer v0.1.15
+   Compiling ratex-parser v0.1.15
+   Compiling html5ever v0.27.0
+   Compiling xml5ever v0.18.1
+   Compiling markup5ever_rcdom v0.3.0
+   Compiling tungstenite v0.28.0
+   Compiling tokio-rustls v0.26.6
+   Compiling tokio-tungstenite v0.28.0
+   Compiling nsh-core v0.4.0 (/Volumes/DevSSD/nsh-canvas-pr-base/crates/nsh-core)
+   Compiling ratex-layout v0.1.15
+   Compiling nsh-engine v0.4.0 (/Volumes/DevSSD/nsh-canvas-pr-base/crates/nsh-engine)
+   Compiling nsh-base v0.4.0 (/Volumes/DevSSD/nsh-canvas-pr-base/crates/nsh-base)
+   Compiling nsh-testing v0.4.0 (/Volumes/DevSSD/nsh-canvas-pr-base/crates/nsh-testing)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 39.06s
+     Running tests/base/main.rs (/Volumes/DevSSD/caches/cargo/targets/nsh-61209fd2/debug/build/nsh-base/be0dd53daa302ff0/out/base-d3661238cde0fac8)
+
+running 1 test
+test terminal::a_terminal_reads_a_formula_as_text_not_its_tex ... FAILED
+
+failures:
+
+---- terminal::a_terminal_reads_a_formula_as_text_not_its_tex stdout ----
+
+thread 'terminal::a_terminal_reads_a_formula_as_text_not_its_tex' (287171262) panicked at crates/nsh-base/tests/base/terminal.rs:565:5:
+assertion failed: joined(&gui).contains("\\text{ms}")
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+
+failures:
+    terminal::a_terminal_reads_a_formula_as_text_not_its_tex
+
+test result: FAILED. 0 passed; 1 failed; 0 ignored; 0 measured; 769 filtered out; finished in 0.24s
+
+error: test failed, to rerun pass `-p nsh-base --test base`
