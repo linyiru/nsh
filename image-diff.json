@@ -1,0 +1,22 @@
+[
+  {
+    "scenario": "light",
+    "RMSE": "24.0367 (0.000366776)",
+    "exit_code": 1
+  },
+  {
+    "scenario": "dark",
+    "RMSE": "21.1774 (0.000323147)",
+    "exit_code": 1
+  },
+  {
+    "scenario": "candles",
+    "RMSE": "13.736 (0.000209598)",
+    "exit_code": 1
+  },
+  {
+    "scenario": "narrow",
+    "RMSE": "20.0913 (0.000306573)",
+    "exit_code": 1
+  }
+]

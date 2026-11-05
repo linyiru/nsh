@@ -1,0 +1,28 @@
+{
+  "baseline_commit": "2fd622835d06ac6d81a05602b92d8842760d0df7",
+  "branch": "codex/perf-baseline",
+  "environment": {
+    "os": "ProductName:\t\tmacOS\nProductVersion:\t\t26.6.2\nBuildVersion:\t\t25G83",
+    "hardware": "Apple M2 Max\n34359738368\n12",
+    "rustc": "rustc 1.99.1 (58cf8f9c3 2026-10-13)\nbinary: rustc\ncommit-hash: 58cf8f9c35b355199727627d07ae34a4e2846d67\ncommit-date: 2026-10-13\nhost: aarch64-apple-darwin\nrelease: 1.99.1\nLLVM version: 23.1.1",
+    "cargo": "cargo 1.101.0 (e611c7a87 2026-11-04) (huacnlee/cargo 0.102.0-9, https://huacnlee.github.io/cargo/)",
+    "python": "3.14.8",
+    "build_profile": "release: opt-level=3, lto=fat, codegen-units=1",
+    "viewport": [
+      1200,
+      800
+    ],
+    "cpu_time_conversion": {
+      "numer": 125,
+      "denom": 3,
+      "proc_pid_rusage_cpu_ns": 299751166.6666666,
+      "getrusage_cpu_ns": 299756000.0,
+      "ratio": 0.9999838757745187
+    }
+  },
+  "sha256": {
+    "host": "0fddff5ea069e6a78855971d80ab5231f150248a4fca1246e41c249b5c313ef5",
+    "before": "56e8eb42c91f61b6eae895c4d023df711d80005204c35e4a0ce08391eccda347",
+    "after": "fafc616dcf8afc4c172c5bf3f0c5f9ab9fd9b061f032ef2b17f7aea3a2a58b0c"
+  }
+}

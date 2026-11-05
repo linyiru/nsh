@@ -1,0 +1,86 @@
+{
+  "cpu_percent_one_core": {
+    "before": {
+      "median": 41.087442468645264,
+      "min": 40.37581532141564,
+      "max": 41.414639392629226
+    },
+    "after": {
+      "median": 29.05757184021821,
+      "min": 28.96276726984289,
+      "max": 29.439671478810887
+    }
+  },
+  "frame_window_p50_ms": {
+    "before": {
+      "median": 2.16,
+      "min": 2.12,
+      "max": 2.2649999999999997
+    },
+    "after": {
+      "median": 1.11,
+      "min": 1.065,
+      "max": 1.125
+    }
+  },
+  "frame_window_p95_ms": {
+    "before": {
+      "median": 4.9975000000000005,
+      "min": 3.965,
+      "max": 8.145
+    },
+    "after": {
+      "median": 4.05,
+      "min": 3.755,
+      "max": 6.83
+    }
+  },
+  "footprint_MB": {
+    "before": {
+      "median": 147.70000000000002,
+      "min": 146.5,
+      "max": 150.85000000000002
+    },
+    "after": {
+      "median": 138.82500000000002,
+      "min": 137.85000000000002,
+      "max": 139.6
+    }
+  },
+  "fps": {
+    "before": {
+      "median": 119.25,
+      "min": 118.0,
+      "max": 120.0
+    },
+    "after": {
+      "median": 120.0,
+      "min": 120.0,
+      "max": 120.0
+    }
+  },
+  "over_budget_percent": {
+    "before": {
+      "median": 0.5,
+      "min": 0.0,
+      "max": 4.5
+    },
+    "after": {
+      "median": 0.75,
+      "min": 0.0,
+      "max": 1.0
+    }
+  },
+  "commits_per_second": {
+    "before": {
+      "median": 19.75,
+      "min": 19.0,
+      "max": 20.0
+    },
+    "after": {
+      "median": 20.0,
+      "min": 19.5,
+      "max": 20.0
+    }
+  }
+}

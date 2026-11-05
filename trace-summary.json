@@ -1,0 +1,3140 @@
+{
+  "before": {
+    "initial": {
+      "n": 6,
+      "stats": {
+        "ops": {
+          "median": 2206.5,
+          "min": 1,
+          "max": 4412
+        },
+        "commit_us": {
+          "median": 2271.0,
+          "min": 12,
+          "max": 5369
+        },
+        "items": {
+          "median": 1854.0,
+          "min": 0,
+          "max": 3708
+        },
+        "nodes": {
+          "median": 1249.0,
+          "min": 1249,
+          "max": 1249
+        }
+      },
+      "samples": [
+        {
+          "ops": 4412,
+          "commit_us": 5369,
+          "list_js_us": 2109,
+          "items": 3708,
+          "nodes": 1249,
+          "run": 0
+        },
+        {
+          "ops": 1,
+          "commit_us": 13,
+          "list_js_us": 9,
+          "items": 0,
+          "nodes": 1249,
+          "run": 0
+        },
+        {
+          "ops": 4412,
+          "commit_us": 4617,
+          "list_js_us": 2010,
+          "items": 3708,
+          "nodes": 1249,
+          "run": 1
+        },
+        {
+          "ops": 1,
+          "commit_us": 12,
+          "list_js_us": 9,
+          "items": 0,
+          "nodes": 1249,
+          "run": 1
+        },
+        {
+          "ops": 4412,
+          "commit_us": 4529,
+          "list_js_us": 1940,
+          "items": 3708,
+          "nodes": 1249,
+          "run": 2
+        },
+        {
+          "ops": 1,
+          "commit_us": 12,
+          "list_js_us": 9,
+          "items": 0,
+          "nodes": 1249,
+          "run": 2
+        }
+      ]
+    },
+    "updates": {
+      "n": 180,
+      "stats": {
+        "ops": {
+          "median": 124.0,
+          "min": 104,
+          "max": 167
+        },
+        "commit_us": {
+          "median": 214.5,
+          "min": 166,
+          "max": 342
+        },
+        "items": {
+          "median": 85.0,
+          "min": 44,
+          "max": 110
+        },
+        "nodes": {
+          "median": 1249.0,
+          "min": 1249,
+          "max": 1249
+        }
+      },
+      "samples": [
+        {
+          "ops": 132,
+          "commit_us": 342,
+          "list_js_us": 0,
+          "items": 97,
+          "nodes": 1249,
+          "run": 0
+        },
+        {
+          "ops": 112,
+          "commit_us": 270,
+          "list_js_us": 0,
+          "items": 77,
+          "nodes": 1249,
+          "run": 0
+        },
+        {
+          "ops": 122,
+          "commit_us": 282,
+          "list_js_us": 0,
+          "items": 84,
+          "nodes": 1249,
+          "run": 0
+        },
+        {
+          "ops": 122,
+          "commit_us": 196,
+          "list_js_us": 0,
+          "items": 52,
+          "nodes": 1249,
+          "run": 0
+        },
+        {
+          "ops": 117,
+          "commit_us": 227,
+          "list_js_us": 0,
+          "items": 85,
+          "nodes": 1249,
+          "run": 0
+        },
+        {
+          "ops": 116,
+          "commit_us": 224,
+          "list_js_us": 0,
+          "items": 76,
+          "nodes": 1249,
+          "run": 0
+        },
+        {
+          "ops": 142,
+          "commit_us": 235,
+          "list_js_us": 0,
+          "items": 98,
+          "nodes": 1249,
+          "run": 0
+        },
+        {
+          "ops": 110,
+          "commit_us": 213,
+          "list_js_us": 0,
+          "items": 84,
+          "nodes": 1249,
+          "run": 0
+        },
+        {
+          "ops": 124,
+          "commit_us": 228,
+          "list_js_us": 0,
+          "items": 86,
+          "nodes": 1249,
+          "run": 0
+        },
+        {
+          "ops": 145,
+          "commit_us": 242,
+          "list_js_us": 0,
+          "items": 95,
+          "nodes": 1249,
+          "run": 0
+        },
+        {
+          "ops": 110,
+          "commit_us": 209,
+          "list_js_us": 0,
+          "items": 74,
+          "nodes": 1249,
+          "run": 0
+        },
+        {
+          "ops": 110,
+          "commit_us": 191,
+          "list_js_us": 0,
+          "items": 68,
+          "nodes": 1249,
+          "run": 0
+        },
+        {
+          "ops": 142,
+          "commit_us": 250,
+          "list_js_us": 0,
+          "items": 99,
+          "nodes": 1249,
+          "run": 0
+        },
+        {
+          "ops": 136,
+          "commit_us": 237,
+          "list_js_us": 0,
+          "items": 95,
+          "nodes": 1249,
+          "run": 0
+        },
+        {
+          "ops": 135,
+          "commit_us": 218,
+          "list_js_us": 0,
+          "items": 93,
+          "nodes": 1249,
+          "run": 0
+        },
+        {
+          "ops": 126,
+          "commit_us": 255,
+          "list_js_us": 0,
+          "items": 87,
+          "nodes": 1249,
+          "run": 0
+        },
+        {
+          "ops": 118,
+          "commit_us": 240,
+          "list_js_us": 0,
+          "items": 80,
+          "nodes": 1249,
+          "run": 0
+        },
+        {
+          "ops": 122,
+          "commit_us": 228,
+          "list_js_us": 0,
+          "items": 79,
+          "nodes": 1249,
+          "run": 0
+        },
+        {
+          "ops": 120,
+          "commit_us": 223,
+          "list_js_us": 0,
+          "items": 82,
+          "nodes": 1249,
+          "run": 0
+        },
+        {
+          "ops": 167,
+          "commit_us": 267,
+          "list_js_us": 0,
+          "items": 110,
+          "nodes": 1249,
+          "run": 0
+        },
+        {
+          "ops": 122,
+          "commit_us": 215,
+          "list_js_us": 0,
+          "items": 85,
+          "nodes": 1249,
+          "run": 0
+        },
+        {
+          "ops": 114,
+          "commit_us": 182,
+          "list_js_us": 0,
+          "items": 50,
+          "nodes": 1249,
+          "run": 0
+        },
+        {
+          "ops": 126,
+          "commit_us": 227,
+          "list_js_us": 0,
+          "items": 80,
+          "nodes": 1249,
+          "run": 0
+        },
+        {
+          "ops": 130,
+          "commit_us": 221,
+          "list_js_us": 0,
+          "items": 88,
+          "nodes": 1249,
+          "run": 0
+        },
+        {
+          "ops": 119,
+          "commit_us": 193,
+          "list_js_us": 0,
+          "items": 79,
+          "nodes": 1249,
+          "run": 0
+        },
+        {
+          "ops": 124,
+          "commit_us": 212,
+          "list_js_us": 0,
+          "items": 85,
+          "nodes": 1249,
+          "run": 0
+        },
+        {
+          "ops": 128,
+          "commit_us": 200,
+          "list_js_us": 0,
+          "items": 89,
+          "nodes": 1249,
+          "run": 0
+        },
+        {
+          "ops": 126,
+          "commit_us": 212,
+          "list_js_us": 0,
+          "items": 88,
+          "nodes": 1249,
+          "run": 0
+        },
+        {
+          "ops": 134,
+          "commit_us": 227,
+          "list_js_us": 0,
+          "items": 86,
+          "nodes": 1249,
+          "run": 0
+        },
+        {
+          "ops": 119,
+          "commit_us": 199,
+          "list_js_us": 0,
+          "items": 73,
+          "nodes": 1249,
+          "run": 0
+        },
+        {
+          "ops": 142,
+          "commit_us": 197,
+          "list_js_us": 0,
+          "items": 74,
+          "nodes": 1249,
+          "run": 0
+        },
+        {
+          "ops": 116,
+          "commit_us": 199,
+          "list_js_us": 0,
+          "items": 79,
+          "nodes": 1249,
+          "run": 0
+        },
+        {
+          "ops": 126,
+          "commit_us": 203,
+          "list_js_us": 0,
+          "items": 88,
+          "nodes": 1249,
+          "run": 0
+        },
+        {
+          "ops": 128,
+          "commit_us": 234,
+          "list_js_us": 0,
+          "items": 86,
+          "nodes": 1249,
+          "run": 0
+        },
+        {
+          "ops": 121,
+          "commit_us": 205,
+          "list_js_us": 0,
+          "items": 85,
+          "nodes": 1249,
+          "run": 0
+        },
+        {
+          "ops": 122,
+          "commit_us": 223,
+          "list_js_us": 0,
+          "items": 81,
+          "nodes": 1249,
+          "run": 0
+        },
+        {
+          "ops": 118,
+          "commit_us": 205,
+          "list_js_us": 0,
+          "items": 82,
+          "nodes": 1249,
+          "run": 0
+        },
+        {
+          "ops": 104,
+          "commit_us": 173,
+          "list_js_us": 0,
+          "items": 68,
+          "nodes": 1249,
+          "run": 0
+        },
+        {
+          "ops": 136,
+          "commit_us": 260,
+          "list_js_us": 0,
+          "items": 87,
+          "nodes": 1249,
+          "run": 0
+        },
+        {
+          "ops": 163,
+          "commit_us": 227,
+          "list_js_us": 0,
+          "items": 104,
+          "nodes": 1249,
+          "run": 0
+        },
+        {
+          "ops": 118,
+          "commit_us": 216,
+          "list_js_us": 0,
+          "items": 81,
+          "nodes": 1249,
+          "run": 0
+        },
+        {
+          "ops": 130,
+          "commit_us": 233,
+          "list_js_us": 0,
+          "items": 87,
+          "nodes": 1249,
+          "run": 0
+        },
+        {
+          "ops": 160,
+          "commit_us": 252,
+          "list_js_us": 0,
+          "items": 106,
+          "nodes": 1249,
+          "run": 0
+        },
+        {
+          "ops": 134,
+          "commit_us": 226,
+          "list_js_us": 0,
+          "items": 90,
+          "nodes": 1249,
+          "run": 0
+        },
+        {
+          "ops": 121,
+          "commit_us": 217,
+          "list_js_us": 0,
+          "items": 84,
+          "nodes": 1249,
+          "run": 0
+        },
+        {
+          "ops": 122,
+          "commit_us": 203,
+          "list_js_us": 0,
+          "items": 57,
+          "nodes": 1249,
+          "run": 0
+        },
+        {
+          "ops": 142,
+          "commit_us": 213,
+          "list_js_us": 0,
+          "items": 97,
+          "nodes": 1249,
+          "run": 0
+        },
+        {
+          "ops": 126,
+          "commit_us": 218,
+          "list_js_us": 0,
+          "items": 83,
+          "nodes": 1249,
+          "run": 0
+        },
+        {
+          "ops": 112,
+          "commit_us": 186,
+          "list_js_us": 0,
+          "items": 77,
+          "nodes": 1249,
+          "run": 0
+        },
+        {
+          "ops": 127,
+          "commit_us": 214,
+          "list_js_us": 0,
+          "items": 90,
+          "nodes": 1249,
+          "run": 0
+        },
+        {
+          "ops": 116,
+          "commit_us": 166,
+          "list_js_us": 0,
+          "items": 44,
+          "nodes": 1249,
+          "run": 0
+        },
+        {
+          "ops": 118,
+          "commit_us": 207,
+          "list_js_us": 0,
+          "items": 79,
+          "nodes": 1249,
+          "run": 0
+        },
+        {
+          "ops": 118,
+          "commit_us": 179,
+          "list_js_us": 0,
+          "items": 54,
+          "nodes": 1249,
+          "run": 0
+        },
+        {
+          "ops": 134,
+          "commit_us": 212,
+          "list_js_us": 0,
+          "items": 94,
+          "nodes": 1249,
+          "run": 0
+        },
+        {
+          "ops": 137,
+          "commit_us": 223,
+          "list_js_us": 0,
+          "items": 97,
+          "nodes": 1249,
+          "run": 0
+        },
+        {
+          "ops": 116,
+          "commit_us": 202,
+          "list_js_us": 0,
+          "items": 80,
+          "nodes": 1249,
+          "run": 0
+        },
+        {
+          "ops": 110,
+          "commit_us": 190,
+          "list_js_us": 0,
+          "items": 75,
+          "nodes": 1249,
+          "run": 0
+        },
+        {
+          "ops": 138,
+          "commit_us": 226,
+          "list_js_us": 0,
+          "items": 98,
+          "nodes": 1249,
+          "run": 0
+        },
+        {
+          "ops": 132,
+          "commit_us": 220,
+          "list_js_us": 0,
+          "items": 85,
+          "nodes": 1249,
+          "run": 0
+        },
+        {
+          "ops": 157,
+          "commit_us": 245,
+          "list_js_us": 0,
+          "items": 99,
+          "nodes": 1249,
+          "run": 0
+        },
+        {
+          "ops": 132,
+          "commit_us": 283,
+          "list_js_us": 0,
+          "items": 97,
+          "nodes": 1249,
+          "run": 1
+        },
+        {
+          "ops": 112,
+          "commit_us": 233,
+          "list_js_us": 0,
+          "items": 77,
+          "nodes": 1249,
+          "run": 1
+        },
+        {
+          "ops": 122,
+          "commit_us": 230,
+          "list_js_us": 0,
+          "items": 84,
+          "nodes": 1249,
+          "run": 1
+        },
+        {
+          "ops": 122,
+          "commit_us": 180,
+          "list_js_us": 0,
+          "items": 52,
+          "nodes": 1249,
+          "run": 1
+        },
+        {
+          "ops": 117,
+          "commit_us": 225,
+          "list_js_us": 0,
+          "items": 85,
+          "nodes": 1249,
+          "run": 1
+        },
+        {
+          "ops": 116,
+          "commit_us": 202,
+          "list_js_us": 0,
+          "items": 76,
+          "nodes": 1249,
+          "run": 1
+        },
+        {
+          "ops": 142,
+          "commit_us": 228,
+          "list_js_us": 0,
+          "items": 98,
+          "nodes": 1249,
+          "run": 1
+        },
+        {
+          "ops": 110,
+          "commit_us": 210,
+          "list_js_us": 0,
+          "items": 84,
+          "nodes": 1249,
+          "run": 1
+        },
+        {
+          "ops": 124,
+          "commit_us": 209,
+          "list_js_us": 0,
+          "items": 86,
+          "nodes": 1249,
+          "run": 1
+        },
+        {
+          "ops": 145,
+          "commit_us": 258,
+          "list_js_us": 0,
+          "items": 95,
+          "nodes": 1249,
+          "run": 1
+        },
+        {
+          "ops": 110,
+          "commit_us": 187,
+          "list_js_us": 0,
+          "items": 74,
+          "nodes": 1249,
+          "run": 1
+        },
+        {
+          "ops": 110,
+          "commit_us": 202,
+          "list_js_us": 0,
+          "items": 68,
+          "nodes": 1249,
+          "run": 1
+        },
+        {
+          "ops": 142,
+          "commit_us": 239,
+          "list_js_us": 0,
+          "items": 99,
+          "nodes": 1249,
+          "run": 1
+        },
+        {
+          "ops": 136,
+          "commit_us": 227,
+          "list_js_us": 0,
+          "items": 95,
+          "nodes": 1249,
+          "run": 1
+        },
+        {
+          "ops": 135,
+          "commit_us": 211,
+          "list_js_us": 0,
+          "items": 93,
+          "nodes": 1249,
+          "run": 1
+        },
+        {
+          "ops": 126,
+          "commit_us": 235,
+          "list_js_us": 0,
+          "items": 87,
+          "nodes": 1249,
+          "run": 1
+        },
+        {
+          "ops": 118,
+          "commit_us": 215,
+          "list_js_us": 0,
+          "items": 80,
+          "nodes": 1249,
+          "run": 1
+        },
+        {
+          "ops": 122,
+          "commit_us": 220,
+          "list_js_us": 0,
+          "items": 79,
+          "nodes": 1249,
+          "run": 1
+        },
+        {
+          "ops": 120,
+          "commit_us": 196,
+          "list_js_us": 0,
+          "items": 82,
+          "nodes": 1249,
+          "run": 1
+        },
+        {
+          "ops": 167,
+          "commit_us": 281,
+          "list_js_us": 0,
+          "items": 110,
+          "nodes": 1249,
+          "run": 1
+        },
+        {
+          "ops": 122,
+          "commit_us": 212,
+          "list_js_us": 0,
+          "items": 85,
+          "nodes": 1249,
+          "run": 1
+        },
+        {
+          "ops": 114,
+          "commit_us": 191,
+          "list_js_us": 0,
+          "items": 50,
+          "nodes": 1249,
+          "run": 1
+        },
+        {
+          "ops": 126,
+          "commit_us": 208,
+          "list_js_us": 0,
+          "items": 80,
+          "nodes": 1249,
+          "run": 1
+        },
+        {
+          "ops": 130,
+          "commit_us": 228,
+          "list_js_us": 0,
+          "items": 88,
+          "nodes": 1249,
+          "run": 1
+        },
+        {
+          "ops": 119,
+          "commit_us": 191,
+          "list_js_us": 0,
+          "items": 79,
+          "nodes": 1249,
+          "run": 1
+        },
+        {
+          "ops": 124,
+          "commit_us": 207,
+          "list_js_us": 0,
+          "items": 85,
+          "nodes": 1249,
+          "run": 1
+        },
+        {
+          "ops": 128,
+          "commit_us": 221,
+          "list_js_us": 0,
+          "items": 89,
+          "nodes": 1249,
+          "run": 1
+        },
+        {
+          "ops": 126,
+          "commit_us": 220,
+          "list_js_us": 0,
+          "items": 88,
+          "nodes": 1249,
+          "run": 1
+        },
+        {
+          "ops": 134,
+          "commit_us": 218,
+          "list_js_us": 0,
+          "items": 86,
+          "nodes": 1249,
+          "run": 1
+        },
+        {
+          "ops": 119,
+          "commit_us": 201,
+          "list_js_us": 0,
+          "items": 73,
+          "nodes": 1249,
+          "run": 1
+        },
+        {
+          "ops": 142,
+          "commit_us": 205,
+          "list_js_us": 0,
+          "items": 74,
+          "nodes": 1249,
+          "run": 1
+        },
+        {
+          "ops": 116,
+          "commit_us": 196,
+          "list_js_us": 0,
+          "items": 79,
+          "nodes": 1249,
+          "run": 1
+        },
+        {
+          "ops": 126,
+          "commit_us": 207,
+          "list_js_us": 0,
+          "items": 88,
+          "nodes": 1249,
+          "run": 1
+        },
+        {
+          "ops": 128,
+          "commit_us": 224,
+          "list_js_us": 0,
+          "items": 86,
+          "nodes": 1249,
+          "run": 1
+        },
+        {
+          "ops": 121,
+          "commit_us": 210,
+          "list_js_us": 0,
+          "items": 85,
+          "nodes": 1249,
+          "run": 1
+        },
+        {
+          "ops": 122,
+          "commit_us": 210,
+          "list_js_us": 0,
+          "items": 81,
+          "nodes": 1249,
+          "run": 1
+        },
+        {
+          "ops": 118,
+          "commit_us": 194,
+          "list_js_us": 0,
+          "items": 82,
+          "nodes": 1249,
+          "run": 1
+        },
+        {
+          "ops": 104,
+          "commit_us": 177,
+          "list_js_us": 0,
+          "items": 68,
+          "nodes": 1249,
+          "run": 1
+        },
+        {
+          "ops": 136,
+          "commit_us": 211,
+          "list_js_us": 0,
+          "items": 87,
+          "nodes": 1249,
+          "run": 1
+        },
+        {
+          "ops": 163,
+          "commit_us": 239,
+          "list_js_us": 0,
+          "items": 104,
+          "nodes": 1249,
+          "run": 1
+        },
+        {
+          "ops": 118,
+          "commit_us": 210,
+          "list_js_us": 0,
+          "items": 81,
+          "nodes": 1249,
+          "run": 1
+        },
+        {
+          "ops": 130,
+          "commit_us": 208,
+          "list_js_us": 0,
+          "items": 87,
+          "nodes": 1249,
+          "run": 1
+        },
+        {
+          "ops": 160,
+          "commit_us": 231,
+          "list_js_us": 0,
+          "items": 106,
+          "nodes": 1249,
+          "run": 1
+        },
+        {
+          "ops": 134,
+          "commit_us": 215,
+          "list_js_us": 0,
+          "items": 90,
+          "nodes": 1249,
+          "run": 1
+        },
+        {
+          "ops": 121,
+          "commit_us": 220,
+          "list_js_us": 0,
+          "items": 84,
+          "nodes": 1249,
+          "run": 1
+        },
+        {
+          "ops": 122,
+          "commit_us": 192,
+          "list_js_us": 0,
+          "items": 57,
+          "nodes": 1249,
+          "run": 1
+        },
+        {
+          "ops": 142,
+          "commit_us": 223,
+          "list_js_us": 0,
+          "items": 97,
+          "nodes": 1249,
+          "run": 1
+        },
+        {
+          "ops": 126,
+          "commit_us": 221,
+          "list_js_us": 0,
+          "items": 83,
+          "nodes": 1249,
+          "run": 1
+        },
+        {
+          "ops": 112,
+          "commit_us": 209,
+          "list_js_us": 0,
+          "items": 77,
+          "nodes": 1249,
+          "run": 1
+        },
+        {
+          "ops": 127,
+          "commit_us": 217,
+          "list_js_us": 0,
+          "items": 90,
+          "nodes": 1249,
+          "run": 1
+        },
+        {
+          "ops": 116,
+          "commit_us": 181,
+          "list_js_us": 0,
+          "items": 44,
+          "nodes": 1249,
+          "run": 1
+        },
+        {
+          "ops": 118,
+          "commit_us": 198,
+          "list_js_us": 0,
+          "items": 79,
+          "nodes": 1249,
+          "run": 1
+        },
+        {
+          "ops": 118,
+          "commit_us": 186,
+          "list_js_us": 0,
+          "items": 54,
+          "nodes": 1249,
+          "run": 1
+        },
+        {
+          "ops": 134,
+          "commit_us": 225,
+          "list_js_us": 0,
+          "items": 94,
+          "nodes": 1249,
+          "run": 1
+        },
+        {
+          "ops": 137,
+          "commit_us": 226,
+          "list_js_us": 0,
+          "items": 97,
+          "nodes": 1249,
+          "run": 1
+        },
+        {
+          "ops": 116,
+          "commit_us": 188,
+          "list_js_us": 0,
+          "items": 80,
+          "nodes": 1249,
+          "run": 1
+        },
+        {
+          "ops": 110,
+          "commit_us": 198,
+          "list_js_us": 0,
+          "items": 75,
+          "nodes": 1249,
+          "run": 1
+        },
+        {
+          "ops": 138,
+          "commit_us": 232,
+          "list_js_us": 0,
+          "items": 98,
+          "nodes": 1249,
+          "run": 1
+        },
+        {
+          "ops": 132,
+          "commit_us": 221,
+          "list_js_us": 0,
+          "items": 85,
+          "nodes": 1249,
+          "run": 1
+        },
+        {
+          "ops": 157,
+          "commit_us": 237,
+          "list_js_us": 0,
+          "items": 99,
+          "nodes": 1249,
+          "run": 1
+        },
+        {
+          "ops": 132,
+          "commit_us": 256,
+          "list_js_us": 0,
+          "items": 97,
+          "nodes": 1249,
+          "run": 2
+        },
+        {
+          "ops": 112,
+          "commit_us": 235,
+          "list_js_us": 0,
+          "items": 77,
+          "nodes": 1249,
+          "run": 2
+        },
+        {
+          "ops": 122,
+          "commit_us": 219,
+          "list_js_us": 0,
+          "items": 84,
+          "nodes": 1249,
+          "run": 2
+        },
+        {
+          "ops": 122,
+          "commit_us": 176,
+          "list_js_us": 0,
+          "items": 52,
+          "nodes": 1249,
+          "run": 2
+        },
+        {
+          "ops": 117,
+          "commit_us": 229,
+          "list_js_us": 0,
+          "items": 85,
+          "nodes": 1249,
+          "run": 2
+        },
+        {
+          "ops": 116,
+          "commit_us": 195,
+          "list_js_us": 0,
+          "items": 76,
+          "nodes": 1249,
+          "run": 2
+        },
+        {
+          "ops": 142,
+          "commit_us": 225,
+          "list_js_us": 0,
+          "items": 98,
+          "nodes": 1249,
+          "run": 2
+        },
+        {
+          "ops": 110,
+          "commit_us": 223,
+          "list_js_us": 0,
+          "items": 84,
+          "nodes": 1249,
+          "run": 2
+        },
+        {
+          "ops": 124,
+          "commit_us": 249,
+          "list_js_us": 0,
+          "items": 86,
+          "nodes": 1249,
+          "run": 2
+        },
+        {
+          "ops": 145,
+          "commit_us": 244,
+          "list_js_us": 0,
+          "items": 95,
+          "nodes": 1249,
+          "run": 2
+        },
+        {
+          "ops": 110,
+          "commit_us": 199,
+          "list_js_us": 0,
+          "items": 74,
+          "nodes": 1249,
+          "run": 2
+        },
+        {
+          "ops": 110,
+          "commit_us": 194,
+          "list_js_us": 0,
+          "items": 68,
+          "nodes": 1249,
+          "run": 2
+        },
+        {
+          "ops": 142,
+          "commit_us": 229,
+          "list_js_us": 0,
+          "items": 99,
+          "nodes": 1249,
+          "run": 2
+        },
+        {
+          "ops": 136,
+          "commit_us": 236,
+          "list_js_us": 0,
+          "items": 95,
+          "nodes": 1249,
+          "run": 2
+        },
+        {
+          "ops": 135,
+          "commit_us": 219,
+          "list_js_us": 0,
+          "items": 93,
+          "nodes": 1249,
+          "run": 2
+        },
+        {
+          "ops": 126,
+          "commit_us": 247,
+          "list_js_us": 0,
+          "items": 87,
+          "nodes": 1249,
+          "run": 2
+        },
+        {
+          "ops": 118,
+          "commit_us": 203,
+          "list_js_us": 0,
+          "items": 80,
+          "nodes": 1249,
+          "run": 2
+        },
+        {
+          "ops": 122,
+          "commit_us": 207,
+          "list_js_us": 0,
+          "items": 79,
+          "nodes": 1249,
+          "run": 2
+        },
+        {
+          "ops": 120,
+          "commit_us": 206,
+          "list_js_us": 0,
+          "items": 82,
+          "nodes": 1249,
+          "run": 2
+        },
+        {
+          "ops": 167,
+          "commit_us": 269,
+          "list_js_us": 0,
+          "items": 110,
+          "nodes": 1249,
+          "run": 2
+        },
+        {
+          "ops": 122,
+          "commit_us": 207,
+          "list_js_us": 0,
+          "items": 85,
+          "nodes": 1249,
+          "run": 2
+        },
+        {
+          "ops": 114,
+          "commit_us": 176,
+          "list_js_us": 0,
+          "items": 50,
+          "nodes": 1249,
+          "run": 2
+        },
+        {
+          "ops": 126,
+          "commit_us": 204,
+          "list_js_us": 0,
+          "items": 80,
+          "nodes": 1249,
+          "run": 2
+        },
+        {
+          "ops": 130,
+          "commit_us": 206,
+          "list_js_us": 0,
+          "items": 88,
+          "nodes": 1249,
+          "run": 2
+        },
+        {
+          "ops": 119,
+          "commit_us": 193,
+          "list_js_us": 0,
+          "items": 79,
+          "nodes": 1249,
+          "run": 2
+        },
+        {
+          "ops": 124,
+          "commit_us": 213,
+          "list_js_us": 0,
+          "items": 85,
+          "nodes": 1249,
+          "run": 2
+        },
+        {
+          "ops": 128,
+          "commit_us": 201,
+          "list_js_us": 0,
+          "items": 89,
+          "nodes": 1249,
+          "run": 2
+        },
+        {
+          "ops": 126,
+          "commit_us": 206,
+          "list_js_us": 0,
+          "items": 88,
+          "nodes": 1249,
+          "run": 2
+        },
+        {
+          "ops": 134,
+          "commit_us": 220,
+          "list_js_us": 0,
+          "items": 86,
+          "nodes": 1249,
+          "run": 2
+        },
+        {
+          "ops": 119,
+          "commit_us": 190,
+          "list_js_us": 0,
+          "items": 73,
+          "nodes": 1249,
+          "run": 2
+        },
+        {
+          "ops": 142,
+          "commit_us": 201,
+          "list_js_us": 0,
+          "items": 74,
+          "nodes": 1249,
+          "run": 2
+        },
+        {
+          "ops": 116,
+          "commit_us": 194,
+          "list_js_us": 0,
+          "items": 79,
+          "nodes": 1249,
+          "run": 2
+        },
+        {
+          "ops": 126,
+          "commit_us": 216,
+          "list_js_us": 0,
+          "items": 88,
+          "nodes": 1249,
+          "run": 2
+        },
+        {
+          "ops": 128,
+          "commit_us": 206,
+          "list_js_us": 0,
+          "items": 86,
+          "nodes": 1249,
+          "run": 2
+        },
+        {
+          "ops": 121,
+          "commit_us": 204,
+          "list_js_us": 0,
+          "items": 85,
+          "nodes": 1249,
+          "run": 2
+        },
+        {
+          "ops": 122,
+          "commit_us": 200,
+          "list_js_us": 0,
+          "items": 81,
+          "nodes": 1249,
+          "run": 2
+        },
+        {
+          "ops": 118,
+          "commit_us": 204,
+          "list_js_us": 0,
+          "items": 82,
+          "nodes": 1249,
+          "run": 2
+        },
+        {
+          "ops": 104,
+          "commit_us": 173,
+          "list_js_us": 0,
+          "items": 68,
+          "nodes": 1249,
+          "run": 2
+        },
+        {
+          "ops": 136,
+          "commit_us": 267,
+          "list_js_us": 0,
+          "items": 87,
+          "nodes": 1249,
+          "run": 2
+        },
+        {
+          "ops": 163,
+          "commit_us": 237,
+          "list_js_us": 0,
+          "items": 104,
+          "nodes": 1249,
+          "run": 2
+        },
+        {
+          "ops": 118,
+          "commit_us": 198,
+          "list_js_us": 0,
+          "items": 81,
+          "nodes": 1249,
+          "run": 2
+        },
+        {
+          "ops": 130,
+          "commit_us": 229,
+          "list_js_us": 0,
+          "items": 87,
+          "nodes": 1249,
+          "run": 2
+        },
+        {
+          "ops": 160,
+          "commit_us": 243,
+          "list_js_us": 0,
+          "items": 106,
+          "nodes": 1249,
+          "run": 2
+        },
+        {
+          "ops": 134,
+          "commit_us": 241,
+          "list_js_us": 0,
+          "items": 90,
+          "nodes": 1249,
+          "run": 2
+        },
+        {
+          "ops": 121,
+          "commit_us": 250,
+          "list_js_us": 0,
+          "items": 84,
+          "nodes": 1249,
+          "run": 2
+        },
+        {
+          "ops": 122,
+          "commit_us": 210,
+          "list_js_us": 0,
+          "items": 57,
+          "nodes": 1249,
+          "run": 2
+        },
+        {
+          "ops": 142,
+          "commit_us": 238,
+          "list_js_us": 0,
+          "items": 97,
+          "nodes": 1249,
+          "run": 2
+        },
+        {
+          "ops": 126,
+          "commit_us": 235,
+          "list_js_us": 0,
+          "items": 83,
+          "nodes": 1249,
+          "run": 2
+        },
+        {
+          "ops": 112,
+          "commit_us": 192,
+          "list_js_us": 0,
+          "items": 77,
+          "nodes": 1249,
+          "run": 2
+        },
+        {
+          "ops": 127,
+          "commit_us": 225,
+          "list_js_us": 0,
+          "items": 90,
+          "nodes": 1249,
+          "run": 2
+        },
+        {
+          "ops": 116,
+          "commit_us": 184,
+          "list_js_us": 0,
+          "items": 44,
+          "nodes": 1249,
+          "run": 2
+        },
+        {
+          "ops": 118,
+          "commit_us": 204,
+          "list_js_us": 0,
+          "items": 79,
+          "nodes": 1249,
+          "run": 2
+        },
+        {
+          "ops": 118,
+          "commit_us": 174,
+          "list_js_us": 0,
+          "items": 54,
+          "nodes": 1249,
+          "run": 2
+        },
+        {
+          "ops": 134,
+          "commit_us": 208,
+          "list_js_us": 0,
+          "items": 94,
+          "nodes": 1249,
+          "run": 2
+        },
+        {
+          "ops": 137,
+          "commit_us": 213,
+          "list_js_us": 0,
+          "items": 97,
+          "nodes": 1249,
+          "run": 2
+        },
+        {
+          "ops": 116,
+          "commit_us": 202,
+          "list_js_us": 0,
+          "items": 80,
+          "nodes": 1249,
+          "run": 2
+        },
+        {
+          "ops": 110,
+          "commit_us": 198,
+          "list_js_us": 0,
+          "items": 75,
+          "nodes": 1249,
+          "run": 2
+        },
+        {
+          "ops": 138,
+          "commit_us": 233,
+          "list_js_us": 0,
+          "items": 98,
+          "nodes": 1249,
+          "run": 2
+        },
+        {
+          "ops": 132,
+          "commit_us": 223,
+          "list_js_us": 0,
+          "items": 85,
+          "nodes": 1249,
+          "run": 2
+        },
+        {
+          "ops": 157,
+          "commit_us": 235,
+          "list_js_us": 0,
+          "items": 99,
+          "nodes": 1249,
+          "run": 2
+        }
+      ]
+    },
+    "first_commit": {
+      "n": 3,
+      "stats": {
+        "ops": {
+          "median": 4412,
+          "min": 4412,
+          "max": 4412
+        },
+        "commit_us": {
+          "median": 4617,
+          "min": 4529,
+          "max": 5369
+        },
+        "items": {
+          "median": 3708,
+          "min": 3708,
+          "max": 3708
+        },
+        "nodes": {
+          "median": 1249,
+          "min": 1249,
+          "max": 1249
+        }
+      }
+    }
+  },
+  "after": {
+    "initial": {
+      "n": 6,
+      "stats": {
+        "ops": {
+          "median": 2298.5,
+          "min": 1,
+          "max": 4596
+        },
+        "commit_us": {
+          "median": 2029.5,
+          "min": 12,
+          "max": 4526
+        },
+        "items": {
+          "median": 1969.5,
+          "min": 0,
+          "max": 3939
+        },
+        "nodes": {
+          "median": 1295.0,
+          "min": 1295,
+          "max": 1295
+        }
+      },
+      "samples": [
+        {
+          "ops": 4596,
+          "commit_us": 4526,
+          "list_js_us": 1452,
+          "items": 3939,
+          "nodes": 1295,
+          "run": 0
+        },
+        {
+          "ops": 1,
+          "commit_us": 12,
+          "list_js_us": 9,
+          "items": 0,
+          "nodes": 1295,
+          "run": 0
+        },
+        {
+          "ops": 4596,
+          "commit_us": 4043,
+          "list_js_us": 1400,
+          "items": 3939,
+          "nodes": 1295,
+          "run": 1
+        },
+        {
+          "ops": 1,
+          "commit_us": 12,
+          "list_js_us": 9,
+          "items": 0,
+          "nodes": 1295,
+          "run": 1
+        },
+        {
+          "ops": 4596,
+          "commit_us": 4265,
+          "list_js_us": 1480,
+          "items": 3939,
+          "nodes": 1295,
+          "run": 2
+        },
+        {
+          "ops": 1,
+          "commit_us": 16,
+          "list_js_us": 11,
+          "items": 0,
+          "nodes": 1295,
+          "run": 2
+        }
+      ]
+    },
+    "updates": {
+      "n": 180,
+      "stats": {
+        "ops": {
+          "median": 142.0,
+          "min": 112,
+          "max": 192
+        },
+        "commit_us": {
+          "median": 231.0,
+          "min": 178,
+          "max": 344
+        },
+        "items": {
+          "median": 93.0,
+          "min": 49,
+          "max": 121
+        },
+        "nodes": {
+          "median": 1295.0,
+          "min": 1295,
+          "max": 1295
+        }
+      },
+      "samples": [
+        {
+          "ops": 148,
+          "commit_us": 344,
+          "list_js_us": 0,
+          "items": 103,
+          "nodes": 1295,
+          "run": 0
+        },
+        {
+          "ops": 124,
+          "commit_us": 230,
+          "list_js_us": 0,
+          "items": 82,
+          "nodes": 1295,
+          "run": 0
+        },
+        {
+          "ops": 138,
+          "commit_us": 238,
+          "list_js_us": 0,
+          "items": 90,
+          "nodes": 1295,
+          "run": 0
+        },
+        {
+          "ops": 136,
+          "commit_us": 198,
+          "list_js_us": 0,
+          "items": 58,
+          "nodes": 1295,
+          "run": 0
+        },
+        {
+          "ops": 129,
+          "commit_us": 233,
+          "list_js_us": 0,
+          "items": 90,
+          "nodes": 1295,
+          "run": 0
+        },
+        {
+          "ops": 130,
+          "commit_us": 215,
+          "list_js_us": 0,
+          "items": 82,
+          "nodes": 1295,
+          "run": 0
+        },
+        {
+          "ops": 166,
+          "commit_us": 261,
+          "list_js_us": 0,
+          "items": 110,
+          "nodes": 1295,
+          "run": 0
+        },
+        {
+          "ops": 122,
+          "commit_us": 222,
+          "list_js_us": 0,
+          "items": 91,
+          "nodes": 1295,
+          "run": 0
+        },
+        {
+          "ops": 142,
+          "commit_us": 222,
+          "list_js_us": 0,
+          "items": 94,
+          "nodes": 1295,
+          "run": 0
+        },
+        {
+          "ops": 171,
+          "commit_us": 279,
+          "list_js_us": 0,
+          "items": 108,
+          "nodes": 1295,
+          "run": 0
+        },
+        {
+          "ops": 122,
+          "commit_us": 236,
+          "list_js_us": 0,
+          "items": 80,
+          "nodes": 1295,
+          "run": 0
+        },
+        {
+          "ops": 122,
+          "commit_us": 209,
+          "list_js_us": 0,
+          "items": 73,
+          "nodes": 1295,
+          "run": 0
+        },
+        {
+          "ops": 166,
+          "commit_us": 257,
+          "list_js_us": 0,
+          "items": 111,
+          "nodes": 1295,
+          "run": 0
+        },
+        {
+          "ops": 160,
+          "commit_us": 244,
+          "list_js_us": 0,
+          "items": 106,
+          "nodes": 1295,
+          "run": 0
+        },
+        {
+          "ops": 153,
+          "commit_us": 226,
+          "list_js_us": 0,
+          "items": 101,
+          "nodes": 1295,
+          "run": 0
+        },
+        {
+          "ops": 144,
+          "commit_us": 226,
+          "list_js_us": 0,
+          "items": 96,
+          "nodes": 1295,
+          "run": 0
+        },
+        {
+          "ops": 132,
+          "commit_us": 218,
+          "list_js_us": 0,
+          "items": 87,
+          "nodes": 1295,
+          "run": 0
+        },
+        {
+          "ops": 140,
+          "commit_us": 254,
+          "list_js_us": 0,
+          "items": 87,
+          "nodes": 1295,
+          "run": 0
+        },
+        {
+          "ops": 134,
+          "commit_us": 217,
+          "list_js_us": 0,
+          "items": 89,
+          "nodes": 1295,
+          "run": 0
+        },
+        {
+          "ops": 183,
+          "commit_us": 280,
+          "list_js_us": 0,
+          "items": 118,
+          "nodes": 1295,
+          "run": 0
+        },
+        {
+          "ops": 138,
+          "commit_us": 217,
+          "list_js_us": 0,
+          "items": 93,
+          "nodes": 1295,
+          "run": 0
+        },
+        {
+          "ops": 128,
+          "commit_us": 198,
+          "list_js_us": 0,
+          "items": 57,
+          "nodes": 1295,
+          "run": 0
+        },
+        {
+          "ops": 146,
+          "commit_us": 220,
+          "list_js_us": 0,
+          "items": 90,
+          "nodes": 1295,
+          "run": 0
+        },
+        {
+          "ops": 150,
+          "commit_us": 231,
+          "list_js_us": 0,
+          "items": 98,
+          "nodes": 1295,
+          "run": 0
+        },
+        {
+          "ops": 131,
+          "commit_us": 212,
+          "list_js_us": 0,
+          "items": 85,
+          "nodes": 1295,
+          "run": 0
+        },
+        {
+          "ops": 142,
+          "commit_us": 236,
+          "list_js_us": 0,
+          "items": 94,
+          "nodes": 1295,
+          "run": 0
+        },
+        {
+          "ops": 146,
+          "commit_us": 254,
+          "list_js_us": 0,
+          "items": 98,
+          "nodes": 1295,
+          "run": 0
+        },
+        {
+          "ops": 144,
+          "commit_us": 253,
+          "list_js_us": 0,
+          "items": 96,
+          "nodes": 1295,
+          "run": 0
+        },
+        {
+          "ops": 156,
+          "commit_us": 255,
+          "list_js_us": 0,
+          "items": 95,
+          "nodes": 1295,
+          "run": 0
+        },
+        {
+          "ops": 131,
+          "commit_us": 227,
+          "list_js_us": 0,
+          "items": 78,
+          "nodes": 1295,
+          "run": 0
+        },
+        {
+          "ops": 166,
+          "commit_us": 246,
+          "list_js_us": 0,
+          "items": 87,
+          "nodes": 1295,
+          "run": 0
+        },
+        {
+          "ops": 130,
+          "commit_us": 218,
+          "list_js_us": 0,
+          "items": 86,
+          "nodes": 1295,
+          "run": 0
+        },
+        {
+          "ops": 144,
+          "commit_us": 246,
+          "list_js_us": 0,
+          "items": 98,
+          "nodes": 1295,
+          "run": 0
+        },
+        {
+          "ops": 148,
+          "commit_us": 228,
+          "list_js_us": 0,
+          "items": 97,
+          "nodes": 1295,
+          "run": 0
+        },
+        {
+          "ops": 135,
+          "commit_us": 262,
+          "list_js_us": 0,
+          "items": 93,
+          "nodes": 1295,
+          "run": 0
+        },
+        {
+          "ops": 140,
+          "commit_us": 255,
+          "list_js_us": 0,
+          "items": 91,
+          "nodes": 1295,
+          "run": 0
+        },
+        {
+          "ops": 132,
+          "commit_us": 212,
+          "list_js_us": 0,
+          "items": 89,
+          "nodes": 1295,
+          "run": 0
+        },
+        {
+          "ops": 112,
+          "commit_us": 195,
+          "list_js_us": 0,
+          "items": 72,
+          "nodes": 1295,
+          "run": 0
+        },
+        {
+          "ops": 158,
+          "commit_us": 248,
+          "list_js_us": 0,
+          "items": 97,
+          "nodes": 1295,
+          "run": 0
+        },
+        {
+          "ops": 177,
+          "commit_us": 271,
+          "list_js_us": 0,
+          "items": 110,
+          "nodes": 1295,
+          "run": 0
+        },
+        {
+          "ops": 132,
+          "commit_us": 207,
+          "list_js_us": 0,
+          "items": 88,
+          "nodes": 1295,
+          "run": 0
+        },
+        {
+          "ops": 150,
+          "commit_us": 240,
+          "list_js_us": 0,
+          "items": 96,
+          "nodes": 1295,
+          "run": 0
+        },
+        {
+          "ops": 192,
+          "commit_us": 277,
+          "list_js_us": 0,
+          "items": 121,
+          "nodes": 1295,
+          "run": 0
+        },
+        {
+          "ops": 156,
+          "commit_us": 250,
+          "list_js_us": 0,
+          "items": 100,
+          "nodes": 1295,
+          "run": 0
+        },
+        {
+          "ops": 135,
+          "commit_us": 259,
+          "list_js_us": 0,
+          "items": 90,
+          "nodes": 1295,
+          "run": 0
+        },
+        {
+          "ops": 140,
+          "commit_us": 209,
+          "list_js_us": 0,
+          "items": 65,
+          "nodes": 1295,
+          "run": 0
+        },
+        {
+          "ops": 166,
+          "commit_us": 259,
+          "list_js_us": 0,
+          "items": 109,
+          "nodes": 1295,
+          "run": 0
+        },
+        {
+          "ops": 146,
+          "commit_us": 225,
+          "list_js_us": 0,
+          "items": 93,
+          "nodes": 1295,
+          "run": 0
+        },
+        {
+          "ops": 124,
+          "commit_us": 202,
+          "list_js_us": 0,
+          "items": 83,
+          "nodes": 1295,
+          "run": 0
+        },
+        {
+          "ops": 143,
+          "commit_us": 224,
+          "list_js_us": 0,
+          "items": 98,
+          "nodes": 1295,
+          "run": 0
+        },
+        {
+          "ops": 128,
+          "commit_us": 178,
+          "list_js_us": 0,
+          "items": 49,
+          "nodes": 1295,
+          "run": 0
+        },
+        {
+          "ops": 134,
+          "commit_us": 209,
+          "list_js_us": 0,
+          "items": 87,
+          "nodes": 1295,
+          "run": 0
+        },
+        {
+          "ops": 134,
+          "commit_us": 206,
+          "list_js_us": 0,
+          "items": 61,
+          "nodes": 1295,
+          "run": 0
+        },
+        {
+          "ops": 154,
+          "commit_us": 225,
+          "list_js_us": 0,
+          "items": 103,
+          "nodes": 1295,
+          "run": 0
+        },
+        {
+          "ops": 157,
+          "commit_us": 240,
+          "list_js_us": 0,
+          "items": 107,
+          "nodes": 1295,
+          "run": 0
+        },
+        {
+          "ops": 128,
+          "commit_us": 219,
+          "list_js_us": 0,
+          "items": 85,
+          "nodes": 1295,
+          "run": 0
+        },
+        {
+          "ops": 122,
+          "commit_us": 219,
+          "list_js_us": 0,
+          "items": 81,
+          "nodes": 1295,
+          "run": 0
+        },
+        {
+          "ops": 160,
+          "commit_us": 238,
+          "list_js_us": 0,
+          "items": 108,
+          "nodes": 1295,
+          "run": 0
+        },
+        {
+          "ops": 154,
+          "commit_us": 233,
+          "list_js_us": 0,
+          "items": 95,
+          "nodes": 1295,
+          "run": 0
+        },
+        {
+          "ops": 169,
+          "commit_us": 228,
+          "list_js_us": 0,
+          "items": 104,
+          "nodes": 1295,
+          "run": 0
+        },
+        {
+          "ops": 148,
+          "commit_us": 261,
+          "list_js_us": 0,
+          "items": 103,
+          "nodes": 1295,
+          "run": 1
+        },
+        {
+          "ops": 124,
+          "commit_us": 222,
+          "list_js_us": 0,
+          "items": 82,
+          "nodes": 1295,
+          "run": 1
+        },
+        {
+          "ops": 138,
+          "commit_us": 232,
+          "list_js_us": 0,
+          "items": 90,
+          "nodes": 1295,
+          "run": 1
+        },
+        {
+          "ops": 136,
+          "commit_us": 220,
+          "list_js_us": 0,
+          "items": 58,
+          "nodes": 1295,
+          "run": 1
+        },
+        {
+          "ops": 129,
+          "commit_us": 233,
+          "list_js_us": 0,
+          "items": 90,
+          "nodes": 1295,
+          "run": 1
+        },
+        {
+          "ops": 130,
+          "commit_us": 229,
+          "list_js_us": 0,
+          "items": 82,
+          "nodes": 1295,
+          "run": 1
+        },
+        {
+          "ops": 166,
+          "commit_us": 249,
+          "list_js_us": 0,
+          "items": 110,
+          "nodes": 1295,
+          "run": 1
+        },
+        {
+          "ops": 122,
+          "commit_us": 220,
+          "list_js_us": 0,
+          "items": 91,
+          "nodes": 1295,
+          "run": 1
+        },
+        {
+          "ops": 142,
+          "commit_us": 242,
+          "list_js_us": 0,
+          "items": 94,
+          "nodes": 1295,
+          "run": 1
+        },
+        {
+          "ops": 171,
+          "commit_us": 269,
+          "list_js_us": 0,
+          "items": 108,
+          "nodes": 1295,
+          "run": 1
+        },
+        {
+          "ops": 122,
+          "commit_us": 205,
+          "list_js_us": 0,
+          "items": 80,
+          "nodes": 1295,
+          "run": 1
+        },
+        {
+          "ops": 122,
+          "commit_us": 238,
+          "list_js_us": 0,
+          "items": 73,
+          "nodes": 1295,
+          "run": 1
+        },
+        {
+          "ops": 166,
+          "commit_us": 255,
+          "list_js_us": 0,
+          "items": 111,
+          "nodes": 1295,
+          "run": 1
+        },
+        {
+          "ops": 160,
+          "commit_us": 265,
+          "list_js_us": 0,
+          "items": 106,
+          "nodes": 1295,
+          "run": 1
+        },
+        {
+          "ops": 153,
+          "commit_us": 251,
+          "list_js_us": 0,
+          "items": 101,
+          "nodes": 1295,
+          "run": 1
+        },
+        {
+          "ops": 144,
+          "commit_us": 232,
+          "list_js_us": 0,
+          "items": 96,
+          "nodes": 1295,
+          "run": 1
+        },
+        {
+          "ops": 132,
+          "commit_us": 209,
+          "list_js_us": 0,
+          "items": 87,
+          "nodes": 1295,
+          "run": 1
+        },
+        {
+          "ops": 140,
+          "commit_us": 219,
+          "list_js_us": 0,
+          "items": 87,
+          "nodes": 1295,
+          "run": 1
+        },
+        {
+          "ops": 134,
+          "commit_us": 206,
+          "list_js_us": 0,
+          "items": 89,
+          "nodes": 1295,
+          "run": 1
+        },
+        {
+          "ops": 183,
+          "commit_us": 278,
+          "list_js_us": 0,
+          "items": 118,
+          "nodes": 1295,
+          "run": 1
+        },
+        {
+          "ops": 138,
+          "commit_us": 234,
+          "list_js_us": 0,
+          "items": 93,
+          "nodes": 1295,
+          "run": 1
+        },
+        {
+          "ops": 128,
+          "commit_us": 199,
+          "list_js_us": 0,
+          "items": 57,
+          "nodes": 1295,
+          "run": 1
+        },
+        {
+          "ops": 146,
+          "commit_us": 220,
+          "list_js_us": 0,
+          "items": 90,
+          "nodes": 1295,
+          "run": 1
+        },
+        {
+          "ops": 150,
+          "commit_us": 238,
+          "list_js_us": 0,
+          "items": 98,
+          "nodes": 1295,
+          "run": 1
+        },
+        {
+          "ops": 131,
+          "commit_us": 211,
+          "list_js_us": 0,
+          "items": 85,
+          "nodes": 1295,
+          "run": 1
+        },
+        {
+          "ops": 142,
+          "commit_us": 220,
+          "list_js_us": 0,
+          "items": 94,
+          "nodes": 1295,
+          "run": 1
+        },
+        {
+          "ops": 146,
+          "commit_us": 231,
+          "list_js_us": 0,
+          "items": 98,
+          "nodes": 1295,
+          "run": 1
+        },
+        {
+          "ops": 144,
+          "commit_us": 234,
+          "list_js_us": 0,
+          "items": 96,
+          "nodes": 1295,
+          "run": 1
+        },
+        {
+          "ops": 156,
+          "commit_us": 227,
+          "list_js_us": 0,
+          "items": 95,
+          "nodes": 1295,
+          "run": 1
+        },
+        {
+          "ops": 131,
+          "commit_us": 212,
+          "list_js_us": 0,
+          "items": 78,
+          "nodes": 1295,
+          "run": 1
+        },
+        {
+          "ops": 166,
+          "commit_us": 236,
+          "list_js_us": 0,
+          "items": 87,
+          "nodes": 1295,
+          "run": 1
+        },
+        {
+          "ops": 130,
+          "commit_us": 217,
+          "list_js_us": 0,
+          "items": 86,
+          "nodes": 1295,
+          "run": 1
+        },
+        {
+          "ops": 144,
+          "commit_us": 263,
+          "list_js_us": 0,
+          "items": 98,
+          "nodes": 1295,
+          "run": 1
+        },
+        {
+          "ops": 148,
+          "commit_us": 264,
+          "list_js_us": 0,
+          "items": 97,
+          "nodes": 1295,
+          "run": 1
+        },
+        {
+          "ops": 135,
+          "commit_us": 223,
+          "list_js_us": 0,
+          "items": 93,
+          "nodes": 1295,
+          "run": 1
+        },
+        {
+          "ops": 140,
+          "commit_us": 232,
+          "list_js_us": 0,
+          "items": 91,
+          "nodes": 1295,
+          "run": 1
+        },
+        {
+          "ops": 132,
+          "commit_us": 239,
+          "list_js_us": 0,
+          "items": 89,
+          "nodes": 1295,
+          "run": 1
+        },
+        {
+          "ops": 112,
+          "commit_us": 209,
+          "list_js_us": 0,
+          "items": 72,
+          "nodes": 1295,
+          "run": 1
+        },
+        {
+          "ops": 158,
+          "commit_us": 236,
+          "list_js_us": 0,
+          "items": 97,
+          "nodes": 1295,
+          "run": 1
+        },
+        {
+          "ops": 177,
+          "commit_us": 250,
+          "list_js_us": 0,
+          "items": 110,
+          "nodes": 1295,
+          "run": 1
+        },
+        {
+          "ops": 132,
+          "commit_us": 216,
+          "list_js_us": 0,
+          "items": 88,
+          "nodes": 1295,
+          "run": 1
+        },
+        {
+          "ops": 150,
+          "commit_us": 223,
+          "list_js_us": 0,
+          "items": 96,
+          "nodes": 1295,
+          "run": 1
+        },
+        {
+          "ops": 192,
+          "commit_us": 253,
+          "list_js_us": 0,
+          "items": 121,
+          "nodes": 1295,
+          "run": 1
+        },
+        {
+          "ops": 156,
+          "commit_us": 229,
+          "list_js_us": 0,
+          "items": 100,
+          "nodes": 1295,
+          "run": 1
+        },
+        {
+          "ops": 135,
+          "commit_us": 211,
+          "list_js_us": 0,
+          "items": 90,
+          "nodes": 1295,
+          "run": 1
+        },
+        {
+          "ops": 140,
+          "commit_us": 217,
+          "list_js_us": 0,
+          "items": 65,
+          "nodes": 1295,
+          "run": 1
+        },
+        {
+          "ops": 166,
+          "commit_us": 233,
+          "list_js_us": 0,
+          "items": 109,
+          "nodes": 1295,
+          "run": 1
+        },
+        {
+          "ops": 146,
+          "commit_us": 222,
+          "list_js_us": 0,
+          "items": 93,
+          "nodes": 1295,
+          "run": 1
+        },
+        {
+          "ops": 124,
+          "commit_us": 216,
+          "list_js_us": 0,
+          "items": 83,
+          "nodes": 1295,
+          "run": 1
+        },
+        {
+          "ops": 143,
+          "commit_us": 215,
+          "list_js_us": 0,
+          "items": 98,
+          "nodes": 1295,
+          "run": 1
+        },
+        {
+          "ops": 128,
+          "commit_us": 189,
+          "list_js_us": 0,
+          "items": 49,
+          "nodes": 1295,
+          "run": 1
+        },
+        {
+          "ops": 134,
+          "commit_us": 216,
+          "list_js_us": 0,
+          "items": 87,
+          "nodes": 1295,
+          "run": 1
+        },
+        {
+          "ops": 134,
+          "commit_us": 192,
+          "list_js_us": 0,
+          "items": 61,
+          "nodes": 1295,
+          "run": 1
+        },
+        {
+          "ops": 154,
+          "commit_us": 233,
+          "list_js_us": 0,
+          "items": 103,
+          "nodes": 1295,
+          "run": 1
+        },
+        {
+          "ops": 157,
+          "commit_us": 232,
+          "list_js_us": 0,
+          "items": 107,
+          "nodes": 1295,
+          "run": 1
+        },
+        {
+          "ops": 128,
+          "commit_us": 218,
+          "list_js_us": 0,
+          "items": 85,
+          "nodes": 1295,
+          "run": 1
+        },
+        {
+          "ops": 122,
+          "commit_us": 245,
+          "list_js_us": 0,
+          "items": 81,
+          "nodes": 1295,
+          "run": 1
+        },
+        {
+          "ops": 160,
+          "commit_us": 235,
+          "list_js_us": 0,
+          "items": 108,
+          "nodes": 1295,
+          "run": 1
+        },
+        {
+          "ops": 154,
+          "commit_us": 232,
+          "list_js_us": 0,
+          "items": 95,
+          "nodes": 1295,
+          "run": 1
+        },
+        {
+          "ops": 169,
+          "commit_us": 244,
+          "list_js_us": 0,
+          "items": 104,
+          "nodes": 1295,
+          "run": 1
+        },
+        {
+          "ops": 148,
+          "commit_us": 308,
+          "list_js_us": 0,
+          "items": 103,
+          "nodes": 1295,
+          "run": 2
+        },
+        {
+          "ops": 124,
+          "commit_us": 254,
+          "list_js_us": 0,
+          "items": 82,
+          "nodes": 1295,
+          "run": 2
+        },
+        {
+          "ops": 138,
+          "commit_us": 286,
+          "list_js_us": 0,
+          "items": 90,
+          "nodes": 1295,
+          "run": 2
+        },
+        {
+          "ops": 136,
+          "commit_us": 215,
+          "list_js_us": 0,
+          "items": 58,
+          "nodes": 1295,
+          "run": 2
+        },
+        {
+          "ops": 129,
+          "commit_us": 232,
+          "list_js_us": 0,
+          "items": 90,
+          "nodes": 1295,
+          "run": 2
+        },
+        {
+          "ops": 130,
+          "commit_us": 213,
+          "list_js_us": 0,
+          "items": 82,
+          "nodes": 1295,
+          "run": 2
+        },
+        {
+          "ops": 166,
+          "commit_us": 249,
+          "list_js_us": 0,
+          "items": 110,
+          "nodes": 1295,
+          "run": 2
+        },
+        {
+          "ops": 122,
+          "commit_us": 287,
+          "list_js_us": 0,
+          "items": 91,
+          "nodes": 1295,
+          "run": 2
+        },
+        {
+          "ops": 142,
+          "commit_us": 244,
+          "list_js_us": 0,
+          "items": 94,
+          "nodes": 1295,
+          "run": 2
+        },
+        {
+          "ops": 171,
+          "commit_us": 270,
+          "list_js_us": 0,
+          "items": 108,
+          "nodes": 1295,
+          "run": 2
+        },
+        {
+          "ops": 122,
+          "commit_us": 227,
+          "list_js_us": 0,
+          "items": 80,
+          "nodes": 1295,
+          "run": 2
+        },
+        {
+          "ops": 122,
+          "commit_us": 197,
+          "list_js_us": 0,
+          "items": 73,
+          "nodes": 1295,
+          "run": 2
+        },
+        {
+          "ops": 166,
+          "commit_us": 247,
+          "list_js_us": 0,
+          "items": 111,
+          "nodes": 1295,
+          "run": 2
+        },
+        {
+          "ops": 160,
+          "commit_us": 245,
+          "list_js_us": 0,
+          "items": 106,
+          "nodes": 1295,
+          "run": 2
+        },
+        {
+          "ops": 153,
+          "commit_us": 226,
+          "list_js_us": 0,
+          "items": 101,
+          "nodes": 1295,
+          "run": 2
+        },
+        {
+          "ops": 144,
+          "commit_us": 239,
+          "list_js_us": 0,
+          "items": 96,
+          "nodes": 1295,
+          "run": 2
+        },
+        {
+          "ops": 132,
+          "commit_us": 207,
+          "list_js_us": 0,
+          "items": 87,
+          "nodes": 1295,
+          "run": 2
+        },
+        {
+          "ops": 140,
+          "commit_us": 221,
+          "list_js_us": 0,
+          "items": 87,
+          "nodes": 1295,
+          "run": 2
+        },
+        {
+          "ops": 134,
+          "commit_us": 203,
+          "list_js_us": 0,
+          "items": 89,
+          "nodes": 1295,
+          "run": 2
+        },
+        {
+          "ops": 183,
+          "commit_us": 263,
+          "list_js_us": 0,
+          "items": 118,
+          "nodes": 1295,
+          "run": 2
+        },
+        {
+          "ops": 138,
+          "commit_us": 244,
+          "list_js_us": 0,
+          "items": 93,
+          "nodes": 1295,
+          "run": 2
+        },
+        {
+          "ops": 128,
+          "commit_us": 195,
+          "list_js_us": 0,
+          "items": 57,
+          "nodes": 1295,
+          "run": 2
+        },
+        {
+          "ops": 146,
+          "commit_us": 223,
+          "list_js_us": 0,
+          "items": 90,
+          "nodes": 1295,
+          "run": 2
+        },
+        {
+          "ops": 150,
+          "commit_us": 223,
+          "list_js_us": 0,
+          "items": 98,
+          "nodes": 1295,
+          "run": 2
+        },
+        {
+          "ops": 131,
+          "commit_us": 208,
+          "list_js_us": 0,
+          "items": 85,
+          "nodes": 1295,
+          "run": 2
+        },
+        {
+          "ops": 142,
+          "commit_us": 252,
+          "list_js_us": 0,
+          "items": 94,
+          "nodes": 1295,
+          "run": 2
+        },
+        {
+          "ops": 146,
+          "commit_us": 242,
+          "list_js_us": 0,
+          "items": 98,
+          "nodes": 1295,
+          "run": 2
+        },
+        {
+          "ops": 144,
+          "commit_us": 218,
+          "list_js_us": 0,
+          "items": 96,
+          "nodes": 1295,
+          "run": 2
+        },
+        {
+          "ops": 156,
+          "commit_us": 228,
+          "list_js_us": 0,
+          "items": 95,
+          "nodes": 1295,
+          "run": 2
+        },
+        {
+          "ops": 131,
+          "commit_us": 199,
+          "list_js_us": 0,
+          "items": 78,
+          "nodes": 1295,
+          "run": 2
+        },
+        {
+          "ops": 166,
+          "commit_us": 226,
+          "list_js_us": 0,
+          "items": 87,
+          "nodes": 1295,
+          "run": 2
+        },
+        {
+          "ops": 130,
+          "commit_us": 224,
+          "list_js_us": 0,
+          "items": 86,
+          "nodes": 1295,
+          "run": 2
+        },
+        {
+          "ops": 144,
+          "commit_us": 220,
+          "list_js_us": 0,
+          "items": 98,
+          "nodes": 1295,
+          "run": 2
+        },
+        {
+          "ops": 148,
+          "commit_us": 229,
+          "list_js_us": 0,
+          "items": 97,
+          "nodes": 1295,
+          "run": 2
+        },
+        {
+          "ops": 135,
+          "commit_us": 209,
+          "list_js_us": 0,
+          "items": 93,
+          "nodes": 1295,
+          "run": 2
+        },
+        {
+          "ops": 140,
+          "commit_us": 217,
+          "list_js_us": 0,
+          "items": 91,
+          "nodes": 1295,
+          "run": 2
+        },
+        {
+          "ops": 132,
+          "commit_us": 204,
+          "list_js_us": 0,
+          "items": 89,
+          "nodes": 1295,
+          "run": 2
+        },
+        {
+          "ops": 112,
+          "commit_us": 181,
+          "list_js_us": 0,
+          "items": 72,
+          "nodes": 1295,
+          "run": 2
+        },
+        {
+          "ops": 158,
+          "commit_us": 240,
+          "list_js_us": 0,
+          "items": 97,
+          "nodes": 1295,
+          "run": 2
+        },
+        {
+          "ops": 177,
+          "commit_us": 262,
+          "list_js_us": 0,
+          "items": 110,
+          "nodes": 1295,
+          "run": 2
+        },
+        {
+          "ops": 132,
+          "commit_us": 211,
+          "list_js_us": 0,
+          "items": 88,
+          "nodes": 1295,
+          "run": 2
+        },
+        {
+          "ops": 150,
+          "commit_us": 220,
+          "list_js_us": 0,
+          "items": 96,
+          "nodes": 1295,
+          "run": 2
+        },
+        {
+          "ops": 192,
+          "commit_us": 286,
+          "list_js_us": 0,
+          "items": 121,
+          "nodes": 1295,
+          "run": 2
+        },
+        {
+          "ops": 156,
+          "commit_us": 246,
+          "list_js_us": 0,
+          "items": 100,
+          "nodes": 1295,
+          "run": 2
+        },
+        {
+          "ops": 135,
+          "commit_us": 213,
+          "list_js_us": 0,
+          "items": 90,
+          "nodes": 1295,
+          "run": 2
+        },
+        {
+          "ops": 140,
+          "commit_us": 206,
+          "list_js_us": 0,
+          "items": 65,
+          "nodes": 1295,
+          "run": 2
+        },
+        {
+          "ops": 166,
+          "commit_us": 240,
+          "list_js_us": 0,
+          "items": 109,
+          "nodes": 1295,
+          "run": 2
+        },
+        {
+          "ops": 146,
+          "commit_us": 241,
+          "list_js_us": 0,
+          "items": 93,
+          "nodes": 1295,
+          "run": 2
+        },
+        {
+          "ops": 124,
+          "commit_us": 244,
+          "list_js_us": 0,
+          "items": 83,
+          "nodes": 1295,
+          "run": 2
+        },
+        {
+          "ops": 143,
+          "commit_us": 241,
+          "list_js_us": 0,
+          "items": 98,
+          "nodes": 1295,
+          "run": 2
+        },
+        {
+          "ops": 128,
+          "commit_us": 193,
+          "list_js_us": 0,
+          "items": 49,
+          "nodes": 1295,
+          "run": 2
+        },
+        {
+          "ops": 134,
+          "commit_us": 232,
+          "list_js_us": 0,
+          "items": 87,
+          "nodes": 1295,
+          "run": 2
+        },
+        {
+          "ops": 134,
+          "commit_us": 196,
+          "list_js_us": 0,
+          "items": 61,
+          "nodes": 1295,
+          "run": 2
+        },
+        {
+          "ops": 154,
+          "commit_us": 254,
+          "list_js_us": 0,
+          "items": 103,
+          "nodes": 1295,
+          "run": 2
+        },
+        {
+          "ops": 157,
+          "commit_us": 257,
+          "list_js_us": 0,
+          "items": 107,
+          "nodes": 1295,
+          "run": 2
+        },
+        {
+          "ops": 128,
+          "commit_us": 247,
+          "list_js_us": 0,
+          "items": 85,
+          "nodes": 1295,
+          "run": 2
+        },
+        {
+          "ops": 122,
+          "commit_us": 331,
+          "list_js_us": 0,
+          "items": 81,
+          "nodes": 1295,
+          "run": 2
+        },
+        {
+          "ops": 160,
+          "commit_us": 306,
+          "list_js_us": 0,
+          "items": 108,
+          "nodes": 1295,
+          "run": 2
+        },
+        {
+          "ops": 154,
+          "commit_us": 252,
+          "list_js_us": 0,
+          "items": 95,
+          "nodes": 1295,
+          "run": 2
+        },
+        {
+          "ops": 169,
+          "commit_us": 254,
+          "list_js_us": 0,
+          "items": 104,
+          "nodes": 1295,
+          "run": 2
+        }
+      ]
+    },
+    "first_commit": {
+      "n": 3,
+      "stats": {
+        "ops": {
+          "median": 4596,
+          "min": 4596,
+          "max": 4596
+        },
+        "commit_us": {
+          "median": 4265,
+          "min": 4043,
+          "max": 4526
+        },
+        "items": {
+          "median": 3939,
+          "min": 3939,
+          "max": 3939
+        },
+        "nodes": {
+          "median": 1295,
+          "min": 1295,
+          "max": 1295
+        }
+      }
+    }
+  }
+}

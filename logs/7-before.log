@@ -1,0 +1,1008 @@
+ INFO nsh::perf commit: 4412 ops, 13845µs (list js 2385µs), 3708 mount items, 1249 nodes
+ INFO nsh::perf first frame: eval 29191µs, total 43680µs
+ INFO nsh::perf event Insets on view 624
+ INFO nsh::perf event js: 72µs
+ INFO nsh::perf commit: 2 ops, 58µs (list js 0µs), 0 mount items, 1249 nodes
+ INFO nsh::perf commit: 1 ops, 158µs (list js 13µs), 38 mount items, 1249 nodes
+ INFO nsh::perf turn: 165µs (timers and tasks 0µs)
+ INFO nsh::perf commit: 0 ops, 177µs (list js 7µs), 38 mount items, 1249 nodes
+ INFO nsh::perf turn: 185µs (timers and tasks 0µs)
+ INFO nsh::perf commit: 1 ops, 50µs (list js 0µs), 0 mount items, 1249 nodes
+ INFO nsh::perf commit: 138 ops, 1201µs (list js 0µs), 106 mount items, 1249 nodes
+ INFO nsh::perf turn: 2315µs (timers and tasks 1106µs)
+ INFO nsh::perf commit: 134 ops, 1320µs (list js 0µs), 103 mount items, 1249 nodes
+ INFO nsh::perf turn: 2600µs (timers and tasks 1268µs)
+ INFO nsh::perf commit: 128 ops, 1290µs (list js 1µs), 88 mount items, 1249 nodes
+ INFO nsh::perf turn: 2437µs (timers and tasks 1133µs)
+ INFO nsh::perf commit: 126 ops, 1278µs (list js 1µs), 69 mount items, 1249 nodes
+ INFO nsh::perf turn: 2492µs (timers and tasks 1198µs)
+ INFO nsh::perf commit: 137 ops, 1378µs (list js 1µs), 79 mount items, 1249 nodes
+ INFO nsh::perf turn: 2976µs (timers and tasks 1586µs)
+ INFO nsh::perf commit: 128 ops, 1529µs (list js 1µs), 89 mount items, 1249 nodes
+ INFO nsh::perf turn: 2914µs (timers and tasks 1361µs)
+ INFO nsh::perf commit: 122 ops, 1455µs (list js 1µs), 76 mount items, 1249 nodes
+ INFO nsh::perf turn: 2736µs (timers and tasks 1262µs)
+ INFO nsh::perf commit: 106 ops, 1285µs (list js 1µs), 71 mount items, 1249 nodes
+ INFO nsh::perf turn: 2362µs (timers and tasks 1064µs)
+ INFO nsh::perf commit: 108 ops, 1242µs (list js 1µs), 73 mount items, 1249 nodes
+ INFO nsh::perf turn: 2336µs (timers and tasks 1081µs)
+ INFO nsh::perf fps 115/120 frame 2.75/2.26/4.95/20.71 gap 8.59/8.26/10.89/28.25 over 2% tick 2.69/2.26/5.75/20.70 drain 55.50/55.50/55.50/55.50 canvas 0.63/0.45/1.33/3.63 commits 10 js 1.13/1.16/1.61/1.61 core 1.20/1.28/1.53/1.53 items 75 engine 2% cpu 66% gpu 14% mem 134.6 MB
+ INFO nsh::perf commit: 133 ops, 1552µs (list js 1µs), 91 mount items, 1249 nodes
+ INFO nsh::perf turn: 3180µs (timers and tasks 1615µs)
+ INFO nsh::perf commit: 102 ops, 1235µs (list js 1µs), 70 mount items, 1249 nodes
+ INFO nsh::perf turn: 2196µs (timers and tasks 947µs)
+ INFO nsh::perf commit: 110 ops, 1148µs (list js 1µs), 71 mount items, 1249 nodes
+ INFO nsh::perf turn: 2231µs (timers and tasks 1067µs)
+ INFO nsh::perf commit: 128 ops, 1368µs (list js 1µs), 83 mount items, 1249 nodes
+ INFO nsh::perf turn: 2760µs (timers and tasks 1379µs)
+ INFO nsh::perf commit: 122 ops, 1516µs (list js 1µs), 90 mount items, 1249 nodes
+ INFO nsh::perf turn: 2781µs (timers and tasks 1251µs)
+ INFO nsh::perf commit: 137 ops, 1604µs (list js 1µs), 99 mount items, 1249 nodes
+ INFO nsh::perf turn: 3215µs (timers and tasks 1598µs)
+ INFO nsh::perf commit: 116 ops, 1316µs (list js 0µs), 80 mount items, 1249 nodes
+ INFO nsh::perf turn: 2557µs (timers and tasks 1228µs)
+ INFO nsh::perf commit: 128 ops, 1135µs (list js 1µs), 91 mount items, 1249 nodes
+ INFO nsh::perf turn: 2221µs (timers and tasks 1077µs)
+ INFO nsh::perf commit: 126 ops, 1164µs (list js 0µs), 90 mount items, 1249 nodes
+ INFO nsh::perf turn: 2212µs (timers and tasks 1038µs)
+ INFO nsh::perf commit: 122 ops, 1134µs (list js 1µs), 86 mount items, 1249 nodes
+ INFO nsh::perf turn: 2167µs (timers and tasks 1015µs)
+ INFO nsh::perf commit: 155 ops, 1228µs (list js 0µs), 99 mount items, 1249 nodes
+ INFO nsh::perf turn: 2411µs (timers and tasks 1168µs)
+ INFO nsh::perf commit: 136 ops, 1237µs (list js 0µs), 95 mount items, 1249 nodes
+ INFO nsh::perf turn: 2449µs (timers and tasks 1199µs)
+ INFO nsh::perf commit: 126 ops, 1126µs (list js 0µs), 85 mount items, 1249 nodes
+ INFO nsh::perf turn: 2248µs (timers and tasks 1107µs)
+ INFO nsh::perf commit: 124 ops, 1139µs (list js 1µs), 83 mount items, 1249 nodes
+ INFO nsh::perf turn: 2230µs (timers and tasks 1081µs)
+ INFO nsh::perf commit: 122 ops, 1071µs (list js 0µs), 80 mount items, 1249 nodes
+ INFO nsh::perf turn: 2113µs (timers and tasks 1029µs)
+ INFO nsh::perf commit: 139 ops, 1354µs (list js 0µs), 107 mount items, 1249 nodes
+ INFO nsh::perf turn: 2708µs (timers and tasks 1342µs)
+ INFO nsh::perf commit: 126 ops, 1116µs (list js 0µs), 88 mount items, 1249 nodes
+ INFO nsh::perf turn: 2197µs (timers and tasks 1069µs)
+ INFO nsh::perf commit: 132 ops, 1154µs (list js 0µs), 93 mount items, 1249 nodes
+ INFO nsh::perf turn: 2308µs (timers and tasks 1142µs)
+ INFO nsh::perf commit: 136 ops, 1045µs (list js 0µs), 91 mount items, 1249 nodes
+ INFO nsh::perf turn: 2198µs (timers and tasks 1142µs)
+ INFO nsh::perf commit: 126 ops, 1661µs (list js 1µs), 88 mount items, 1249 nodes
+ INFO nsh::perf turn: 3209µs (timers and tasks 1534µs)
+ INFO nsh::perf fps 119/120 frame 2.14/2.13/3.51/4.30 gap 8.35/8.37/10.57/11.62 over 0% tick 2.12/2.13/3.51/4.30 drain 0.00/0.00/0.00/0.00 canvas 0.36/0.32/0.67/1.22 commits 19 js 1.20/1.17/1.62/1.64 core 1.24/1.24/1.60/1.66 items 84 engine 5% cpu 36% gpu 23% mem 150.7 MB
+ INFO nsh::perf commit: 137 ops, 1785µs (list js 1µs), 98 mount items, 1249 nodes
+ INFO nsh::perf turn: 3551µs (timers and tasks 1754µs)
+ INFO nsh::perf commit: 130 ops, 1600µs (list js 1µs), 87 mount items, 1249 nodes
+ INFO nsh::perf turn: 3167µs (timers and tasks 1550µs)
+ INFO nsh::perf commit: 134 ops, 1546µs (list js 1µs), 90 mount items, 1249 nodes
+ INFO nsh::perf turn: 3063µs (timers and tasks 1503µs)
+ INFO nsh::perf commit: 120 ops, 1579µs (list js 1µs), 86 mount items, 1249 nodes
+ INFO nsh::perf turn: 2885µs (timers and tasks 1292µs)
+ INFO nsh::perf commit: 116 ops, 1308µs (list js 1µs), 80 mount items, 1249 nodes
+ INFO nsh::perf turn: 2526µs (timers and tasks 1205µs)
+ INFO nsh::perf commit: 143 ops, 1570µs (list js 0µs), 100 mount items, 1249 nodes
+ INFO nsh::perf turn: 3337µs (timers and tasks 1753µs)
+ INFO nsh::perf commit: 122 ops, 1343µs (list js 0µs), 82 mount items, 1249 nodes
+ INFO nsh::perf turn: 2660µs (timers and tasks 1300µs)
+ INFO nsh::perf commit: 128 ops, 1527µs (list js 1µs), 88 mount items, 1249 nodes
+ INFO nsh::perf turn: 2961µs (timers and tasks 1422µs)
+ INFO nsh::perf commit: 126 ops, 1774µs (list js 1µs), 86 mount items, 1249 nodes
+ INFO nsh::perf turn: 3840µs (timers and tasks 2049µs)
+ INFO nsh::perf commit: 138 ops, 1642µs (list js 1µs), 85 mount items, 1249 nodes
+ INFO nsh::perf turn: 3358µs (timers and tasks 1699µs)
+ INFO nsh::perf commit: 153 ops, 1539µs (list js 1µs), 102 mount items, 1249 nodes
+ INFO nsh::perf turn: 3045µs (timers and tasks 1492µs)
+ INFO nsh::perf commit: 124 ops, 1492µs (list js 0µs), 86 mount items, 1249 nodes
+ INFO nsh::perf turn: 2810µs (timers and tasks 1305µs)
+ INFO nsh::perf commit: 130 ops, 1599µs (list js 0µs), 93 mount items, 1249 nodes
+ INFO nsh::perf turn: 2955µs (timers and tasks 1341µs)
+ INFO nsh::perf commit: 116 ops, 1421µs (list js 1µs), 74 mount items, 1249 nodes
+ INFO nsh::perf turn: 2695µs (timers and tasks 1261µs)
+ INFO nsh::perf commit: 106 ops, 1189µs (list js 1µs), 73 mount items, 1249 nodes
+ INFO nsh::perf turn: 2135µs (timers and tasks 932µs)
+ INFO nsh::perf commit: 121 ops, 1620µs (list js 0µs), 85 mount items, 1249 nodes
+ INFO nsh::perf turn: 3069µs (timers and tasks 1434µs)
+ INFO nsh::perf commit: 130 ops, 1596µs (list js 0µs), 94 mount items, 1249 nodes
+ INFO nsh::perf turn: 3055µs (timers and tasks 1445µs)
+ INFO nsh::perf commit: 114 ops, 1436µs (list js 0µs), 80 mount items, 1249 nodes
+ INFO nsh::perf turn: 2726µs (timers and tasks 1275µs)
+ INFO nsh::perf commit: 130 ops, 1485µs (list js 1µs), 91 mount items, 1249 nodes
+ INFO nsh::perf turn: 3011µs (timers and tasks 1510µs)
+ INFO nsh::perf commit: 118 ops, 1334µs (list js 0µs), 78 mount items, 1249 nodes
+ INFO nsh::perf turn: 2528µs (timers and tasks 1181µs)
+ INFO nsh::perf commit: 111 ops, 1445µs (list js 0µs), 80 mount items, 1249 nodes
+ INFO nsh::perf turn: 2812µs (timers and tasks 1351µs)
+ INFO nsh::perf fps 120/120 frame 2.33/2.06/4.25/5.27 gap 8.30/8.29/10.71/11.47 over 0% tick 2.31/2.07/4.25/5.27 drain 0.00/0.00/0.00/0.00 canvas 0.39/0.34/0.76/0.90 commits 20 js 1.30/1.29/1.78/2.09 core 1.36/1.35/1.66/1.78 items 85 engine 6% cpu 39% gpu 22% mem 149.0 MB
+ INFO nsh::perf commit: 108 ops, 1341µs (list js 1µs), 72 mount items, 1249 nodes
+ INFO nsh::perf turn: 2522µs (timers and tasks 1167µs)
+ INFO nsh::perf commit: 130 ops, 1518µs (list js 1µs), 91 mount items, 1249 nodes
+ INFO nsh::perf turn: 3013µs (timers and tasks 1478µs)
+ INFO nsh::perf commit: 120 ops, 1614µs (list js 1µs), 82 mount items, 1249 nodes
+ INFO nsh::perf turn: 2970µs (timers and tasks 1339µs)
+ INFO nsh::perf commit: 120 ops, 1483µs (list js 1µs), 79 mount items, 1249 nodes
+ INFO nsh::perf turn: 2729µs (timers and tasks 1212µs)
+ INFO nsh::perf commit: 125 ops, 1389µs (list js 0µs), 85 mount items, 1249 nodes
+ INFO nsh::perf turn: 2940µs (timers and tasks 1538µs)
+ INFO nsh::perf commit: 120 ops, 1370µs (list js 0µs), 84 mount items, 1249 nodes
+ INFO nsh::perf turn: 2653µs (timers and tasks 1271µs)
+ INFO nsh::perf commit: 126 ops, 1375µs (list js 1µs), 87 mount items, 1249 nodes
+ INFO nsh::perf turn: 2758µs (timers and tasks 1366µs)
+ INFO nsh::perf commit: 128 ops, 1387µs (list js 0µs), 90 mount items, 1249 nodes
+ INFO nsh::perf turn: 2690µs (timers and tasks 1289µs)
+ INFO nsh::perf commit: 124 ops, 1440µs (list js 1µs), 85 mount items, 1249 nodes
+ INFO nsh::perf turn: 2758µs (timers and tasks 1303µs)
+ INFO nsh::perf commit: 163 ops, 1749µs (list js 1µs), 105 mount items, 1249 nodes
+ INFO nsh::perf turn: 3454µs (timers and tasks 1691µs)
+ INFO nsh::perf commit: 126 ops, 1519µs (list js 0µs), 91 mount items, 1249 nodes
+ INFO nsh::perf turn: 2856µs (timers and tasks 1322µs)
+ INFO nsh::perf commit: 118 ops, 1448µs (list js 1µs), 78 mount items, 1249 nodes
+ INFO nsh::perf turn: 2801µs (timers and tasks 1340µs)
+ INFO nsh::perf commit: 120 ops, 1501µs (list js 1µs), 84 mount items, 1249 nodes
+ INFO nsh::perf turn: 2847µs (timers and tasks 1326µs)
+ INFO nsh::perf commit: 112 ops, 1309µs (list js 0µs), 79 mount items, 1249 nodes
+ INFO nsh::perf turn: 2471µs (timers and tasks 1148µs)
+ INFO nsh::perf commit: 137 ops, 1469µs (list js 0µs), 93 mount items, 1249 nodes
+ INFO nsh::perf turn: 3135µs (timers and tasks 1649µs)
+ INFO nsh::perf commit: 118 ops, 1462µs (list js 0µs), 79 mount items, 1249 nodes
+ INFO nsh::perf turn: 2757µs (timers and tasks 1281µs)
+ INFO nsh::perf commit: 130 ops, 1483µs (list js 1µs), 87 mount items, 1249 nodes
+ INFO nsh::perf turn: 2920µs (timers and tasks 1417µs)
+ INFO nsh::perf commit: 118 ops, 1085µs (list js 1µs), 79 mount items, 1249 nodes
+ INFO nsh::perf turn: 2098µs (timers and tasks 1002µs)
+ INFO nsh::perf commit: 128 ops, 1390µs (list js 1µs), 90 mount items, 1249 nodes
+ INFO nsh::perf turn: 2716µs (timers and tasks 1313µs)
+ INFO nsh::perf commit: 121 ops, 1446µs (list js 1µs), 84 mount items, 1249 nodes
+ INFO nsh::perf turn: 2791µs (timers and tasks 1332µs)
+ INFO nsh::perf fps 118/120 frame 2.53/2.17/4.38/10.23 gap 8.38/8.34/12.11/15.75 over 2% tick 2.49/2.17/4.38/10.23 drain 0.00/0.00/0.00/0.00 canvas 0.39/0.34/0.73/0.95 commits 19 js 1.32/1.32/1.72/2.09 core 1.38/1.39/1.66/1.78 items 85 engine 5% cpu 41% gpu 23% mem 149.3 MB
+ INFO nsh::perf commit: 120 ops, 1454µs (list js 1µs), 81 mount items, 1249 nodes
+ INFO nsh::perf turn: 2734µs (timers and tasks 1266µs)
+ INFO nsh::perf commit: 144 ops, 1557µs (list js 0µs), 101 mount items, 1249 nodes
+ INFO nsh::perf turn: 3136µs (timers and tasks 1554µs)
+ INFO nsh::perf commit: 134 ops, 1314µs (list js 0µs), 80 mount items, 1249 nodes
+ INFO nsh::perf turn: 2749µs (timers and tasks 1410µs)
+ INFO nsh::perf commit: 124 ops, 1528µs (list js 1µs), 84 mount items, 1249 nodes
+ INFO nsh::perf turn: 3071µs (timers and tasks 1528µs)
+ INFO nsh::perf commit: 131 ops, 1960µs (list js 1µs), 95 mount items, 1249 nodes
+ INFO nsh::perf turn: 3656µs (timers and tasks 1681µs)
+ INFO nsh::perf commit: 120 ops, 1354µs (list js 0µs), 80 mount items, 1249 nodes
+ INFO nsh::perf turn: 2631µs (timers and tasks 1261µs)
+ INFO nsh::perf commit: 122 ops, 1339µs (list js 1µs), 80 mount items, 1249 nodes
+ INFO nsh::perf turn: 2756µs (timers and tasks 1402µs)
+ INFO nsh::perf commit: 130 ops, 1612µs (list js 0µs), 92 mount items, 1249 nodes
+ INFO nsh::perf turn: 3216µs (timers and tasks 1582µs)
+ INFO nsh::perf commit: 124 ops, 1066µs (list js 0µs), 59 mount items, 1249 nodes
+ INFO nsh::perf turn: 2464µs (timers and tasks 1383µs)
+ INFO nsh::perf commit: 167 ops, 1734µs (list js 0µs), 110 mount items, 1249 nodes
+ INFO nsh::perf turn: 3579µs (timers and tasks 1832µs)
+ INFO nsh::perf commit: 124 ops, 1448µs (list js 1µs), 89 mount items, 1249 nodes
+ INFO nsh::perf turn: 2757µs (timers and tasks 1294µs)
+ INFO nsh::perf commit: 130 ops, 1562µs (list js 1µs), 91 mount items, 1249 nodes
+ INFO nsh::perf turn: 3069µs (timers and tasks 1493µs)
+ INFO nsh::perf commit: 138 ops, 1723µs (list js 1µs), 103 mount items, 1249 nodes
+ INFO nsh::perf turn: 3314µs (timers and tasks 1575µs)
+ INFO nsh::perf commit: 120 ops, 1431µs (list js 1µs), 80 mount items, 1249 nodes
+ INFO nsh::perf turn: 2743µs (timers and tasks 1297µs)
+ INFO nsh::perf commit: 131 ops, 1565µs (list js 0µs), 93 mount items, 1249 nodes
+ INFO nsh::perf turn: 3053µs (timers and tasks 1472µs)
+ INFO nsh::perf commit: 126 ops, 1068µs (list js 0µs), 57 mount items, 1249 nodes
+ INFO nsh::perf turn: 2402µs (timers and tasks 1318µs)
+ INFO nsh::perf commit: 128 ops, 1361µs (list js 1µs), 79 mount items, 1249 nodes
+ INFO nsh::perf turn: 2784µs (timers and tasks 1406µs)
+ INFO nsh::perf commit: 122 ops, 1333µs (list js 0µs), 79 mount items, 1249 nodes
+ INFO nsh::perf turn: 2661µs (timers and tasks 1311µs)
+ INFO nsh::perf commit: 116 ops, 1375µs (list js 1µs), 76 mount items, 1249 nodes
+ INFO nsh::perf turn: 2570µs (timers and tasks 1176µs)
+ INFO nsh::perf commit: 129 ops, 1362µs (list js 0µs), 93 mount items, 1249 nodes
+ INFO nsh::perf turn: 2740µs (timers and tasks 1361µs)
+ INFO nsh::perf commit: 104 ops, 1093µs (list js 1µs), 66 mount items, 1249 nodes
+ INFO nsh::perf turn: 2097µs (timers and tasks 989µs)
+ INFO nsh::perf fps 120/120 frame 2.36/2.22/4.29/5.48 gap 8.31/8.20/11.80/12.56 over 0% tick 2.32/2.22/4.29/5.48 drain 0.00/0.00/0.00/0.00 canvas 0.39/0.33/0.75/0.86 commits 20 js 1.35/1.34/1.73/2.09 core 1.39/1.39/1.73/1.96 items 85 engine 6% cpu 41% gpu 24% mem 149.2 MB
+ INFO nsh::perf commit: 124 ops, 1305µs (list js 0µs), 86 mount items, 1249 nodes
+ INFO nsh::perf turn: 2486µs (timers and tasks 1168µs)
+ INFO nsh::perf commit: 116 ops, 1250µs (list js 0µs), 76 mount items, 1249 nodes
+ INFO nsh::perf turn: 2437µs (timers and tasks 1172µs)
+ INFO nsh::perf commit: 128 ops, 1427µs (list js 1µs), 89 mount items, 1249 nodes
+ INFO nsh::perf turn: 2800µs (timers and tasks 1360µs)
+ INFO nsh::perf commit: 129 ops, 1425µs (list js 1µs), 97 mount items, 1249 nodes
+ INFO nsh::perf turn: 2791µs (timers and tasks 1350µs)
+ INFO nsh::perf commit: 122 ops, 1350µs (list js 0µs), 83 mount items, 1249 nodes
+ INFO nsh::perf turn: 2714µs (timers and tasks 1348µs)
+ INFO nsh::perf commit: 138 ops, 1531µs (list js 0µs), 96 mount items, 1249 nodes
+ INFO nsh::perf turn: 3015µs (timers and tasks 1467µs)
+ INFO nsh::perf gc: 2620µs
+ INFO nsh::perf commit: 126 ops, 1500µs (list js 1µs), 86 mount items, 1249 nodes
+ INFO nsh::perf turn: 2923µs (timers and tasks 1410µs)
+ INFO nsh::perf commit: 132 ops, 1531µs (list js 1µs), 91 mount items, 1249 nodes
+ INFO nsh::perf turn: 3081µs (timers and tasks 1532µs)
+ INFO nsh::perf commit: 173 ops, 1968µs (list js 0µs), 116 mount items, 1249 nodes
+ INFO nsh::perf turn: 3752µs (timers and tasks 1767µs)
+ INFO nsh::perf commit: 126 ops, 1476µs (list js 0µs), 88 mount items, 1249 nodes
+ INFO nsh::perf turn: 2955µs (timers and tasks 1460µs)
+ INFO nsh::perf commit: 114 ops, 1392µs (list js 1µs), 79 mount items, 1249 nodes
+ INFO nsh::perf turn: 2642µs (timers and tasks 1232µs)
+ INFO nsh::perf commit: 114 ops, 1295µs (list js 1µs), 73 mount items, 1249 nodes
+ INFO nsh::perf turn: 2523µs (timers and tasks 1215µs)
+ INFO nsh::perf commit: 128 ops, 1668µs (list js 2µs), 88 mount items, 1249 nodes
+ INFO nsh::perf turn: 3241µs (timers and tasks 1551µs)
+ INFO nsh::perf commit: 125 ops, 1299µs (list js 0µs), 65 mount items, 1249 nodes
+ INFO nsh::perf turn: 2542µs (timers and tasks 1230µs)
+ INFO nsh::perf commit: 124 ops, 891µs (list js 1µs), 52 mount items, 1249 nodes
+ INFO nsh::perf turn: 2089µs (timers and tasks 1185µs)
+ INFO nsh::perf commit: 120 ops, 1153µs (list js 0µs), 60 mount items, 1249 nodes
+ INFO nsh::perf turn: 2448µs (timers and tasks 1282µs)
+ INFO nsh::perf commit: 128 ops, 1507µs (list js 0µs), 88 mount items, 1249 nodes
+ INFO nsh::perf turn: 3043µs (timers and tasks 1519µs)
+ INFO nsh::perf commit: 132 ops, 1294µs (list js 0µs), 69 mount items, 1249 nodes
+ INFO nsh::perf turn: 2898µs (timers and tasks 1588µs)
+ INFO nsh::perf commit: 141 ops, 1571µs (list js 1µs), 97 mount items, 1249 nodes
+ INFO nsh::perf turn: 3319µs (timers and tasks 1732µs)
+ INFO nsh::perf commit: 118 ops, 1257µs (list js 1µs), 78 mount items, 1249 nodes
+ INFO nsh::perf turn: 2495µs (timers and tasks 1227µs)
+ INFO nsh::perf fps 120/120 frame 2.17/2.05/3.78/5.28 gap 8.31/8.15/11.57/12.94 over 0% tick 2.16/2.05/3.81/5.28 drain 0.00/0.00/0.00/0.00 canvas 0.39/0.33/0.76/0.83 commits 19 js 1.36/1.35/1.76/2.09 core 1.39/1.39/1.73/1.97 items 84 engine 5% cpu 40% gpu 24% mem 149.3 MB
+ INFO nsh::perf commit: 120 ops, 1344µs (list js 1µs), 78 mount items, 1249 nodes
+ INFO nsh::perf turn: 2579µs (timers and tasks 1222µs)
+ INFO nsh::perf commit: 114 ops, 1264µs (list js 0µs), 75 mount items, 1249 nodes
+ INFO nsh::perf turn: 2453µs (timers and tasks 1175µs)
+ INFO nsh::perf commit: 122 ops, 1552µs (list js 1µs), 85 mount items, 1249 nodes
+ INFO nsh::perf turn: 2969µs (timers and tasks 1395µs)
+ INFO nsh::perf commit: 137 ops, 1430µs (list js 1µs), 101 mount items, 1249 nodes
+ INFO nsh::perf turn: 2887µs (timers and tasks 1443µs)
+ INFO nsh::perf commit: 124 ops, 1321µs (list js 0µs), 82 mount items, 1249 nodes
+ INFO nsh::perf turn: 2602µs (timers and tasks 1266µs)
+ INFO nsh::perf commit: 116 ops, 1390µs (list js 1µs), 80 mount items, 1249 nodes
+ INFO nsh::perf turn: 2598µs (timers and tasks 1191µs)
+ INFO nsh::perf commit: 114 ops, 1353µs (list js 1µs), 80 mount items, 1249 nodes
+ INFO nsh::perf turn: 2597µs (timers and tasks 1230µs)
+ INFO nsh::perf commit: 120 ops, 1470µs (list js 1µs), 82 mount items, 1249 nodes
+ INFO nsh::perf turn: 2842µs (timers and tasks 1357µs)
+ INFO nsh::perf commit: 169 ops, 1864µs (list js 0µs), 109 mount items, 1249 nodes
+ INFO nsh::perf turn: 3835µs (timers and tasks 1956µs)
+ INFO nsh::perf commit: 122 ops, 1426µs (list js 1µs), 83 mount items, 1249 nodes
+ INFO nsh::perf turn: 2885µs (timers and tasks 1443µs)
+ INFO nsh::perf commit: 130 ops, 1587µs (list js 2µs), 90 mount items, 1249 nodes
+ INFO nsh::perf turn: 3107µs (timers and tasks 1506µs)
+ INFO nsh::perf commit: 116 ops, 1447µs (list js 0µs), 81 mount items, 1249 nodes
+ INFO nsh::perf turn: 2769µs (timers and tasks 1308µs)
+ INFO nsh::perf commit: 136 ops, 1548µs (list js 0µs), 91 mount items, 1249 nodes
+ INFO nsh::perf turn: 3098µs (timers and tasks 1534µs)
+ INFO nsh::perf commit: 125 ops, 1459µs (list js 0µs), 90 mount items, 1249 nodes
+ INFO nsh::perf turn: 3058µs (timers and tasks 1576µs)
+ INFO nsh::perf commit: 114 ops, 1338µs (list js 1µs), 81 mount items, 1249 nodes
+ INFO nsh::perf turn: 2444µs (timers and tasks 1091µs)
+ INFO nsh::perf commit: 114 ops, 1119µs (list js 0µs), 59 mount items, 1249 nodes
+ INFO nsh::perf turn: 2320µs (timers and tasks 1184µs)
+ INFO nsh::perf commit: 136 ops, 1151µs (list js 0µs), 66 mount items, 1249 nodes
+ INFO nsh::perf turn: 2788µs (timers and tasks 1622µs)
+ INFO nsh::perf commit: 116 ops, 1586µs (list js 0µs), 82 mount items, 1249 nodes
+ INFO nsh::perf turn: 2970µs (timers and tasks 1369µs)
+ INFO nsh::perf commit: 135 ops, 1783µs (list js 0µs), 98 mount items, 1249 nodes
+ INFO nsh::perf turn: 3484µs (timers and tasks 1687µs)
+ INFO nsh::perf commit: 114 ops, 1544µs (list js 0µs), 75 mount items, 1249 nodes
+ INFO nsh::perf turn: 2875µs (timers and tasks 1313µs)
+ INFO nsh::perf commit: 116 ops, 1532µs (list js 1µs), 77 mount items, 1249 nodes
+ INFO nsh::perf turn: 2950µs (timers and tasks 1403µs)
+ INFO nsh::perf fps 120/120 frame 2.31/2.11/4.31/4.72 gap 8.30/8.25/10.79/12.94 over 0% tick 2.27/2.11/4.31/4.72 drain 0.00/0.00/0.00/0.00 canvas 0.38/0.35/0.67/0.77 commits 20 js 1.39/1.37/1.76/2.09 core 1.42/1.43/1.75/1.97 items 85 engine 6% cpu 43% gpu 24% mem 150.3 MB
+ INFO nsh::perf commit: 116 ops, 1244µs (list js 0µs), 75 mount items, 1249 nodes
+ INFO nsh::perf turn: 2669µs (timers and tasks 1413µs)
+ INFO nsh::perf commit: 126 ops, 1768µs (list js 1µs), 88 mount items, 1249 nodes
+ INFO nsh::perf turn: 3300µs (timers and tasks 1515µs)
+ INFO nsh::perf commit: 135 ops, 1458µs (list js 0µs), 98 mount items, 1249 nodes
+ INFO nsh::perf turn: 2932µs (timers and tasks 1460µs)
+ INFO nsh::perf commit: 108 ops, 1318µs (list js 0µs), 72 mount items, 1249 nodes
+ INFO nsh::perf turn: 2463µs (timers and tasks 1130µs)
+ INFO nsh::perf commit: 130 ops, 1472µs (list js 0µs), 91 mount items, 1249 nodes
+ INFO nsh::perf turn: 2860µs (timers and tasks 1375µs)
+ INFO nsh::perf commit: 120 ops, 1293µs (list js 1µs), 76 mount items, 1249 nodes
+ INFO nsh::perf turn: 2612µs (timers and tasks 1306µs)
+ INFO nsh::perf commit: 128 ops, 1736µs (list js 1µs), 89 mount items, 1249 nodes
+ INFO nsh::perf turn: 3325µs (timers and tasks 1574µs)
+ INFO nsh::perf commit: 171 ops, 1756µs (list js 1µs), 111 mount items, 1249 nodes
+ INFO nsh::perf turn: 3700µs (timers and tasks 1928µs)
+ INFO nsh::perf commit: 116 ops, 1379µs (list js 1µs), 78 mount items, 1249 nodes
+ INFO nsh::perf turn: 2688µs (timers and tasks 1292µs)
+ INFO nsh::perf commit: 110 ops, 1238µs (list js 0µs), 61 mount items, 1249 nodes
+ INFO nsh::perf turn: 2543µs (timers and tasks 1286µs)
+ INFO nsh::perf commit: 122 ops, 1487µs (list js 0µs), 83 mount items, 1249 nodes
+ INFO nsh::perf turn: 2846µs (timers and tasks 1345µs)
+ INFO nsh::perf commit: 124 ops, 1494µs (list js 1µs), 86 mount items, 1249 nodes
+ INFO nsh::perf turn: 2890µs (timers and tasks 1382µs)
+ INFO nsh::perf commit: 119 ops, 1577µs (list js 1µs), 80 mount items, 1249 nodes
+ INFO nsh::perf turn: 2952µs (timers and tasks 1359µs)
+ INFO nsh::perf commit: 110 ops, 1463µs (list js 1µs), 73 mount items, 1249 nodes
+ INFO nsh::perf turn: 2760µs (timers and tasks 1282µs)
+ INFO nsh::perf commit: 136 ops, 1743µs (list js 1µs), 99 mount items, 1249 nodes
+ INFO nsh::perf turn: 3362µs (timers and tasks 1598µs)
+ INFO nsh::perf commit: 116 ops, 1373µs (list js 1µs), 77 mount items, 1249 nodes
+ INFO nsh::perf turn: 2622µs (timers and tasks 1236µs)
+ INFO nsh::perf commit: 112 ops, 1298µs (list js 0µs), 77 mount items, 1249 nodes
+ INFO nsh::perf turn: 2435µs (timers and tasks 1125µs)
+ INFO nsh::perf commit: 129 ops, 1353µs (list js 0µs), 90 mount items, 1249 nodes
+ INFO nsh::perf turn: 2830µs (timers and tasks 1464µs)
+ INFO nsh::perf commit: 102 ops, 1149µs (list js 0µs), 65 mount items, 1249 nodes
+ INFO nsh::perf turn: 2212µs (timers and tasks 1050µs)
+ INFO nsh::perf commit: 124 ops, 1153µs (list js 1µs), 82 mount items, 1249 nodes
+ INFO nsh::perf turn: 2345µs (timers and tasks 1177µs)
+ INFO nsh::perf fps 120/120 frame 2.18/2.10/3.72/5.65 gap 8.31/8.25/10.36/11.15 over 0% tick 2.18/2.13/3.76/5.65 drain 0.00/0.00/0.00/0.00 canvas 0.39/0.35/0.75/0.94 commits 19 js 1.41/1.38/1.76/2.09 core 1.44/1.45/1.75/1.97 items 84 engine 5% cpu 39% gpu 22% mem 149.6 MB
+ INFO nsh::perf commit: 120 ops, 1343µs (list js 1µs), 85 mount items, 1249 nodes
+ INFO nsh::perf turn: 2532µs (timers and tasks 1178µs)
+ INFO nsh::perf commit: 112 ops, 1314µs (list js 1µs), 77 mount items, 1249 nodes
+ INFO nsh::perf turn: 2429µs (timers and tasks 1102µs)
+ INFO nsh::perf commit: 133 ops, 1493µs (list js 0µs), 96 mount items, 1249 nodes
+ INFO nsh::perf turn: 3017µs (timers and tasks 1511µs)
+ INFO nsh::perf commit: 116 ops, 1314µs (list js 4µs), 75 mount items, 1249 nodes
+ INFO nsh::perf turn: 2643µs (timers and tasks 1314µs)
+ INFO nsh::perf commit: 118 ops, 1518µs (list js 2µs), 75 mount items, 1249 nodes
+ INFO nsh::perf turn: 2867µs (timers and tasks 1329µs)
+ INFO nsh::perf commit: 110 ops, 1299µs (list js 0µs), 73 mount items, 1249 nodes
+ INFO nsh::perf turn: 2401µs (timers and tasks 1089µs)
+ INFO nsh::perf commit: 124 ops, 1436µs (list js 0µs), 84 mount items, 1249 nodes
+ INFO nsh::perf turn: 2910µs (timers and tasks 1455µs)
+ INFO nsh::perf commit: 177 ops, 2123µs (list js 1µs), 126 mount items, 1249 nodes
+ INFO nsh::perf turn: 4225µs (timers and tasks 2084µs)
+ INFO nsh::perf commit: 122 ops, 1505µs (list js 0µs), 82 mount items, 1249 nodes
+ INFO nsh::perf turn: 2895µs (timers and tasks 1375µs)
+ INFO nsh::perf commit: 134 ops, 1375µs (list js 1µs), 75 mount items, 1249 nodes
+ INFO nsh::perf turn: 2984µs (timers and tasks 1595µs)
+ INFO nsh::perf commit: 114 ops, 1349µs (list js 1µs), 72 mount items, 1249 nodes
+ INFO nsh::perf turn: 2624µs (timers and tasks 1262µs)
+ INFO nsh::perf commit: 134 ops, 1551µs (list js 1µs), 92 mount items, 1249 nodes
+ INFO nsh::perf turn: 3085µs (timers and tasks 1522µs)
+ INFO nsh::perf commit: 129 ops, 1044µs (list js 0µs), 49 mount items, 1249 nodes
+ INFO nsh::perf turn: 2557µs (timers and tasks 1495µs)
+ INFO nsh::perf commit: 110 ops, 1237µs (list js 0µs), 75 mount items, 1249 nodes
+ INFO nsh::perf turn: 2342µs (timers and tasks 1092µs)
+ INFO nsh::perf commit: 118 ops, 1419µs (list js 0µs), 82 mount items, 1249 nodes
+ INFO nsh::perf turn: 2728µs (timers and tasks 1296µs)
+ INFO nsh::perf commit: 128 ops, 1666µs (list js 0µs), 87 mount items, 1249 nodes
+ INFO nsh::perf turn: 3168µs (timers and tasks 1489µs)
+ INFO nsh::perf commit: 136 ops, 1676µs (list js 1µs), 93 mount items, 1249 nodes
+ INFO nsh::perf turn: 3363µs (timers and tasks 1668µs)
+ INFO nsh::perf commit: 131 ops, 1428µs (list js 1µs), 93 mount items, 1249 nodes
+ INFO nsh::perf turn: 3062µs (timers and tasks 1617µs)
+ INFO nsh::perf commit: 102 ops, 1142µs (list js 1µs), 69 mount items, 1249 nodes
+ INFO nsh::perf turn: 2097µs (timers and tasks 939µs)
+ INFO nsh::perf commit: 128 ops, 1533µs (list js 1µs), 91 mount items, 1249 nodes
+ INFO nsh::perf turn: 2963µs (timers and tasks 1417µs)
+ INFO nsh::perf commit: 142 ops, 1605µs (list js 0µs), 98 mount items, 1249 nodes
+ INFO nsh::perf turn: 3219µs (timers and tasks 1597µs)
+ INFO nsh::perf fps 119/120 frame 2.63/2.14/5.03/12.22 gap 8.39/8.18/12.35/17.95 over 3% tick 2.58/2.14/5.03/12.20 drain 0.00/0.00/0.00/0.00 canvas 0.38/0.33/0.72/0.90 commits 20 js 1.41/1.39/1.73/2.12 core 1.43/1.43/1.75/2.12 items 84 engine 6% cpu 42% gpu 25% mem 150.7 MB
+ INFO nsh::perf commit: 130 ops, 1463µs (list js 1µs), 89 mount items, 1249 nodes
+ INFO nsh::perf turn: 2916µs (timers and tasks 1436µs)
+ INFO nsh::perf commit: 149 ops, 1679µs (list js 0µs), 108 mount items, 1249 nodes
+ INFO nsh::perf turn: 3507µs (timers and tasks 1813µs)
+ INFO nsh::perf commit: 128 ops, 1373µs (list js 0µs), 89 mount items, 1249 nodes
+ INFO nsh::perf turn: 2709µs (timers and tasks 1323µs)
+ INFO nsh::perf commit: 132 ops, 1518µs (list js 1µs), 89 mount items, 1249 nodes
+ INFO nsh::perf turn: 3013µs (timers and tasks 1478µs)
+ INFO nsh::perf commit: 122 ops, 1479µs (list js 0µs), 82 mount items, 1249 nodes
+ INFO nsh::perf turn: 2842µs (timers and tasks 1339µs)
+ INFO nsh::perf commit: 116 ops, 1486µs (list js 0µs), 86 mount items, 1249 nodes
+ INFO nsh::perf turn: 2720µs (timers and tasks 1219µs)
+ INFO nsh::perf commit: 179 ops, 2072µs (list js 0µs), 121 mount items, 1249 nodes
+ INFO nsh::perf turn: 4454µs (timers and tasks 2359µs)
+ INFO nsh::perf commit: 118 ops, 1402µs (list js 1µs), 82 mount items, 1249 nodes
+ INFO nsh::perf turn: 2760µs (timers and tasks 1344µs)
+ INFO nsh::perf commit: 122 ops, 1341µs (list js 0µs), 82 mount items, 1249 nodes
+ INFO nsh::perf turn: 2642µs (timers and tasks 1286µs)
+ INFO nsh::perf commit: 124 ops, 1359µs (list js 1µs), 86 mount items, 1249 nodes
+ INFO nsh::perf turn: 2613µs (timers and tasks 1241µs)
+ INFO nsh::perf commit: 138 ops, 1417µs (list js 1µs), 93 mount items, 1249 nodes
+ INFO nsh::perf turn: 2870µs (timers and tasks 1439µs)
+ INFO nsh::perf commit: 141 ops, 1581µs (list js 0µs), 101 mount items, 1249 nodes
+ INFO nsh::perf turn: 3197µs (timers and tasks 1602µs)
+ INFO nsh::perf commit: 120 ops, 1493µs (list js 1µs), 81 mount items, 1249 nodes
+ INFO nsh::perf turn: 2828µs (timers and tasks 1318µs)
+ INFO nsh::perf commit: 130 ops, 1220µs (list js 1µs), 63 mount items, 1249 nodes
+ INFO nsh::perf turn: 2647µs (timers and tasks 1411µs)
+ INFO nsh::perf commit: 118 ops, 1250µs (list js 1µs), 79 mount items, 1249 nodes
+ INFO nsh::perf turn: 2426µs (timers and tasks 1162µs)
+ INFO nsh::perf commit: 124 ops, 1526µs (list js 2µs), 87 mount items, 1249 nodes
+ INFO nsh::perf turn: 2929µs (timers and tasks 1385µs)
+ INFO nsh::perf commit: 127 ops, 1617µs (list js 0µs), 92 mount items, 1249 nodes
+ INFO nsh::perf turn: 3135µs (timers and tasks 1502µs)
+ INFO nsh::perf commit: 110 ops, 1249µs (list js 1µs), 78 mount items, 1249 nodes
+ INFO nsh::perf turn: 2343µs (timers and tasks 1078µs)
+ INFO nsh::perf commit: 122 ops, 1433µs (list js 0µs), 80 mount items, 1249 nodes
+ INFO nsh::perf turn: 2838µs (timers and tasks 1391µs)
+ INFO nsh::perf commit: 132 ops, 974µs (list js 1µs), 83 mount items, 1249 nodes
+ INFO nsh::perf turn: 2211µs (timers and tasks 1227µs)
+ INFO nsh::perf fps 120/120 frame 2.34/2.12/4.19/7.46 gap 8.29/8.23/11.85/14.94 over 0% tick 2.32/2.12/4.19/7.46 drain 0.00/0.00/0.00/0.00 canvas 0.40/0.34/0.75/0.81 commits 19 js 1.43/1.40/1.79/2.40 core 1.44/1.43/1.77/2.12 items 84 engine 6% cpu 40% gpu 23% mem 151.8 MB
+ INFO nsh::perf commit: 128 ops, 1588µs (list js 1µs), 88 mount items, 1249 nodes
+ INFO nsh::perf turn: 3073µs (timers and tasks 1474µs)
+ INFO nsh::perf gc: 2027µs
+ INFO nsh::perf commit: 113 ops, 1474µs (list js 0µs), 80 mount items, 1249 nodes
+ INFO nsh::perf turn: 2732µs (timers and tasks 1246µs)
+ INFO nsh::perf commit: 114 ops, 1415µs (list js 0µs), 83 mount items, 1249 nodes
+ INFO nsh::perf turn: 2671µs (timers and tasks 1231µs)
+ INFO nsh::perf commit: 134 ops, 1473µs (list js 0µs), 95 mount items, 1249 nodes
+ INFO nsh::perf turn: 2949µs (timers and tasks 1459µs)
+ INFO nsh::perf commit: 110 ops, 1268µs (list js 1µs), 72 mount items, 1249 nodes
+ INFO nsh::perf turn: 2444µs (timers and tasks 1160µs)
+ INFO nsh::perf commit: 116 ops, 1623µs (list js 1µs), 78 mount items, 1249 nodes
+ INFO nsh::perf turn: 2920µs (timers and tasks 1279µs)
+ INFO nsh::perf commit: 155 ops, 1777µs (list js 1µs), 105 mount items, 1249 nodes
+ INFO nsh::perf turn: 3527µs (timers and tasks 1733µs)
+ INFO nsh::perf commit: 112 ops, 909µs (list js 1µs), 47 mount items, 1249 nodes
+ INFO nsh::perf turn: 2166µs (timers and tasks 1240µs)
+ INFO nsh::perf commit: 128 ops, 1498µs (list js 1µs), 83 mount items, 1249 nodes
+ INFO nsh::perf turn: 3025µs (timers and tasks 1514µs)
+ INFO nsh::perf commit: 106 ops, 1322µs (list js 1µs), 72 mount items, 1249 nodes
+ INFO nsh::perf turn: 2403µs (timers and tasks 1069µs)
+ INFO nsh::perf commit: 128 ops, 1367µs (list js 0µs), 88 mount items, 1249 nodes
+ INFO nsh::perf turn: 2721µs (timers and tasks 1341µs)
+ INFO nsh::perf commit: 137 ops, 1894µs (list js 1µs), 97 mount items, 1249 nodes
+ INFO nsh::perf turn: 3877µs (timers and tasks 1961µs)
+ INFO nsh::perf commit: 128 ops, 1649µs (list js 0µs), 87 mount items, 1249 nodes
+ INFO nsh::perf turn: 3190µs (timers and tasks 1521µs)
+ INFO nsh::perf commit: 112 ops, 1232µs (list js 0µs), 57 mount items, 1249 nodes
+ INFO nsh::perf turn: 2470µs (timers and tasks 1224µs)
+ INFO nsh::perf commit: 130 ops, 1511µs (list js 1µs), 91 mount items, 1249 nodes
+ INFO nsh::perf turn: 2954µs (timers and tasks 1427µs)
+ INFO nsh::perf commit: 114 ops, 1288µs (list js 1µs), 76 mount items, 1249 nodes
+ INFO nsh::perf turn: 2499µs (timers and tasks 1196µs)
+ INFO nsh::perf commit: 119 ops, 1443µs (list js 1µs), 81 mount items, 1249 nodes
+ INFO nsh::perf turn: 2864µs (timers and tasks 1403µs)
+ INFO nsh::perf commit: 110 ops, 1133µs (list js 0µs), 67 mount items, 1249 nodes
+ INFO nsh::perf turn: 2299µs (timers and tasks 1153µs)
+ INFO nsh::perf commit: 134 ops, 1689µs (list js 1µs), 95 mount items, 1249 nodes
+ INFO nsh::perf turn: 3394µs (timers and tasks 1690µs)
+ INFO nsh::perf commit: 126 ops, 1547µs (list js 0µs), 80 mount items, 1249 nodes
+ INFO nsh::perf turn: 3237µs (timers and tasks 1676µs)
+ INFO nsh::perf commit: 120 ops, 1550µs (list js 1µs), 81 mount items, 1249 nodes
+ INFO nsh::perf turn: 2993µs (timers and tasks 1428µs)
+ INFO nsh::perf fps 120/120 frame 2.41/2.17/4.02/5.79 gap 8.33/8.19/10.78/12.46 over 0% tick 2.38/2.17/4.02/5.79 drain 0.00/0.00/0.00/0.00 canvas 0.40/0.36/0.71/1.01 commits 20 js 1.43/1.40/1.79/2.40 core 1.44/1.44/1.78/2.12 items 83 engine 6% cpu 42% gpu 24% mem 150.5 MB
+ INFO nsh::perf commit: 119 ops, 1382µs (list js 0µs), 84 mount items, 1249 nodes
+ INFO nsh::perf turn: 2674µs (timers and tasks 1278µs)
+ INFO nsh::perf commit: 142 ops, 1636µs (list js 1µs), 94 mount items, 1249 nodes
+ INFO nsh::perf turn: 3321µs (timers and tasks 1657µs)
+ INFO nsh::perf commit: 112 ops, 1540µs (list js 1µs), 80 mount items, 1249 nodes
+ INFO nsh::perf turn: 2805µs (timers and tasks 1251µs)
+ INFO nsh::perf commit: 116 ops, 1513µs (list js 1µs), 85 mount items, 1249 nodes
+ INFO nsh::perf turn: 2763µs (timers and tasks 1236µs)
+ INFO nsh::perf commit: 114 ops, 1508µs (list js 1µs), 82 mount items, 1249 nodes
+ INFO nsh::perf turn: 2833µs (timers and tasks 1309µs)
+ INFO nsh::perf commit: 163 ops, 1428µs (list js 0µs), 105 mount items, 1249 nodes
+ INFO nsh::perf turn: 3215µs (timers and tasks 1777µs)
+ INFO nsh::perf commit: 122 ops, 1432µs (list js 0µs), 83 mount items, 1249 nodes
+ INFO nsh::perf turn: 2822µs (timers and tasks 1377µs)
+ INFO nsh::perf commit: 118 ops, 1297µs (list js 0µs), 72 mount items, 1249 nodes
+ INFO nsh::perf turn: 2648µs (timers and tasks 1336µs)
+ INFO nsh::perf commit: 118 ops, 1548µs (list js 1µs), 82 mount items, 1249 nodes
+ INFO nsh::perf turn: 2986µs (timers and tasks 1422µs)
+ INFO nsh::perf commit: 132 ops, 1633µs (list js 1µs), 94 mount items, 1249 nodes
+ INFO nsh::perf turn: 3252µs (timers and tasks 1602µs)
+ INFO nsh::perf commit: 123 ops, 1388µs (list js 1µs), 79 mount items, 1249 nodes
+ INFO nsh::perf turn: 2900µs (timers and tasks 1496µs)
+ INFO nsh::perf commit: 122 ops, 1478µs (list js 1µs), 82 mount items, 1249 nodes
+ INFO nsh::perf turn: 2923µs (timers and tasks 1428µs)
+ INFO nsh::perf commit: 118 ops, 1121µs (list js 1µs), 51 mount items, 1249 nodes
+ INFO nsh::perf turn: 2639µs (timers and tasks 1504µs)
+ INFO nsh::perf commit: 154 ops, 1772µs (list js 1µs), 109 mount items, 1249 nodes
+ INFO nsh::perf turn: 3689µs (timers and tasks 1902µs)
+ INFO nsh::perf commit: 114 ops, 1248µs (list js 1µs), 76 mount items, 1249 nodes
+ INFO nsh::perf turn: 2459µs (timers and tasks 1197µs)
+ INFO nsh::perf commit: 115 ops, 1296µs (list js 0µs), 83 mount items, 1249 nodes
+ INFO nsh::perf turn: 2436µs (timers and tasks 1128µs)
+ INFO nsh::perf commit: 122 ops, 1486µs (list js 1µs), 81 mount items, 1249 nodes
+ INFO nsh::perf turn: 2860µs (timers and tasks 1360µs)
+ INFO nsh::perf commit: 116 ops, 1338µs (list js 1µs), 80 mount items, 1249 nodes
+ INFO nsh::perf turn: 2550µs (timers and tasks 1200µs)
+ INFO nsh::perf commit: 146 ops, 1814µs (list js 1µs), 102 mount items, 1249 nodes
+ INFO nsh::perf turn: 3695µs (timers and tasks 1867µs)
+ INFO nsh::perf commit: 114 ops, 1466µs (list js 0µs), 78 mount items, 1249 nodes
+ INFO nsh::perf turn: 2692µs (timers and tasks 1212µs)
+ INFO nsh::perf fps 120/120 frame 2.45/2.17/4.41/5.09 gap 8.31/8.31/10.81/12.84 over 0% tick 2.40/2.16/4.40/5.09 drain 0.00/0.00/0.00/0.00 canvas 0.38/0.34/0.69/0.75 commits 19 js 1.43/1.40/1.90/2.40 core 1.45/1.46/1.78/2.12 items 84 engine 6% cpu 39% gpu 23% mem 150.6 MB
+ INFO nsh::perf commit: 127 ops, 1356µs (list js 0µs), 88 mount items, 1249 nodes
+ INFO nsh::perf turn: 2760µs (timers and tasks 1376µs)
+ INFO nsh::perf commit: 142 ops, 1584µs (list js 0µs), 102 mount items, 1249 nodes
+ INFO nsh::perf turn: 3221µs (timers and tasks 1622µs)
+ INFO nsh::perf commit: 126 ops, 1320µs (list js 0µs), 84 mount items, 1249 nodes
+ INFO nsh::perf turn: 2674µs (timers and tasks 1340µs)
+ INFO nsh::perf commit: 116 ops, 1073µs (list js 0µs), 80 mount items, 1249 nodes
+ INFO nsh::perf turn: 2151µs (timers and tasks 1064µs)
+ INFO nsh::perf commit: 112 ops, 1392µs (list js 1µs), 78 mount items, 1249 nodes
+ INFO nsh::perf turn: 2645µs (timers and tasks 1238µs)
+ INFO nsh::perf commit: 167 ops, 1911µs (list js 0µs), 120 mount items, 1249 nodes
+ INFO nsh::perf turn: 3795µs (timers and tasks 1873µs)
+ INFO nsh::perf commit: 116 ops, 1463µs (list js 1µs), 81 mount items, 1249 nodes
+ INFO nsh::perf turn: 2865µs (timers and tasks 1384µs)
+ INFO nsh::perf commit: 124 ops, 1232µs (list js 1µs), 84 mount items, 1249 nodes
+ INFO nsh::perf turn: 2504µs (timers and tasks 1259µs)
+ INFO nsh::perf commit: 124 ops, 1198µs (list js 0µs), 90 mount items, 1249 nodes
+ INFO nsh::perf turn: 2420µs (timers and tasks 1208µs)
+ INFO nsh::perf commit: 108 ops, 1130µs (list js 1µs), 70 mount items, 1249 nodes
+ INFO nsh::perf turn: 2169µs (timers and tasks 1024µs)
+ INFO nsh::perf commit: 137 ops, 1515µs (list js 0µs), 99 mount items, 1249 nodes
+ INFO nsh::perf turn: 3056µs (timers and tasks 1526µs)
+ INFO nsh::perf commit: 130 ops, 1548µs (list js 1µs), 91 mount items, 1249 nodes
+ INFO nsh::perf turn: 2945µs (timers and tasks 1384µs)
+ INFO nsh::perf commit: 116 ops, 1373µs (list js 1µs), 78 mount items, 1249 nodes
+ INFO nsh::perf turn: 2616µs (timers and tasks 1231µs)
+ INFO nsh::perf commit: 126 ops, 1362µs (list js 1µs), 87 mount items, 1249 nodes
+ INFO nsh::perf turn: 2756µs (timers and tasks 1377µs)
+ INFO nsh::perf commit: 122 ops, 1586µs (list js 1µs), 84 mount items, 1249 nodes
+ INFO nsh::perf turn: 3157µs (timers and tasks 1555µs)
+ INFO nsh::perf commit: 149 ops, 1768µs (list js 0µs), 108 mount items, 1249 nodes
+ INFO nsh::perf turn: 3608µs (timers and tasks 1826µs)
+ INFO nsh::perf commit: 130 ops, 1561µs (list js 0µs), 92 mount items, 1249 nodes
+ INFO nsh::perf turn: 3053µs (timers and tasks 1477µs)
+ INFO nsh::perf commit: 120 ops, 1475µs (list js 1µs), 81 mount items, 1249 nodes
+ INFO nsh::perf turn: 2882µs (timers and tasks 1391µs)
+ INFO nsh::perf commit: 122 ops, 1514µs (list js 1µs), 81 mount items, 1249 nodes
+ INFO nsh::perf turn: 2919µs (timers and tasks 1391µs)
+ INFO nsh::perf commit: 130 ops, 1460µs (list js 0µs), 89 mount items, 1249 nodes
+ INFO nsh::perf turn: 2903µs (timers and tasks 1431µs)
+ INFO nsh::perf commit: 125 ops, 1735µs (list js 0µs), 89 mount items, 1249 nodes
+ INFO nsh::perf turn: 3302µs (timers and tasks 1550µs)
+ INFO nsh::perf fps 120/120 frame 2.35/2.16/3.91/5.34 gap 8.32/8.18/10.43/12.43 over 0% tick 2.30/2.16/3.91/5.34 drain 0.00/0.00/0.00/0.00 canvas 0.37/0.33/0.66/0.89 commits 20 js 1.43/1.40/1.89/2.40 core 1.45/1.46/1.77/2.12 items 84 engine 6% cpu 41% gpu 24% mem 150.5 MB
+ INFO nsh::perf commit: 124 ops, 1277µs (list js 0µs), 69 mount items, 1249 nodes
+ INFO nsh::perf turn: 2648µs (timers and tasks 1339µs)
+ INFO nsh::perf commit: 132 ops, 1542µs (list js 0µs), 88 mount items, 1249 nodes
+ INFO nsh::perf turn: 3044µs (timers and tasks 1489µs)
+ INFO nsh::perf commit: 122 ops, 1208µs (list js 0µs), 77 mount items, 1249 nodes
+ INFO nsh::perf turn: 2465µs (timers and tasks 1242µs)
+ INFO nsh::perf commit: 104 ops, 1296µs (list js 0µs), 70 mount items, 1249 nodes
+ INFO nsh::perf turn: 2334µs (timers and tasks 1024µs)
+ INFO nsh::perf commit: 171 ops, 2157µs (list js 0µs), 121 mount items, 1249 nodes
+ INFO nsh::perf turn: 4361µs (timers and tasks 2189µs)
+ INFO nsh::perf commit: 136 ops, 1659µs (list js 0µs), 88 mount items, 1249 nodes
+ INFO nsh::perf turn: 3292µs (timers and tasks 1618µs)
+ INFO nsh::perf commit: 130 ops, 1525µs (list js 1µs), 92 mount items, 1249 nodes
+ INFO nsh::perf turn: 2896µs (timers and tasks 1354µs)
+ INFO nsh::perf commit: 120 ops, 1498µs (list js 1µs), 81 mount items, 1249 nodes
+ INFO nsh::perf turn: 2916µs (timers and tasks 1403µs)
+ INFO nsh::perf commit: 128 ops, 1532µs (list js 0µs), 82 mount items, 1249 nodes
+ INFO nsh::perf turn: 2999µs (timers and tasks 1453µs)
+ INFO nsh::perf commit: 107 ops, 1298µs (list js 0µs), 76 mount items, 1249 nodes
+ INFO nsh::perf turn: 2391µs (timers and tasks 1079µs)
+ INFO nsh::perf commit: 106 ops, 1226µs (list js 1µs), 71 mount items, 1249 nodes
+ INFO nsh::perf turn: 2193µs (timers and tasks 953µs)
+ INFO nsh::perf commit: 138 ops, 1586µs (list js 1µs), 92 mount items, 1249 nodes
+ INFO nsh::perf turn: 3247µs (timers and tasks 1645µs)
+ INFO nsh::perf commit: 106 ops, 1167µs (list js 0µs), 66 mount items, 1249 nodes
+ INFO nsh::perf turn: 2229µs (timers and tasks 1047µs)
+ INFO nsh::perf commit: 108 ops, 865µs (list js 1µs), 45 mount items, 1249 nodes
+ INFO nsh::perf turn: 1892µs (timers and tasks 1014µs)
+ INFO nsh::perf commit: 151 ops, 2052µs (list js 1µs), 111 mount items, 1249 nodes
+ INFO nsh::perf turn: 4056µs (timers and tasks 1990µs)
+ INFO nsh::perf commit: 136 ops, 1715µs (list js 0µs), 96 mount items, 1249 nodes
+ INFO nsh::perf turn: 3385µs (timers and tasks 1655µs)
+ INFO nsh::perf commit: 116 ops, 1605µs (list js 1µs), 78 mount items, 1249 nodes
+ INFO nsh::perf turn: 3000µs (timers and tasks 1381µs)
+ INFO nsh::perf commit: 128 ops, 1532µs (list js 1µs), 88 mount items, 1249 nodes
+ INFO nsh::perf turn: 3055µs (timers and tasks 1507µs)
+ INFO nsh::perf commit: 114 ops, 1378µs (list js 1µs), 79 mount items, 1249 nodes
+ INFO nsh::perf turn: 2564µs (timers and tasks 1168µs)
+ INFO nsh::perf commit: 125 ops, 1449µs (list js 1µs), 88 mount items, 1249 nodes
+ INFO nsh::perf turn: 2807µs (timers and tasks 1340µs)
+ INFO nsh::perf fps 120/120 frame 2.39/2.19/4.69/6.99 gap 8.32/8.30/11.44/13.24 over 0% tick 2.36/2.22/4.69/6.99 drain 0.00/0.00/0.00/0.00 canvas 0.41/0.35/0.78/0.85 commits 19 js 1.44/1.41/1.90/2.40 core 1.46/1.47/1.81/2.16 items 85 engine 6% cpu 41% gpu 23% mem 151.0 MB
+ INFO nsh::perf commit: 122 ops, 1357µs (list js 1µs), 80 mount items, 1249 nodes
+ INFO nsh::perf turn: 2748µs (timers and tasks 1376µs)
+ INFO nsh::perf commit: 118 ops, 1517µs (list js 0µs), 82 mount items, 1249 nodes
+ INFO nsh::perf turn: 2863µs (timers and tasks 1327µs)
+ INFO nsh::perf commit: 116 ops, 1383µs (list js 1µs), 80 mount items, 1249 nodes
+ INFO nsh::perf turn: 2543µs (timers and tasks 1144µs)
+ INFO nsh::perf commit: 124 ops, 1445µs (list js 0µs), 86 mount items, 1249 nodes
+ INFO nsh::perf turn: 2796µs (timers and tasks 1335µs)
+ INFO nsh::perf commit: 169 ops, 1716µs (list js 0µs), 110 mount items, 1249 nodes
+ INFO nsh::perf turn: 3572µs (timers and tasks 1843µs)
+ INFO nsh::perf commit: 126 ops, 1579µs (list js 1µs), 90 mount items, 1249 nodes
+ INFO nsh::perf turn: 3101µs (timers and tasks 1507µs)
+ INFO nsh::perf commit: 136 ops, 1428µs (list js 1µs), 76 mount items, 1249 nodes
+ INFO nsh::perf turn: 3168µs (timers and tasks 1724µs)
+ INFO nsh::perf commit: 120 ops, 1436µs (list js 0µs), 80 mount items, 1249 nodes
+ INFO nsh::perf turn: 2839µs (timers and tasks 1389µs)
+ INFO nsh::perf commit: 126 ops, 1299µs (list js 0µs), 89 mount items, 1249 nodes
+ INFO nsh::perf turn: 2601µs (timers and tasks 1290µs)
+ INFO nsh::perf commit: 121 ops, 1351µs (list js 0µs), 82 mount items, 1249 nodes
+ INFO nsh::perf turn: 2732µs (timers and tasks 1368µs)
+ INFO nsh::perf commit: 128 ops, 1517µs (list js 0µs), 84 mount items, 1249 nodes
+ INFO nsh::perf turn: 3013µs (timers and tasks 1484µs)
+ INFO nsh::perf commit: 114 ops, 1361µs (list js 1µs), 79 mount items, 1249 nodes
+ INFO nsh::perf turn: 2524µs (timers and tasks 1151µs)
+ INFO nsh::perf commit: 138 ops, 1593µs (list js 1µs), 93 mount items, 1249 nodes
+ INFO nsh::perf turn: 3367µs (timers and tasks 1759µs)
+ INFO nsh::perf commit: 126 ops, 1300µs (list js 1µs), 87 mount items, 1249 nodes
+ INFO nsh::perf turn: 2614µs (timers and tasks 1298µs)
+ INFO nsh::perf commit: 141 ops, 1593µs (list js 0µs), 100 mount items, 1249 nodes
+ INFO nsh::perf turn: 3329µs (timers and tasks 1722µs)
+ INFO nsh::perf commit: 108 ops, 1354µs (list js 0µs), 73 mount items, 1249 nodes
+ INFO nsh::perf turn: 2448µs (timers and tasks 1080µs)
+ INFO nsh::perf commit: 112 ops, 1289µs (list js 0µs), 76 mount items, 1249 nodes
+ INFO nsh::perf turn: 2409µs (timers and tasks 1109µs)
+ INFO nsh::perf gc: 1906µs
+ INFO nsh::perf commit: 128 ops, 1365µs (list js 0µs), 85 mount items, 1249 nodes
+ INFO nsh::perf turn: 2752µs (timers and tasks 1374µs)
+ INFO nsh::perf commit: 122 ops, 1411µs (list js 1µs), 82 mount items, 1249 nodes
+ INFO nsh::perf turn: 2704µs (timers and tasks 1277µs)
+ INFO nsh::perf commit: 133 ops, 1630µs (list js 0µs), 98 mount items, 1249 nodes
+ INFO nsh::perf turn: 3167µs (timers and tasks 1523µs)
+ INFO nsh::perf commit: 132 ops, 1701µs (list js 1µs), 93 mount items, 1249 nodes
+ INFO nsh::perf turn: 3169µs (timers and tasks 1454µs)
+ INFO nsh::perf fps 120/120 frame 2.36/2.24/3.98/6.08 gap 8.31/8.43/10.64/13.03 over 0% tick 2.35/2.27/3.97/6.08 drain 0.00/0.00/0.00/0.00 canvas 0.41/0.35/0.72/0.85 commits 20 js 1.44/1.41/1.89/2.40 core 1.46/1.46/1.78/2.16 items 85 engine 6% cpu 41% gpu 24% mem 150.9 MB
+ INFO nsh::perf commit: 120 ops, 1293µs (list js 1µs), 79 mount items, 1249 nodes
+ INFO nsh::perf turn: 2575µs (timers and tasks 1269µs)
+ INFO nsh::perf commit: 106 ops, 1167µs (list js 1µs), 68 mount items, 1249 nodes
+ INFO nsh::perf turn: 2206µs (timers and tasks 1027µs)
+ INFO nsh::perf commit: 120 ops, 1351µs (list js 1µs), 83 mount items, 1249 nodes
+ INFO nsh::perf turn: 2690µs (timers and tasks 1322µs)
+ INFO nsh::perf commit: 155 ops, 1682µs (list js 1µs), 108 mount items, 1249 nodes
+ INFO nsh::perf turn: 3280µs (timers and tasks 1583µs)
+ INFO nsh::perf commit: 130 ops, 1534µs (list js 1µs), 82 mount items, 1249 nodes
+ INFO nsh::perf turn: 3205µs (timers and tasks 1657µs)
+ INFO nsh::perf commit: 124 ops, 1450µs (list js 0µs), 84 mount items, 1249 nodes
+ INFO nsh::perf turn: 2853µs (timers and tasks 1390µs)
+ INFO nsh::perf commit: 116 ops, 1453µs (list js 1µs), 80 mount items, 1249 nodes
+ INFO nsh::perf turn: 2774µs (timers and tasks 1304µs)
+ INFO nsh::perf commit: 112 ops, 1677µs (list js 1µs), 77 mount items, 1249 nodes
+ INFO nsh::perf turn: 2902µs (timers and tasks 1205µs)
+ INFO nsh::perf commit: 131 ops, 1692µs (list js 1µs), 93 mount items, 1249 nodes
+ INFO nsh::perf turn: 3364µs (timers and tasks 1656µs)
+ INFO nsh::perf commit: 128 ops, 1354µs (list js 1µs), 88 mount items, 1249 nodes
+ INFO nsh::perf turn: 2766µs (timers and tasks 1388µs)
+ INFO nsh::perf commit: 118 ops, 1160µs (list js 0µs), 82 mount items, 1249 nodes
+ INFO nsh::perf turn: 2234µs (timers and tasks 1062µs)
+ INFO nsh::perf commit: 108 ops, 1253µs (list js 0µs), 74 mount items, 1249 nodes
+ INFO nsh::perf turn: 2341µs (timers and tasks 1075µs)
+ INFO nsh::perf commit: 142 ops, 1610µs (list js 0µs), 97 mount items, 1249 nodes
+ INFO nsh::perf turn: 3253µs (timers and tasks 1623µs)
+ INFO nsh::perf commit: 131 ops, 1509µs (list js 1µs), 88 mount items, 1249 nodes
+ INFO nsh::perf turn: 3152µs (timers and tasks 1628µs)
+ INFO nsh::perf commit: 118 ops, 1656µs (list js 1µs), 81 mount items, 1249 nodes
+ INFO nsh::perf turn: 3256µs (timers and tasks 1584µs)
+ INFO nsh::perf commit: 120 ops, 1542µs (list js 1µs), 82 mount items, 1249 nodes
+ INFO nsh::perf turn: 3012µs (timers and tasks 1454µs)
+ INFO nsh::perf commit: 120 ops, 943µs (list js 0µs), 53 mount items, 1249 nodes
+ INFO nsh::perf turn: 2213µs (timers and tasks 1256µs)
+ INFO nsh::perf commit: 128 ops, 1493µs (list js 0µs), 87 mount items, 1249 nodes
+ INFO nsh::perf turn: 2978µs (timers and tasks 1472µs)
+ INFO nsh::perf commit: 129 ops, 1563µs (list js 0µs), 94 mount items, 1249 nodes
+ INFO nsh::perf turn: 3120µs (timers and tasks 1542µs)
+ INFO nsh::perf commit: 112 ops, 1279µs (list js 0µs), 74 mount items, 1249 nodes
+ INFO nsh::perf turn: 2486µs (timers and tasks 1187µs)
+ INFO nsh::perf fps 120/120 frame 2.30/2.18/4.34/5.30 gap 8.31/8.33/10.56/12.87 over 0% tick 2.26/2.18/4.34/5.30 drain 0.00/0.00/0.00/0.00 canvas 0.41/0.35/0.79/0.88 commits 19 js 1.44/1.41/1.87/2.22 core 1.46/1.46/1.77/2.16 items 84 engine 5% cpu 41% gpu 24% mem 151.1 MB
+ INFO nsh::perf commit: 116 ops, 1414µs (list js 1µs), 79 mount items, 1249 nodes
+ INFO nsh::perf turn: 2617µs (timers and tasks 1191µs)
+ INFO nsh::perf commit: 138 ops, 1487µs (list js 0µs), 91 mount items, 1249 nodes
+ INFO nsh::perf turn: 3083µs (timers and tasks 1584µs)
+ INFO nsh::perf commit: 120 ops, 1574µs (list js 0µs), 82 mount items, 1249 nodes
+ INFO nsh::perf turn: 2978µs (timers and tasks 1390µs)
+ INFO nsh::perf commit: 167 ops, 1548µs (list js 0µs), 107 mount items, 1249 nodes
+ INFO nsh::perf turn: 3299µs (timers and tasks 1736µs)
+ INFO nsh::perf commit: 122 ops, 1464µs (list js 0µs), 80 mount items, 1249 nodes
+ INFO nsh::perf turn: 2861µs (timers and tasks 1378µs)
+ INFO nsh::perf commit: 150 ops, 2021µs (list js 1µs), 107 mount items, 1249 nodes
+ INFO nsh::perf turn: 3897µs (timers and tasks 1865µs)
+ INFO nsh::perf commit: 116 ops, 1564µs (list js 1µs), 80 mount items, 1249 nodes
+ INFO nsh::perf turn: 2975µs (timers and tasks 1397µs)
+ INFO nsh::perf commit: 114 ops, 1383µs (list js 1µs), 74 mount items, 1249 nodes
+ INFO nsh::perf turn: 2599µs (timers and tasks 1202µs)
+ INFO nsh::perf commit: 125 ops, 1455µs (list js 1µs), 86 mount items, 1249 nodes
+ INFO nsh::perf turn: 2960µs (timers and tasks 1489µs)
+ INFO nsh::perf commit: 120 ops, 1389µs (list js 0µs), 82 mount items, 1249 nodes
+ INFO nsh::perf turn: 2678µs (timers and tasks 1276µs)
+ INFO nsh::perf commit: 120 ops, 1554µs (list js 1µs), 82 mount items, 1249 nodes
+ INFO nsh::perf turn: 2922µs (timers and tasks 1353µs)
+ INFO nsh::perf commit: 134 ops, 1641µs (list js 1µs), 93 mount items, 1249 nodes
+ INFO nsh::perf turn: 3160µs (timers and tasks 1504µs)
+ INFO nsh::perf commit: 132 ops, 1619µs (list js 7µs), 91 mount items, 1249 nodes
+ INFO nsh::perf turn: 3196µs (timers and tasks 1559µs)
+ INFO nsh::perf commit: 123 ops, 1488µs (list js 1µs), 87 mount items, 1249 nodes
+ INFO nsh::perf turn: 2989µs (timers and tasks 1487µs)
+ INFO nsh::perf commit: 126 ops, 1226µs (list js 1µs), 64 mount items, 1249 nodes
+ INFO nsh::perf turn: 2754µs (timers and tasks 1509µs)
+ INFO nsh::perf commit: 128 ops, 1475µs (list js 0µs), 92 mount items, 1249 nodes
+ INFO nsh::perf turn: 2971µs (timers and tasks 1482µs)
+ INFO nsh::perf commit: 126 ops, 1325µs (list js 1µs), 84 mount items, 1249 nodes
+ INFO nsh::perf turn: 2646µs (timers and tasks 1308µs)
+ INFO nsh::perf commit: 112 ops, 1227µs (list js 0µs), 75 mount items, 1249 nodes
+ INFO nsh::perf turn: 2298µs (timers and tasks 1055µs)
+ INFO nsh::perf commit: 137 ops, 1863µs (list js 1µs), 100 mount items, 1249 nodes
+ INFO nsh::perf turn: 3481µs (timers and tasks 1601µs)
+ INFO nsh::perf commit: 132 ops, 1225µs (list js 0µs), 86 mount items, 1249 nodes
+ INFO nsh::perf turn: 2676µs (timers and tasks 1434µs)
+ INFO nsh::perf commit: 124 ops, 1421µs (list js 1µs), 83 mount items, 1249 nodes
+ INFO nsh::perf turn: 2827µs (timers and tasks 1393µs)
+ INFO nsh::perf fps 120/120 frame 2.33/2.19/4.26/4.89 gap 8.33/8.16/11.58/12.62 over 0% tick 2.29/2.19/4.26/4.89 drain 0.00/0.00/0.00/0.00 canvas 0.42/0.35/0.76/0.92 commits 20 js 1.44/1.42/1.87/2.22 core 1.46/1.46/1.77/2.16 items 85 engine 6% cpu 41% gpu 23% mem 150.7 MB
+ INFO nsh::perf commit: 130 ops, 1632µs (list js 1µs), 90 mount items, 1249 nodes
+ INFO nsh::perf turn: 3126µs (timers and tasks 1483µs)
+ INFO nsh::perf commit: 112 ops, 1344µs (list js 1µs), 76 mount items, 1249 nodes
+ INFO nsh::perf turn: 2498µs (timers and tasks 1141µs)
+ INFO nsh::perf commit: 169 ops, 1696µs (list js 0µs), 114 mount items, 1249 nodes
+ INFO nsh::perf turn: 3583µs (timers and tasks 1870µs)
+ INFO nsh::perf commit: 120 ops, 1533µs (list js 1µs), 79 mount items, 1249 nodes
+ INFO nsh::perf turn: 2985µs (timers and tasks 1432µs)
+ INFO nsh::perf commit: 128 ops, 1753µs (list js 1µs), 88 mount items, 1249 nodes
+ INFO nsh::perf turn: 3085µs (timers and tasks 1313µs)
+ INFO nsh::perf commit: 124 ops, 1555µs (list js 2µs), 83 mount items, 1249 nodes
+ INFO nsh::perf turn: 3117µs (timers and tasks 1548µs)
+ INFO nsh::perf commit: 106 ops, 732µs (list js 0µs), 47 mount items, 1249 nodes
+ INFO nsh::perf turn: 1608µs (timers and tasks 861µs)
+ INFO nsh::perf commit: 129 ops, 1467µs (list js 0µs), 93 mount items, 1249 nodes
+ INFO nsh::perf turn: 2874µs (timers and tasks 1393µs)
+ INFO nsh::perf commit: 120 ops, 1583µs (list js 1µs), 87 mount items, 1249 nodes
+ INFO nsh::perf turn: 2918µs (timers and tasks 1319µs)
+ INFO nsh::perf commit: 108 ops, 1334µs (list js 1µs), 57 mount items, 1249 nodes
+ INFO nsh::perf turn: 2452µs (timers and tasks 1100µs)
+ INFO nsh::perf commit: 112 ops, 1453µs (list js 1µs), 75 mount items, 1249 nodes
+ INFO nsh::perf turn: 2759µs (timers and tasks 1292µs)
+ INFO nsh::perf commit: 124 ops, 1291µs (list js 0µs), 83 mount items, 1249 nodes
+ INFO nsh::perf turn: 2577µs (timers and tasks 1275µs)
+ INFO nsh::perf commit: 135 ops, 1514µs (list js 0µs), 98 mount items, 1249 nodes
+ INFO nsh::perf turn: 3026µs (timers and tasks 1497µs)
+ INFO nsh::perf commit: 122 ops, 1215µs (list js 1µs), 62 mount items, 1249 nodes
+ INFO nsh::perf turn: 2663µs (timers and tasks 1431µs)
+ INFO nsh::perf commit: 124 ops, 1502µs (list js 1µs), 85 mount items, 1249 nodes
+ INFO nsh::perf turn: 2883µs (timers and tasks 1365µs)
+ INFO nsh::perf commit: 124 ops, 1331µs (list js 1µs), 82 mount items, 1249 nodes
+ INFO nsh::perf turn: 2715µs (timers and tasks 1370µs)
+ INFO nsh::perf commit: 106 ops, 1148µs (list js 1µs), 70 mount items, 1249 nodes
+ INFO nsh::perf turn: 2240µs (timers and tasks 1077µs)
+ INFO nsh::perf commit: 117 ops, 1551µs (list js 1µs), 83 mount items, 1249 nodes
+ INFO nsh::perf turn: 3050µs (timers and tasks 1485µs)
+ INFO nsh::perf commit: 146 ops, 1959µs (list js 0µs), 102 mount items, 1249 nodes
+ INFO nsh::perf turn: 3923µs (timers and tasks 1945µs)
+ INFO nsh::perf commit: 116 ops, 1313µs (list js 1µs), 79 mount items, 1249 nodes
+ INFO nsh::perf turn: 2610µs (timers and tasks 1282µs)
+ INFO nsh::perf commit: 110 ops, 1691µs (list js 1µs), 74 mount items, 1249 nodes
+ INFO nsh::perf turn: 2914µs (timers and tasks 1208µs)
+ INFO nsh::perf fps 120/120 frame 2.46/2.34/4.31/5.02 gap 8.31/8.36/11.38/13.14 over 0% tick 2.45/2.35/4.31/5.02 drain 0.00/0.00/0.00/0.00 canvas 0.41/0.36/0.73/0.84 commits 20 js 1.43/1.42/1.87/2.22 core 1.47/1.47/1.77/2.16 items 84 engine 6% cpu 42% gpu 24% mem 150.8 MB
+ INFO nsh::perf commit: 118 ops, 1429µs (list js 1µs), 81 mount items, 1249 nodes
+ INFO nsh::perf turn: 2920µs (timers and tasks 1473µs)
+ INFO nsh::perf commit: 183 ops, 1854µs (list js 0µs), 120 mount items, 1249 nodes
+ INFO nsh::perf turn: 3825µs (timers and tasks 1958µs)
+ INFO nsh::perf commit: 120 ops, 1547µs (list js 1µs), 82 mount items, 1249 nodes
+ INFO nsh::perf turn: 2942µs (timers and tasks 1378µs)
+ INFO nsh::perf commit: 124 ops, 1371µs (list js 1µs), 85 mount items, 1249 nodes
+ INFO nsh::perf turn: 2866µs (timers and tasks 1480µs)
+ INFO nsh::perf commit: 122 ops, 1574µs (list js 1µs), 87 mount items, 1249 nodes
+ INFO nsh::perf turn: 3034µs (timers and tasks 1445µs)
+ INFO nsh::perf commit: 148 ops, 1644µs (list js 0µs), 98 mount items, 1249 nodes
+ INFO nsh::perf turn: 3542µs (timers and tasks 1882µs)
+ INFO nsh::perf commit: 127 ops, 1466µs (list js 0µs), 87 mount items, 1249 nodes
+ INFO nsh::perf turn: 3021µs (timers and tasks 1542µs)
+ INFO nsh::perf commit: 132 ops, 1418µs (list js 1µs), 90 mount items, 1249 nodes
+ INFO nsh::perf turn: 2859µs (timers and tasks 1423µs)
+ INFO nsh::perf commit: 112 ops, 1193µs (list js 0µs), 72 mount items, 1249 nodes
+ INFO nsh::perf turn: 2310µs (timers and tasks 1105µs)
+ INFO nsh::perf commit: 122 ops, 1690µs (list js 1µs), 86 mount items, 1249 nodes
+ INFO nsh::perf turn: 3295µs (timers and tasks 1592µs)
+ INFO nsh::perf commit: 112 ops, 1315µs (list js 1µs), 76 mount items, 1249 nodes
+ INFO nsh::perf turn: 2723µs (timers and tasks 1393µs)
+ INFO nsh::perf commit: 125 ops, 1532µs (list js 0µs), 87 mount items, 1249 nodes
+ INFO nsh::perf turn: 3180µs (timers and tasks 1630µs)
+ INFO nsh::perf commit: 114 ops, 929µs (list js 0µs), 47 mount items, 1249 nodes
+ INFO nsh::perf turn: 2345µs (timers and tasks 1398µs)
+ INFO nsh::perf commit: 130 ops, 1544µs (list js 2µs), 89 mount items, 1249 nodes
+ INFO nsh::perf turn: 3117µs (timers and tasks 1555µs)
+ INFO nsh::perf commit: 98 ops, 994µs (list js 1µs), 61 mount items, 1249 nodes
+ INFO nsh::perf turn: 1844µs (timers and tasks 837µs)
+ INFO nsh::perf commit: 112 ops, 949µs (list js 1µs), 49 mount items, 1249 nodes
+ INFO nsh::perf turn: 2100µs (timers and tasks 1131µs)
+ INFO nsh::perf commit: 125 ops, 1402µs (list js 0µs), 89 mount items, 1249 nodes
+ INFO nsh::perf turn: 2866µs (timers and tasks 1452µs)
+ INFO nsh::perf commit: 118 ops, 1379µs (list js 0µs), 78 mount items, 1249 nodes
+ INFO nsh::perf turn: 2735µs (timers and tasks 1344µs)
+ INFO nsh::perf commit: 118 ops, 1196µs (list js 1µs), 78 mount items, 1249 nodes
+ INFO nsh::perf turn: 2513µs (timers and tasks 1303µs)
+ INFO nsh::perf commit: 142 ops, 1698µs (list js 0µs), 99 mount items, 1249 nodes
+ INFO nsh::perf turn: 3627µs (timers and tasks 1910µs)
+ INFO nsh::perf fps 119/120 frame 2.34/2.23/4.30/5.02 gap 8.33/8.27/11.11/12.33 over 0% tick 2.34/2.23/4.31/5.02 drain 0.00/0.00/0.00/0.00 canvas 0.42/0.36/0.84/0.92 commits 20 js 1.44/1.42/1.91/2.22 core 1.46/1.46/1.75/2.16 items 84 engine 6% cpu 42% gpu 25% mem 150.9 MB
+ INFO nsh::perf commit: 128 ops, 1498µs (list js 1µs), 87 mount items, 1249 nodes
+ INFO nsh::perf turn: 3066µs (timers and tasks 1556µs)
+ INFO nsh::perf commit: 167 ops, 1980µs (list js 0µs), 115 mount items, 1249 nodes
+ INFO nsh::perf turn: 4044µs (timers and tasks 2049µs)
+ INFO nsh::perf commit: 118 ops, 1340µs (list js 0µs), 84 mount items, 1249 nodes
+ INFO nsh::perf turn: 2618µs (timers and tasks 1266µs)
+ INFO nsh::perf commit: 122 ops, 1211µs (list js 1µs), 60 mount items, 1249 nodes
+ INFO nsh::perf turn: 2722µs (timers and tasks 1496µs)
+ INFO nsh::perf commit: 114 ops, 1793µs (list js 1µs), 80 mount items, 1249 nodes
+ INFO nsh::perf turn: 3076µs (timers and tasks 1265µs)
+ INFO nsh::perf commit: 120 ops, 1414µs (list js 1µs), 72 mount items, 1249 nodes
+ INFO nsh::perf turn: 2905µs (timers and tasks 1475µs)
+ INFO nsh::perf commit: 145 ops, 1837µs (list js 0µs), 106 mount items, 1249 nodes
+ INFO nsh::perf turn: 3810µs (timers and tasks 1958µs)
+ INFO nsh::perf commit: 128 ops, 1524µs (list js 1µs), 91 mount items, 1249 nodes
+ INFO nsh::perf turn: 3047µs (timers and tasks 1511µs)
+ INFO nsh::perf commit: 126 ops, 1495µs (list js 1µs), 89 mount items, 1249 nodes
+ INFO nsh::perf turn: 2923µs (timers and tasks 1411µs)
+ INFO nsh::perf commit: 126 ops, 1225µs (list js 1µs), 78 mount items, 1249 nodes
+ INFO nsh::perf turn: 2638µs (timers and tasks 1399µs)
+ INFO nsh::perf commit: 118 ops, 1352µs (list js 0µs), 77 mount items, 1249 nodes
+ INFO nsh::perf turn: 2695µs (timers and tasks 1331µs)
+ INFO nsh::perf commit: 123 ops, 1038µs (list js 0µs), 63 mount items, 1249 nodes
+ INFO nsh::perf turn: 2415µs (timers and tasks 1361µs)
+ INFO nsh::perf gc: 2211µs
+ INFO nsh::perf commit: 146 ops, 1783µs (list js 0µs), 110 mount items, 1249 nodes
+ INFO nsh::perf turn: 3507µs (timers and tasks 1712µs)
+ INFO nsh::perf commit: 118 ops, 1288µs (list js 0µs), 81 mount items, 1249 nodes
+ INFO nsh::perf turn: 2549µs (timers and tasks 1248µs)
+ INFO nsh::perf commit: 118 ops, 1115µs (list js 1µs), 71 mount items, 1249 nodes
+ INFO nsh::perf turn: 2244µs (timers and tasks 1115µs)
+ INFO nsh::perf commit: 118 ops, 1412µs (list js 1µs), 84 mount items, 1249 nodes
+ INFO nsh::perf turn: 2703µs (timers and tasks 1274µs)
+ INFO nsh::perf commit: 133 ops, 1585µs (list js 0µs), 97 mount items, 1249 nodes
+ INFO nsh::perf turn: 3362µs (timers and tasks 1759µs)
+ INFO nsh::perf commit: 142 ops, 1677µs (list js 0µs), 97 mount items, 1249 nodes
+ INFO nsh::perf turn: 3480µs (timers and tasks 1788µs)
+ INFO nsh::perf commit: 122 ops, 1530µs (list js 0µs), 82 mount items, 1249 nodes
+ INFO nsh::perf turn: 2919µs (timers and tasks 1375µs)
+ INFO nsh::perf commit: 138 ops, 1680µs (list js 1µs), 94 mount items, 1249 nodes
+ INFO nsh::perf turn: 3509µs (timers and tasks 1814µs)
+ INFO nsh::perf fps 120/120 frame 2.35/2.18/4.07/5.23 gap 8.31/8.17/10.94/12.80 over 0% tick 2.33/2.18/4.07/5.23 drain 0.00/0.00/0.00/0.00 canvas 0.40/0.35/0.76/0.92 commits 19 js 1.46/1.43/1.91/2.07 core 1.46/1.46/1.79/2.02 items 84 engine 6% cpu 41% gpu 24% mem 151.1 MB
+ INFO nsh::perf commit: 130 ops, 1617µs (list js 1µs), 89 mount items, 1249 nodes
+ INFO nsh::perf turn: 3156µs (timers and tasks 1528µs)
+ INFO nsh::perf commit: 175 ops, 1767µs (list js 0µs), 121 mount items, 1249 nodes
+ INFO nsh::perf turn: 3562µs (timers and tasks 1781µs)
+ INFO nsh::perf commit: 134 ops, 1149µs (list js 0µs), 60 mount items, 1249 nodes
+ INFO nsh::perf turn: 2715µs (timers and tasks 1554µs)
+ INFO nsh::perf commit: 114 ops, 1360µs (list js 1µs), 78 mount items, 1249 nodes
+ INFO nsh::perf turn: 2610µs (timers and tasks 1229µs)
+ INFO nsh::perf commit: 120 ops, 1410µs (list js 1µs), 77 mount items, 1249 nodes
+ INFO nsh::perf turn: 2728µs (timers and tasks 1303µs)
+ INFO nsh::perf commit: 122 ops, 1289µs (list js 0µs), 80 mount items, 1249 nodes
+ INFO nsh::perf turn: 2591µs (timers and tasks 1285µs)
+ INFO nsh::perf commit: 129 ops, 1537µs (list js 1µs), 90 mount items, 1249 nodes
+ INFO nsh::perf turn: 3145µs (timers and tasks 1595µs)
+ INFO nsh::perf commit: 122 ops, 1507µs (list js 0µs), 81 mount items, 1249 nodes
+ INFO nsh::perf turn: 2997µs (timers and tasks 1471µs)
+ INFO nsh::perf commit: 138 ops, 1620µs (list js 1µs), 91 mount items, 1249 nodes
+ INFO nsh::perf turn: 3347µs (timers and tasks 1711µs)
+ INFO nsh::perf commit: 134 ops, 1534µs (list js 1µs), 94 mount items, 1249 nodes
+ INFO nsh::perf turn: 3047µs (timers and tasks 1500µs)
+ INFO nsh::perf commit: 126 ops, 1150µs (list js 1µs), 61 mount items, 1249 nodes
+ INFO nsh::perf turn: 2618µs (timers and tasks 1452µs)
+ INFO nsh::perf commit: 131 ops, 1560µs (list js 1µs), 96 mount items, 1249 nodes
+ INFO nsh::perf turn: 3081µs (timers and tasks 1506µs)
+ INFO nsh::perf commit: 122 ops, 1468µs (list js 0µs), 83 mount items, 1249 nodes
+ INFO nsh::perf turn: 2942µs (timers and tasks 1462µs)
+ INFO nsh::perf commit: 136 ops, 1491µs (list js 0µs), 91 mount items, 1249 nodes
+ INFO nsh::perf turn: 2982µs (timers and tasks 1475µs)
+ INFO nsh::perf commit: 136 ops, 1710µs (list js 2µs), 94 mount items, 1249 nodes
+ INFO nsh::perf turn: 3610µs (timers and tasks 1884µs)
+ INFO nsh::perf commit: 118 ops, 1416µs (list js 1µs), 80 mount items, 1249 nodes
+ INFO nsh::perf turn: 2838µs (timers and tasks 1403µs)
+ INFO nsh::perf commit: 143 ops, 1770µs (list js 1µs), 103 mount items, 1249 nodes
+ INFO nsh::perf turn: 3475µs (timers and tasks 1692µs)
+ INFO nsh::perf commit: 124 ops, 1319µs (list js 0µs), 60 mount items, 1249 nodes
+ INFO nsh::perf turn: 2933µs (timers and tasks 1597µs)
+ INFO nsh::perf commit: 106 ops, 1081µs (list js 1µs), 57 mount items, 1249 nodes
+ INFO nsh::perf turn: 2147µs (timers and tasks 1053µs)
+ INFO nsh::perf commit: 110 ops, 1401µs (list js 1µs), 73 mount items, 1249 nodes
+ INFO nsh::perf turn: 2866µs (timers and tasks 1444µs)
+ INFO nsh::perf commit: 124 ops, 1510µs (list js 1µs), 82 mount items, 1249 nodes
+ INFO nsh::perf turn: 2937µs (timers and tasks 1416µs)
+ INFO nsh::perf fps 119/120 frame 2.88/2.32/7.44/12.55 gap 8.40/8.40/14.30/17.49 over 2% tick 2.85/2.32/7.44/12.55 drain 0.00/0.00/0.00/0.00 canvas 0.42/0.36/0.77/0.94 commits 20 js 1.48/1.48/1.91/2.07 core 1.46/1.49/1.79/2.02 items 84 engine 6% cpu 44% gpu 25% mem 152.7 MB
+ INFO nsh::perf commit: 173 ops, 1942µs (list js 0µs), 125 mount items, 1249 nodes
+ INFO nsh::perf turn: 3963µs (timers and tasks 2008µs)
+ INFO nsh::perf commit: 114 ops, 897µs (list js 0µs), 53 mount items, 1249 nodes
+ INFO nsh::perf turn: 2081µs (timers and tasks 1168µs)
+ INFO nsh::perf commit: 114 ops, 1248µs (list js 0µs), 76 mount items, 1249 nodes
+ INFO nsh::perf turn: 2403µs (timers and tasks 1140µs)
+ INFO nsh::perf commit: 126 ops, 1562µs (list js 1µs), 85 mount items, 1249 nodes
+ INFO nsh::perf turn: 3075µs (timers and tasks 1498µs)
+ INFO nsh::perf commit: 132 ops, 1530µs (list js 0µs), 92 mount items, 1249 nodes
+ INFO nsh::perf turn: 2997µs (timers and tasks 1450µs)
+ INFO nsh::perf commit: 127 ops, 1517µs (list js 1µs), 92 mount items, 1249 nodes
+ INFO nsh::perf turn: 3120µs (timers and tasks 1586µs)
+ INFO nsh::perf commit: 112 ops, 1139µs (list js 1µs), 49 mount items, 1249 nodes
+ INFO nsh::perf turn: 2464µs (timers and tasks 1311µs)
+ INFO nsh::perf commit: 150 ops, 1690µs (list js 1µs), 103 mount items, 1249 nodes
+ INFO nsh::perf turn: 3577µs (timers and tasks 1870µs)
+ INFO nsh::perf commit: 126 ops, 1374µs (list js 1µs), 85 mount items, 1249 nodes
+ INFO nsh::perf turn: 2885µs (timers and tasks 1500µs)
+ INFO nsh::perf commit: 114 ops, 1442µs (list js 1µs), 73 mount items, 1249 nodes
+ INFO nsh::perf turn: 2831µs (timers and tasks 1372µs)
+ INFO nsh::perf commit: 125 ops, 1688µs (list js 1µs), 90 mount items, 1249 nodes
+ INFO nsh::perf turn: 3345µs (timers and tasks 1639µs)
+ INFO nsh::perf commit: 128 ops, 1488µs (list js 1µs), 90 mount items, 1249 nodes
+ INFO nsh::perf turn: 2901µs (timers and tasks 1400µs)
+ INFO nsh::perf commit: 118 ops, 1412µs (list js 1µs), 81 mount items, 1249 nodes
+ INFO nsh::perf turn: 2639µs (timers and tasks 1213µs)
+ INFO nsh::perf commit: 112 ops, 1361µs (list js 1µs), 74 mount items, 1249 nodes
+ INFO nsh::perf turn: 2586µs (timers and tasks 1212µs)
+ INFO nsh::perf commit: 108 ops, 1042µs (list js 1µs), 72 mount items, 1249 nodes
+ INFO nsh::perf turn: 1951µs (timers and tasks 894µs)
+ INFO nsh::perf commit: 127 ops, 1152µs (list js 1µs), 84 mount items, 1249 nodes
+ INFO nsh::perf turn: 2444µs (timers and tasks 1278µs)
+ INFO nsh::perf commit: 124 ops, 1163µs (list js 0µs), 67 mount items, 1249 nodes
+ INFO nsh::perf turn: 2478µs (timers and tasks 1303µs)
+ INFO nsh::perf commit: 110 ops, 1269µs (list js 1µs), 72 mount items, 1249 nodes
+ INFO nsh::perf turn: 2429µs (timers and tasks 1147µs)
+ INFO nsh::perf commit: 130 ops, 1538µs (list js 1µs), 86 mount items, 1249 nodes
+ INFO nsh::perf turn: 3119µs (timers and tasks 1556µs)
+ INFO nsh::perf commit: 134 ops, 1469µs (list js 1µs), 93 mount items, 1249 nodes
+ INFO nsh::perf turn: 2980µs (timers and tasks 1498µs)
+ INFO nsh::perf fps 119/120 frame 2.22/2.06/3.97/5.43 gap 8.33/8.21/11.14/13.19 over 0% tick 2.20/2.06/3.97/5.43 drain 0.00/0.00/0.00/0.00 canvas 0.41/0.34/0.77/0.93 commits 19 js 1.47/1.47/1.92/2.07 core 1.45/1.47/1.84/2.02 items 83 engine 5% cpu 40% gpu 23% mem 151.0 MB
+ INFO nsh::perf commit: 163 ops, 1876µs (list js 0µs), 103 mount items, 1249 nodes
+ INFO nsh::perf turn: 3885µs (timers and tasks 1990µs)
+ INFO nsh::perf commit: 116 ops, 1539µs (list js 0µs), 78 mount items, 1249 nodes
+ INFO nsh::perf turn: 2964µs (timers and tasks 1410µs)
+ INFO nsh::perf commit: 124 ops, 1637µs (list js 0µs), 84 mount items, 1249 nodes
+ INFO nsh::perf turn: 3349µs (timers and tasks 1697µs)
+ INFO nsh::perf commit: 120 ops, 1588µs (list js 1µs), 84 mount items, 1249 nodes
+ INFO nsh::perf turn: 3120µs (timers and tasks 1510µs)
+ INFO nsh::perf commit: 124 ops, 1402µs (list js 1µs), 83 mount items, 1249 nodes
+ INFO nsh::perf turn: 2865µs (timers and tasks 1449µs)
+ INFO nsh::perf commit: 119 ops, 1434µs (list js 0µs), 80 mount items, 1249 nodes
+ INFO nsh::perf turn: 2834µs (timers and tasks 1386µs)
+ INFO nsh::perf commit: 128 ops, 1187µs (list js 0µs), 69 mount items, 1249 nodes
+ INFO nsh::perf turn: 2450µs (timers and tasks 1249µs)
+ INFO nsh::perf commit: 122 ops, 1323µs (list js 1µs), 83 mount items, 1249 nodes
+ INFO nsh::perf turn: 2593µs (timers and tasks 1255µs)
+ INFO nsh::perf commit: 122 ops, 1249µs (list js 1µs), 84 mount items, 1249 nodes
+ INFO nsh::perf turn: 2450µs (timers and tasks 1188µs)
+ INFO nsh::perf commit: 126 ops, 1590µs (list js 1µs), 82 mount items, 1249 nodes
+ INFO nsh::perf turn: 3086µs (timers and tasks 1483µs)
+ INFO nsh::perf commit: 125 ops, 1433µs (list js 1µs), 84 mount items, 1249 nodes
+ INFO nsh::perf turn: 2902µs (timers and tasks 1456µs)
+ INFO nsh::perf commit: 134 ops, 1464µs (list js 1µs), 93 mount items, 1249 nodes
+ INFO nsh::perf turn: 2953µs (timers and tasks 1472µs)
+ INFO nsh::perf commit: 122 ops, 1546µs (list js 1µs), 84 mount items, 1249 nodes
+ INFO nsh::perf turn: 2957µs (timers and tasks 1393µs)
+ INFO nsh::perf commit: 108 ops, 1360µs (list js 0µs), 72 mount items, 1249 nodes
+ INFO nsh::perf turn: 2560µs (timers and tasks 1184µs)
+ INFO nsh::perf commit: 124 ops, 1522µs (list js 0µs), 86 mount items, 1249 nodes
+ INFO nsh::perf turn: 2950µs (timers and tasks 1415µs)
+ INFO nsh::perf commit: 131 ops, 1542µs (list js 0µs), 93 mount items, 1249 nodes
+ INFO nsh::perf turn: 2795µs (timers and tasks 1235µs)
+ INFO nsh::perf commit: 134 ops, 1722µs (list js 0µs), 92 mount items, 1249 nodes
+ INFO nsh::perf turn: 3556µs (timers and tasks 1819µs)
+ INFO nsh::perf commit: 118 ops, 1343µs (list js 1µs), 80 mount items, 1249 nodes
+ INFO nsh::perf turn: 2617µs (timers and tasks 1258µs)
+ INFO nsh::perf commit: 140 ops, 1428µs (list js 0µs), 97 mount items, 1249 nodes
+ INFO nsh::perf turn: 3040µs (timers and tasks 1599µs)
+ INFO nsh::perf commit: 114 ops, 1084µs (list js 0µs), 65 mount items, 1249 nodes
+ INFO nsh::perf turn: 2338µs (timers and tasks 1240µs)
+ INFO nsh::perf fps 120/120 frame 2.25/2.08/4.25/5.68 gap 8.30/8.26/11.61/12.05 over 0% tick 2.24/2.09/4.25/5.68 drain 0.00/0.00/0.00/0.00 canvas 0.41/0.35/0.78/0.87 commits 19 js 1.48/1.47/1.94/2.07 core 1.44/1.47/1.79/1.98 items 83 engine 6% cpu 40% gpu 23% mem 150.8 MB
+ INFO nsh::perf commit: 171 ops, 1629µs (list js 0µs), 105 mount items, 1249 nodes
+ INFO nsh::perf turn: 3539µs (timers and tasks 1894µs)
+ INFO nsh::perf commit: 116 ops, 1158µs (list js 0µs), 77 mount items, 1249 nodes
+ INFO nsh::perf turn: 2432µs (timers and tasks 1262µs)
+ INFO nsh::perf commit: 108 ops, 686µs (list js 1µs), 38 mount items, 1249 nodes
+ INFO nsh::perf turn: 1745µs (timers and tasks 1044µs)
+ INFO nsh::perf commit: 128 ops, 1521µs (list js 1µs), 90 mount items, 1249 nodes
+ INFO nsh::perf turn: 2944µs (timers and tasks 1409µs)
+ INFO nsh::perf commit: 118 ops, 1235µs (list js 1µs), 79 mount items, 1249 nodes
+ INFO nsh::perf turn: 2446µs (timers and tasks 1197µs)
+ INFO nsh::perf commit: 125 ops, 1198µs (list js 0µs), 69 mount items, 1249 nodes
+ INFO nsh::perf turn: 2639µs (timers and tasks 1427µs)
+ INFO nsh::perf commit: 114 ops, 1370µs (list js 1µs), 72 mount items, 1249 nodes
+ INFO nsh::perf turn: 2632µs (timers and tasks 1250µs)
+ INFO nsh::perf commit: 122 ops, 1477µs (list js 1µs), 84 mount items, 1249 nodes
+ INFO nsh::perf turn: 2996µs (timers and tasks 1499µs)
+ INFO nsh::perf commit: 120 ops, 1602µs (list js 1µs), 82 mount items, 1249 nodes
+ INFO nsh::perf turn: 3075µs (timers and tasks 1455µs)
+ INFO nsh::perf commit: 130 ops, 1616µs (list js 1µs), 87 mount items, 1249 nodes
+ INFO nsh::perf turn: 3181µs (timers and tasks 1548µs)
+ INFO nsh::perf commit: 121 ops, 1216µs (list js 0µs), 68 mount items, 1249 nodes
+ INFO nsh::perf turn: 2549µs (timers and tasks 1321µs)
+ INFO nsh::perf commit: 124 ops, 1567µs (list js 1µs), 84 mount items, 1249 nodes
+ INFO nsh::perf turn: 3007µs (timers and tasks 1422µs)
+ INFO nsh::perf commit: 108 ops, 1230µs (list js 1µs), 69 mount items, 1249 nodes
+ INFO nsh::perf turn: 2368µs (timers and tasks 1123µs)
+ INFO nsh::perf commit: 120 ops, 1629µs (list js 1µs), 83 mount items, 1249 nodes
+ INFO nsh::perf turn: 2932µs (timers and tasks 1284µs)
+ INFO nsh::perf commit: 134 ops, 1324µs (list js 0µs), 84 mount items, 1249 nodes
+ INFO nsh::perf turn: 2809µs (timers and tasks 1467µs)
+ INFO nsh::perf commit: 119 ops, 1114µs (list js 1µs), 80 mount items, 1249 nodes
+ INFO nsh::perf turn: 2230µs (timers and tasks 1103µs)
+ INFO nsh::perf commit: 120 ops, 1263µs (list js 0µs), 80 mount items, 1249 nodes
+ INFO nsh::perf turn: 2462µs (timers and tasks 1183µs)
+ INFO nsh::perf commit: 104 ops, 995µs (list js 1µs), 53 mount items, 1249 nodes
+ INFO nsh::perf turn: 1936µs (timers and tasks 929µs)
+ INFO nsh::perf commit: 104 ops, 1165µs (list js 1µs), 70 mount items, 1249 nodes
+ INFO nsh::perf turn: 2094µs (timers and tasks 915µs)
+ INFO nsh::perf commit: 136 ops, 1219µs (list js 0µs), 67 mount items, 1249 nodes
+ INFO nsh::perf turn: 2820µs (timers and tasks 1584µs)
+ INFO nsh::perf commit: 179 ops, 1971µs (list js 1µs), 117 mount items, 1249 nodes
+ INFO nsh::perf turn: 4088µs (timers and tasks 2100µs)
+ INFO nsh::perf fps 120/120 frame 2.32/2.30/3.87/7.70 gap 8.32/8.35/10.45/15.26 over 0% tick 2.31/2.30/3.86/7.70 drain 0.00/0.00/0.00/0.00 canvas 0.40/0.35/0.73/0.91 commits 20 js 1.47/1.45/1.92/2.13 core 1.42/1.43/1.78/1.98 items 82 engine 5% cpu 38% gpu 22% mem 154.0 MB
+ INFO nsh::perf commit: 122 ops, 1401µs (list js 1µs), 80 mount items, 1249 nodes
+ INFO nsh::perf turn: 2737µs (timers and tasks 1324µs)
+ INFO nsh::perf commit: 128 ops, 1528µs (list js 1µs), 88 mount items, 1249 nodes
+ INFO nsh::perf turn: 3049µs (timers and tasks 1507µs)
+ INFO nsh::perf commit: 110 ops, 1229µs (list js 1µs), 67 mount items, 1249 nodes
+ INFO nsh::perf turn: 2436µs (timers and tasks 1190µs)
+ INFO nsh::perf commit: 122 ops, 1442µs (list js 1µs), 74 mount items, 1249 nodes
+ INFO nsh::perf turn: 2973µs (timers and tasks 1515µs)
+ INFO nsh::perf commit: 139 ops, 1786µs (list js 1µs), 99 mount items, 1249 nodes
+ INFO nsh::perf turn: 3686µs (timers and tasks 1881µs)
