@@ -1,0 +1,44 @@
+{
+  "before": {
+    "source": "live-before/transitions.mov",
+    "preview": "live-before/transitions.gif",
+    "fps": 12,
+    "width": 600,
+    "sha256": "4712a765f7dfd96e641250d60c8fe734fb07af05a404ba2b717a250e44f363b4",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "width": 600,
+          "height": 435,
+          "nb_frames": "60"
+        }
+      ],
+      "format": {
+        "duration": "5.000000"
+      }
+    }
+  },
+  "after": {
+    "source": "live-after/transitions.mov",
+    "preview": "live-after/transitions.gif",
+    "fps": 12,
+    "width": 600,
+    "sha256": "080cb593902eb120110531d0a44f977cde63bdd7684b26e9b5a2f137a408b79b",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "width": 600,
+          "height": 435,
+          "nb_frames": "60"
+        }
+      ],
+      "format": {
+        "duration": "5.000000"
+      }
+    }
+  }
+}
