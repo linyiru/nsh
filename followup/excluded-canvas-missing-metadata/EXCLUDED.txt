@@ -1,0 +1,1 @@
+Every sample in this directory is excluded. The requested Canvas workload opened Stocks because the standalone bytecode lacked sibling app metadata. The run was stopped; final data may be partial. Included Canvas results are in ../verified-canvas.

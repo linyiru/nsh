@@ -1,0 +1,32 @@
+{
+  "before": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 1800,
+        "height": 1304,
+        "avg_frame_rate": "17160/301"
+      }
+    ],
+    "format": {
+      "duration": "5.000000"
+    }
+  },
+  "after": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 1800,
+        "height": 1304,
+        "avg_frame_rate": "8370/151"
+      }
+    ],
+    "format": {
+      "duration": "5.010000"
+    }
+  }
+}

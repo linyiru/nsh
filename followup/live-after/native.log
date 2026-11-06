@@ -1,0 +1,12 @@
+ info platform_macos::dev loading build 1
+ info js @@capture Reset-0
+ info js @@capture Grow-1
+ info js @@capture Large-2
+ info js @@capture Reset-3
+ info js @@capture Screen2-4
+ info js @@capture Screen3-5
+ info js @@capture Screen1-6
+ info js @@video transitions
+debug dev::server dev client disconnected: WebSocket protocol error: Connection reset without closing handshake
+✓ /Volumes/DevSSD/nsh-perf-results/canvas/followup/test-after/native.test.tsx › transformed canvases and screen movement (25.1s)
+✓ 1 test: 1 passed, 0 failed (25.1s)

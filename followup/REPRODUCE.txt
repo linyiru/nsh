@@ -1,0 +1,82 @@
+Follow-up to reviewer comment 6670163792
+
+Measured renderer head remains fd428bfdc312a64be269ad0c914e0981bcf561c4.
+Base remains f7afd23f5128fb9b598af47ac1ec966a3e35e386.
+The exact release binaries and bytecode are those in the parent manifest.
+No renderer source change was needed for this follow-up.
+
+Native visual verification
+--------------------------
+The fixture App.tsx exercises an animated radius centered at (180, 40), so
+the small suffix layer has a nonzero origin. Cases include transforms on the
+Canvas itself and its parent, clipping, opacity, destination-out in the
+prefix, and a saved-state case that keeps the existing fallback path.
+Native input selects radii 7 -> 35 -> 120 -> 7, covering growing bounds,
+leaving the split path and returning to it. The window then moves across
+all three screens and back (the *-window.json files record actual OS bounds). Its displayed pixel ratio remains 2.
+
+This session has three active displays and screen capture access (displays.txt).
+All three screens have AppKit backingScaleFactor 2 (screen-scales.txt). Moving between them is
+NOT a 1x/2x backing-scale transition; a real density change remains untested.
+The tests do not alter the user's display modes or simulate a different scale.
+
+Unlike the original in-process screenshots, these PNGs and MOV recordings
+are captured from the OS window compositor using screencapture -l WINDOW_ID.
+Only the uniquely titled NSH Canvas Review window is captured. windows.js
+queries that window ID through CoreGraphics; capture.rs is the Rust runner.
+It consumes test markers, takes seven screenshots and a five-second video.
+Each native test passed on both before and after release hosts. The tests
+and fixture are included as executed; substitute local paths before rerun.
+
+Compile the experiment tools on macOS:
+  rustc --edition 2024 -O displays.rs -o displays
+  rustc --edition 2024 -O capture.rs -o capture
+OUTPUT_DIRECTORY must not already exist. Run before and after sequentially:
+  ./capture NSH RUNTIME TEST_DIRECTORY OUTPUT_DIRECTORY WINDOWS_JS
+RUNTIME must contain macos/nsh-macos-host for the corresponding revision.
+TEST_DIRECTORY is test-before or test-after; adjust its fixture/output paths.
+
+live-pixels.json records full-window PNG comparisons. The maximum channel
+delta is 8/255 (transformed Grow), 5/255 for the small-radius split, and
+2/255 for the large-radius fallback. Normalized RMSE is at most 0.000488.
+These are visual/numerical comparisons, not a universal rendering tolerance.
+Video pairs are not frame-synchronized; use them to inspect transitions,
+not for pixel subtraction or performance measurements.
+
+Performance follow-up
+---------------------
+Measurements run AFTER all screenshots/recordings and their native tests.
+There are no concurrent builds, tests, captures or video processing.
+The std-only Rust sampler now also checks the Gallery capabilities file and
+initial node count (Stocks 1249, Canvas 592, Heavy 3); each fresh host warms for 5 s,
+then measures for 20 s. Heavy and Canvas each have four runs per version
+in A/B/B/A/A/B/B/A order; Stocks repeats with two per version in A/B/B/A.
+These follow-up samples are summarized separately from the earlier session.
+Heavy used the standalone heavy.nshc file, without its optional app ID and
+source map, identically for before and after. Canvas and Stocks used the
+complete original Gallery bundle directory, including capabilities and map.
+The initial follow-up Canvas attempt used standalone bytecode and opened
+Stocks because its sibling capabilities file was missing. That entire attempt
+is excluded from results and retained under excluded-canvas-missing-metadata.
+The original PR measurements used the complete directory and are unaffected.
+The public reproduction bundle directory has now been completed too.
+CPU is process CPU (100% = one core), memory decimal MB physical footprint.
+Main p50/p95 summarize rolling HUD percentiles, not pooled frames or GPU time.
+All per-run samples and logs are retained. See summary.json for results.
+
+These remain author-run measurements, separate from the reviewer's
+independent validation. Neither this follow-up nor the prior evidence
+claims a merge recommendation or complete backing-scale validation.
+
+Independent scanner microbenchmark
+---------------------------------
+damage_bench.rs is a temporary Rust example built against each revision.
+Copy it to crates/nsh-core/examples/canvas_damage_followup.rs and build with
+cargo build --release -p nsh-core --example canvas_damage_followup. Save each
+binary, then run before/after/after/before without intervening builds. Each
+process measures 8 batches per size with std::hint::black_box. These timings
+measure a tight scan loop, not native frames or compositor work.
+The 10,000-point median is 54.700 -> 54.437 us/scan, with overlapping ranges.
+This microbenchmark does not reproduce the native long-path regression and
+does not establish its cause. Native overhead remains unresolved; no source
+change or claim of full validation is made from this diagnostic.

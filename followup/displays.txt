@@ -1,0 +1,4 @@
+active_displays=3 screen_capture_access=true
+display=4 bounds=Rect { origin: Point { x: 0.0, y: 0.0 }, size: Size { width: 3840.0, height: 1620.0 } } mode_width=3840 pixel_width=7680
+display=1 bounds=Rect { origin: Point { x: 3840.0, y: -793.0 }, size: Size { width: 2560.0, height: 1440.0 } } mode_width=2560 pixel_width=5120
+display=3 bounds=Rect { origin: Point { x: 3840.0, y: 647.0 }, size: Size { width: 2560.0, height: 1440.0 } } mode_width=2560 pixel_width=5120

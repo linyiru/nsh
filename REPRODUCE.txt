@@ -17,11 +17,11 @@ worktree's target directory retaining its own binary after another build.
 The published manifest hashes identify the exact binaries measured here.
 
 Compile the std-only Rust/macOS sampler:
-  rustc --edition 2024 -O measure.rs -o measure
+  rustc --edition 2024 -O followup/measure.rs -o measure
 Run with absolute host paths; OUT must not exist:
-  ./measure OUT gallery.nshc Stocks 20 BEFORE AFTER AFTER BEFORE BEFORE AFTER AFTER BEFORE
-  ./measure HEAVY_OUT heavy.nshc Heavy 12 BEFORE AFTER AFTER BEFORE
-  ./measure CANVAS_OUT gallery.nshc Canvas 12 BEFORE AFTER AFTER BEFORE
+  ./measure OUT bundles/gallery/bundle.nshc Stocks 20 BEFORE AFTER AFTER BEFORE BEFORE AFTER AFTER BEFORE
+  ./measure HEAVY_OUT bundles/heavy/bundle.nshc Heavy 12 BEFORE AFTER AFTER BEFORE
+  ./measure CANVAS_OUT bundles/gallery/bundle.nshc Canvas 12 BEFORE AFTER AFTER BEFORE
 
 Each run launches a fresh process and data directory, warms for 5 s, then
 samples process CPU and physical footprint for the requested duration.
@@ -36,6 +36,14 @@ warmup, then medians across runs. They describe main-thread work, not pooled
 frame percentiles, GPU time, startup time, or compilation speed. FPS is the
 HUD's displayed frame rate. Raw logs and per-run JSON are retained.
 Live Stocks quote sequences depend on wall-clock time and vary across runs.
+
+Use bundles/gallery/bundle.nshc and keep its app.json, capabilities.json,
+bundle.js.map and assets beside it. The host reads these sibling files;
+capabilities.json is necessary for NSH_GALLERY_DEMO to select the workload.
+The original artifact commit contained standalone bytecode only. Its native
+measurements used the complete original bundle directory, but those standalone
+files alone were insufficient to reproduce them. bundle-files.json now lists
+all companion hashes, and followup/measure.rs verifies workload node counts.
 
 The exact gallery bytecode is included for identical-input comparisons. It
 was built from the unmodified gallery at 2fd62283; Stocks drawing sources are

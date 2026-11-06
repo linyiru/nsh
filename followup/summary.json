@@ -1,0 +1,218 @@
+{
+  "heavy": {
+    "before": {
+      "cpu": {
+        "median": 8.604199999999999,
+        "min": 7.5594,
+        "max": 10.2712
+      },
+      "footprint_MB": {
+        "median": 42.94345,
+        "min": 41.5918,
+        "max": 43.7708
+      },
+      "fps": {
+        "median": 119.5,
+        "min": 119,
+        "max": 120
+      },
+      "p50_ms": {
+        "median": 0.53,
+        "min": 0.5,
+        "max": 0.78
+      },
+      "p95_ms": {
+        "median": 5.245,
+        "min": 3.26,
+        "max": 6.85
+      },
+      "over_percent": {
+        "median": 0.0,
+        "min": 0,
+        "max": 2
+      }
+    },
+    "after": {
+      "cpu": {
+        "median": 9.771149999999999,
+        "min": 8.1031,
+        "max": 10.8276
+      },
+      "footprint_MB": {
+        "median": 43.344899999999996,
+        "min": 42.8779,
+        "max": 43.4349
+      },
+      "fps": {
+        "median": 119.0,
+        "min": 119,
+        "max": 119
+      },
+      "p50_ms": {
+        "median": 0.79,
+        "min": 0.5,
+        "max": 0.85
+      },
+      "p95_ms": {
+        "median": 7.460000000000001,
+        "min": 6.17,
+        "max": 10.01
+      },
+      "over_percent": {
+        "median": 6.5,
+        "min": 1,
+        "max": 22
+      }
+    },
+    "delta_percent": {
+      "cpu": 13.562562469491635,
+      "footprint_MB": 0.9348340666620825,
+      "p50_ms": 49.0566037735849,
+      "p95_ms": 42.230695900857974
+    }
+  },
+  "canvas": {
+    "before": {
+      "cpu": {
+        "median": 4.0015,
+        "min": 3.5884,
+        "max": 4.1257
+      },
+      "footprint_MB": {
+        "median": 118.17065,
+        "min": 116.1473,
+        "max": 119.9565
+      },
+      "fps": {
+        "median": 119.0,
+        "min": 119,
+        "max": 120
+      },
+      "p50_ms": {
+        "median": 0.175,
+        "min": 0.16,
+        "max": 0.19
+      },
+      "p95_ms": {
+        "median": 6.945,
+        "min": 6.82,
+        "max": 8.62
+      },
+      "over_percent": {
+        "median": 2.0,
+        "min": 0,
+        "max": 8
+      }
+    },
+    "after": {
+      "cpu": {
+        "median": 3.9001,
+        "min": 3.745,
+        "max": 3.9185
+      },
+      "footprint_MB": {
+        "median": 118.2526,
+        "min": 86.6806,
+        "max": 118.8342
+      },
+      "fps": {
+        "median": 120.0,
+        "min": 119,
+        "max": 120
+      },
+      "p50_ms": {
+        "median": 0.165,
+        "min": 0.16,
+        "max": 0.18
+      },
+      "p95_ms": {
+        "median": 6.16,
+        "min": 4.1899999999999995,
+        "max": 6.92
+      },
+      "over_percent": {
+        "median": 0.0,
+        "min": 0,
+        "max": 1
+      }
+    },
+    "delta_percent": {
+      "cpu": -2.5340497313507404,
+      "footprint_MB": 0.06934886115970151,
+      "p50_ms": -5.714285714285705,
+      "p95_ms": -11.303095752339809
+    }
+  },
+  "stocks": {
+    "before": {
+      "cpu": {
+        "median": 42.588499999999996,
+        "min": 41.8748,
+        "max": 43.3022
+      },
+      "footprint_MB": {
+        "median": 154.34654999999998,
+        "min": 153.5519,
+        "max": 155.1412
+      },
+      "fps": {
+        "median": 118.0,
+        "min": 117,
+        "max": 119
+      },
+      "p50_ms": {
+        "median": 2.13,
+        "min": 2.12,
+        "max": 2.14
+      },
+      "p95_ms": {
+        "median": 6.91,
+        "min": 6.78,
+        "max": 7.04
+      },
+      "over_percent": {
+        "median": 2.5,
+        "min": 2,
+        "max": 3
+      }
+    },
+    "after": {
+      "cpu": {
+        "median": 25.9732,
+        "min": 25.2982,
+        "max": 26.6482
+      },
+      "footprint_MB": {
+        "median": 130.2047,
+        "min": 125.4533,
+        "max": 134.9561
+      },
+      "fps": {
+        "median": 119.5,
+        "min": 119,
+        "max": 120
+      },
+      "p50_ms": {
+        "median": 0.895,
+        "min": 0.87,
+        "max": 0.92
+      },
+      "p95_ms": {
+        "median": 2.765,
+        "min": 2.7,
+        "max": 2.83
+      },
+      "over_percent": {
+        "median": 0.5,
+        "min": 0,
+        "max": 1
+      }
+    },
+    "delta_percent": {
+      "cpu": -39.013583479108206,
+      "footprint_MB": -15.64132790788001,
+      "p50_ms": -57.981220657277,
+      "p95_ms": -59.98552821997105
+    }
+  }
+}

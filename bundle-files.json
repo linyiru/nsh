@@ -1,0 +1,19 @@
+{
+  "bundles/gallery/bundle.js.map": "530d366c6b7b91ffcb5c00c5f5b90b0154ce081cb5df6d409068ddcf06a6f855",
+  "bundles/gallery/app.json": "2da89289c55e0d0fcaee975dca1e3698d3f6da4c73f179c7a9d56f86d0b6ecb2",
+  "bundles/gallery/capabilities.json": "ab1232152f6ce89e3f9190a3f2ad8f347e25234c7951fe69ef4bcceb21686abe",
+  "bundles/gallery/bundle.js": "481e952b648a08eb831371e1bca7614addaf37483140d0208f84839867e87bc8",
+  "bundles/gallery/bundle.nshc": "56e8eb42c91f61b6eae895c4d023df711d80005204c35e4a0ce08391eccda347",
+  "bundles/heavy/bundle.js.map": "b6683f9896d298dd482b9530ad88e223fef3876cf6c2f209cb16f3eadd2d1625",
+  "bundles/heavy/app.json": "75bc4291e7e72275324765b7a18ee198c3cb89ac3890aaadc43064c571fc340e",
+  "bundles/heavy/bundle.js": "fb46d6251359ca38bf696e0aaad61bba62d6d955d51726f9dad6fe972434a0b5",
+  "bundles/heavy/bundle.nshc": "a8d2cdd9a803c7a5fe171706e5ec6958accfe71db0b12d74dd095cc98e27f877",
+  "bundles/gallery/assets/logo-dark.svg": "d7eb08459a0624c40d6332c0562e8773e5e90bbb62fa110f5b9c7a43f6705516",
+  "bundles/gallery/assets/logo-light.svg": "4f5a84e5419c54d00da108070bd1785f1e1dd8d09d1c9fa6634fa1cb64f12396",
+  "bundles/gallery/assets/spinner.webp": "2749673c6d915aaf62e6d60c1d11483652f1a04b9daf2277de0873b218ff05a0",
+  "bundles/gallery/assets/mark.svg": "859c25a72be7f14a8f4139f512066e08eea73c549a40240874fcb9ec15065bb1",
+  "bundles/gallery/assets/logo@2x.png": "ac8c8d7b052f7ca39f8bba0a2a89ee8f971dde02ef9fe86f75b94535e8d3c48c",
+  "bundles/gallery/assets/star.svg": "5fbb96585fb764b79d506ff0f6db462613e74305ce83570d11940e9444aba2da",
+  "bundles/gallery/assets/bounce.gif": "2098e36393245d57f5ec47e38100247e120ef767da2552f70132d24613324708",
+  "bundles/gallery/assets/fonts/Pacifico-Regular.ttf": "5b6c0d5334a7bf77dea52b975c5a0c408878c0f7115ed5b6fb151f634b7bf701"
+}
